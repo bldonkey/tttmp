@@ -1,0 +1,13 @@
+Package: packagegroup-base-smbfs-client
+Version: 1.0-r83
+Description: Merge machine and distro options to create a basic machine task/package
+ Merge machine and distro options to create a basic machine task/package.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: MIT
+Architecture: gbmv200
+OE: packagegroup-base
+Homepage: https:\\www.opena.tv
+Depends: packagegroup-base-smbfs, smbclient
+Source: packagegroup-base.bb

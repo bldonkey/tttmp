@@ -1,0 +1,14 @@
+Package: openatv-enigma2
+Version: 1.0-r71
+Description: Merge machine and distro options to create a enigma2 machine task/package
+ Merge machine and distro options to create a enigma2 machine
+ task/package.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: MIT
+Architecture: gbmv200
+OE: openatv-enigma2
+Homepage: https:\\www.opena.tv
+Recommends: enigma2-plugin-drivers-usbserial, enigma2-plugin-extensions-atilehd, enigma2-plugin-extensions-autotimer, enigma2-plugin-extensions-cutlisteditor, enigma2-plugin-extensions-dvdplayer, enigma2-plugin-extensions-enhancedmoviecenter, enigma2-plugin-extensions-epgsearch, enigma2-plugin-extensions-filecommander, enigma2-plugin-extensions-imdb, enigma2-plugin-extensions-mediaplayer, enigma2-plugin-extensions-openwebif-themes, enigma2-plugin-extensions-openwebif-vxg, enigma2-plugin-extensions-programmlistenupdater, enigma2-plugin-extensions-volume-adjust, enigma2-plugin-systemplugins-hotplug, enigma2-plugin-systemplugins-softwaremanager, enigma2-plugin-systemplugins-videoenhancement, enigma2-plugin-systemplugins-videotune, enigma2-skindefault, shellinabox
+Source: openatv-enigma2.bb

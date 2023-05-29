@@ -1,0 +1,14 @@
+Package: gigablue-hihalt-gbmv200
+Version: 20190907-r1
+Description: halt for Gigablue Model gbmv200
+ halt for Gigablue Model gbmv200.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: CLOSED
+Architecture: gbmv200
+OE: gigablue-hihalt-gbmv200
+Homepage: https:\\www.opena.tv
+Depends: harfbuzz, libc6 (>= 2.37), libgcc1 (>= 12.2.0), libstdc++6 (>= 12.2.0)
+Recommends: update-rc.d
+Source: gigablue-hihalt-gbmv200.bb

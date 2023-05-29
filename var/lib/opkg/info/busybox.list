@@ -1,0 +1,9 @@
+/bin	040755
+/bin/sh	0120777
+/bin/busybox.suid	0104755
+/bin/busybox	0120777
+/bin/vi.sh	0100755
+/etc/busybox.links.nosuid	0100644
+/etc	040755
+/etc/busybox.links.suid	0100644
+/bin/busybox.nosuid	0100755

@@ -1,0 +1,6 @@
+/var	040755
+/var/lib	040755
+/sbin	040755
+/sbin/bridge	0100755
+/sbin/rtmon	0100755
+/var/lib/arpd	040755

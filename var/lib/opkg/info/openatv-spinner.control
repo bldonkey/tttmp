@@ -1,0 +1,12 @@
+Package: openatv-spinner
+Version: 1.0-r10
+Description: openatv-spinner
+ openatv-spinner.
+Section: base
+Priority: optional
+Maintainer: ATV Team
+License: GPL-2.0-or-later
+Architecture: all
+OE: openatv-spinner
+Homepage: https:\\www.opena.tv
+Source: openatv-spinner.bb

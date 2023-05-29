@@ -1,0 +1,15 @@
+Package: procps-ps
+Version: 4.0.3-r0.1
+Description: System and process monitoring utilities
+ Procps contains a set of system utilities that provide system information
+ about processes using the /proc filesystem. The package includes the
+ programs ps, top, vmstat, w, kill, and skill.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later & LGPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: procps
+Homepage: https://gitlab.com/procps-ng/procps
+Depends: libc6 (>= 2.37), libproc2-0 (>= 4.0.3), update-alternatives-opkg
+Source: procps_4.0.3.bb

@@ -1,0 +1,183 @@
+update transmission 4.0.3
+update sabnzbd 4.0.1
+tailscale change rev to 1.43
+ca-certificates update to bundle 2.60
+e2-oea-plugins - added python3-yt-dlp depends for tvspielfilm
+Configure go environment in build so as not to pollute builders HOME.
+add to feed enigma2-plugin-skins-kiddac-1080-slyk-r19
+add  enigma2-plugin-systemplugins-wirelesslan  to smallboximage without all optional wifi drivers
+prepare smallboxwizard this need e2 update too cleanup build files
+openvix: developer 6.4.001.004
+openvix: developer 6.4.001.003
+displayvfd replace vuplus-displayvfd
+[openbh] update splash screen for gbmv200
+openbh: release 5.3.000.002
+zpdate mounthelper for gbipbox too
+update mount-helper.sh to detect FlashExpander mount
+add kiddac skin part1 after git rework
+[openbh] remove ancient skins from feeds
+[openbh] update skinsnotwanted file to match the feeds filenames
+[openvix.conf] revert 1542525fabcb999d1eae69c0db0e329bbf25405e
+openvix: developer 6.4.001.002
+[dags] dzal update for new rcu .. button : mute ... button : audio .... button : subtitle
+[openbh] update bootlogo
+[openbh] update bootlogo
+e2 plugin picturecenter - updated language (.mo) file name
+created bb for e2 plugin extensions planerfs, picturecenterfs and added to oea feeds
+openbh: release 5.3.000.001
+Update README.md
+openvix: developer 6.4.001.001
+[openvix] update DISTRO_VERSION
+dreambox dm820 and dm7080 fix typo flash kernel
+[openvix] update time script
+[openspa] Update to version 8.3
+temp removed kiddac skin, we enable again after rebuild the gits
+openatv add chrony to image
+openatv bootlogo fix vuduo4kse start order
+add python3-timeout-decorator 0.5.0 to feed
+Add MACHINE_FEATURE textlcd for teamblue only
+openatv add maintainer and homepage info
+linux hide depmod: WARNING: could not open modules.builtin.modinfo for linux < 5.2
+enigma2-skindefault for openatv moved to own git
+[openvix] tweak ntp sync
+[openvix] add a script to update ntp on network up (before enigma starts)
+fix build issue non hisi models after qtwebkit fix
+qtwebkit workaround for segment error
+multibox pro have AV_JACK
+openatv enable oled bootlogo for 400,480 and 800 oled displays some models show only a black or white screen at boot time this enable a distro bootlogo
+remove not working vuplus-displayvfd
+add displayvfd 1.0
+dags dual fix blindscan build
+hd61 - wireguard kernel builtin
+fix tar issue on newer ubunto systems Subprocess output: tar: ./zgemmah4: Cannot change ownership to uid 0, gid 0: Operation not permitted tar: .: Cannot change ownership to uid 0, gid 0: Operation not permitted tar: Exiting with failure status due to previous errors
+gigablue add old webkit hbbtv ard zdf not working
+gigablue update chromium-browser
+openhbbtv remove 0001-fix-key-events.patch for gb models
+readd pyoopenssl 22.0.0 need for ARM A7
+dreamnox add helper flash helper script for one and two
+[dagsmv200] revert blindscan-dvbs
+[dagsmv200] and cablescan (fix previous commit)
+[dagsmv200] and cablescan
+update sabnzbd3 4.0.0
+dreambox add kernel flash helper script
+[dagsmv200] and dvb-s blindscan
+openatv metrix change branch to master
+Kiddac plugins. Version numbers again!
+openatv fix hd bootlogo load issue for dreambox
+Update README.md
+openatv add test bootlogo
+chrony - adjusted poll time, created patch to support fpclock log read needs
+fpclock - created bb and added to atv feeds
+kobi fix python issue for old xtrend models
+Update opendroid.conf
+xcore 7362 build normal
+libdreamdvd remove rdepend liba52
+libpsl5 remove icu depends save 32mb image size
+kodi-ffmpeg change depends libdav1d to dav1d
+openvix: developer 6.3.007.004
+[openvix.conf] allow overrides for DISTRO_VERSION, BUILD_VERSION, and DEVELOPER_BUILD_VERSION
+xp1000 fix kernel build
+xtrend clean kernel PKG
+skylake add RPROVIDES:kernel-image to fix build issue
+dreambox remove kernel rdepends from drivers not needed
+dreambox drivers update kernel depends
+cleanup linux build
+[vuplus] webkit-gtk - created patch to fix compile with newer libsoup2.4
+layer.conf - bumped oea version 5.2 - 5.3 openatv.conf - bumped distro version 7.2 - 7.3
+layer.conf - turn patch-fuzz errors back to warnings
+enigma-info - fix taskhash mismatches, when DATE is used in PR
+libdav1d - use 1.1.0 versiom in meta-OE
+mesa - updated patch due to OE-core update
+setuptools-openplugins - added plugins libdir path to files
+ffmpeg - bumped bbappends 5.% -> 6.%, rebased patch
+exfat-utils -> exfatprogs
+ntp - removed bbappend and ntpdate (dropped upstream)
+base-passwd - created patch to set bash as shell for root in passwd
+python3-zopeinterface - bumped bbappend 5.% -> 6.% due to meta-OE update
+curl - bumped bbappend 7.% -> 8.% due to OE-core update
+gst1.0 plugins bad - added packageconfig option to build resindvd plugin
+e2 plugin extensions et-portal, yahooweather - dropped py2 use
+layer.conf - removed python2, python2.7 from hosttools
+openssl - bumped bbappend 3.0.% -> 3.1.%
+gst1.0-plugins-base-videoconvert -> gst1.0-plugins-base-videoconvertscale
+procps - bumped bbappend 3.3.% -> 4.0.%
+transmission - updated 3.00 -> 4.0.1
+tailscale - use AUTOREV and bump version 1.26.2 -> 1.37.0
+glibc - bumped bbappend 2.36 -> 2.37 and rebased patches to follow OE-core updates
+samba - updated 5.15.12 -> 5.15.13
+busybox - bumped v1.35.0 -> 1.36.0, updated defconfig
+nodejs - bumped bbappend 16.% -> 18.% due to meta-OE update
+python3-pyopenssl - bumped v22.0.0 -> v23.0.0
+layer.conf - set py3-cryptography preferred version to 39.% after OE-core update
+enigma2 - bitbake now requires all recipes using git fetcher to have           SRCREV set. Set it as a weak reference to AUTOREV so it can be           easily overrided on per distro/team basis.
+mesa - updated enable dri without dri drivers patch for mesa v22.3.3
+ncdu - updated 1.8 -> 1.18, added to OpenATV feeds
+linux-libc-headers - added bb for version 6.1 due to OE-core update
+libwebp - bumped bbappend 1.2.% -> 1.3.% due to OE-core update
+meson - bumped bbappend 0.%.% -> 1.%.% due to OE-core update
+openatv-feeds - enable sysbench for arm and aarch64 only - sysbench version 1.0.20 in meta-OE doesnt support mips arch anymore
+layers compat - updated to OE Mickledore release name series
+wavpack - added bb for version 5.6.0 needed by musicpd 0.23.11
+musicpd - 0.23.7 -> 0.23.11
+opkg - refreshed patches, added reverted upstream commit causing        opkg list-upgradable segmentation fault
+ghostscript - deleted bbappend and files
+spdlog - bumped bbappend 1.10.% -> 1.11.% due to meta-OE update
+samba-waf - added PYTHON_CONFIG var to point to correct target python3-config
+quota - bumped bbappend 4.06 -> 4.09 due to OE-core update
+meta-oe - layer.conf - set preferred version for libsdl2 to match OE-core version
+flac - v1.4.2 created patch to fix build for arm arches
+samba - updated 5.15.11 -> 5.15.12
+libsoup-2.4 - switched to bbappend to use recipe in OE-core
+x264: upgrade to latest revision
+python3-more-itertools: upgrade 8.14.0 -> 9.0.0
+wireless-regdb: upgrade 2018.10.24 -> 2022.08.12
+davfs2: upgrade 1.6.1 -> 1.7.0
+qtwebflix - updated SRCREV_FORMAT
+uchardet moved to gitlab
+openresolv update download url
+pcsc-tools - added inherit gettext to fix compile and set srcrev back to AUTOREV
+pin pcsc tools, fix build issue
+rename vuplus-kexec-Model to kexec-multiboot and use machine-feature to enable this moved kexec files to own git update enigma-info to support option: kexecmb=True
+openvix: developer 6.3.007.003
+add openatv-devel
+qcacld site down, use miroor
+openvix: developer 6.3.007.002
+Revert "Revert "temp disable build dvdbackup broken after update to last dvdread""
+Revert "temp disable build dvdbackup broken after update to last dvdread"
+temp disable build dvdbackup broken after update to last dvdread
+libdvdnav and libdvdread use upstream version libdreamdvd moved to oe-a mirror
+update sabnzbd to 3.7.2
+openresolv upate download url
+vuduo4k - vuplus-kexec - update timeout for searching STARTUP_RECOVERY to 4secs and remove spaces from bb
+openbh: release 5.2.006
+[openvix-bootlogo.bb] bump PR
+[openbh] update bootlogo
+[openbh] bootlogo priorities Update to match priorities in Directories.py
+openvix: release 6.3.007
+openvix: developer 6.3.007.001
+openvix: developer 6.3.006.002
+Update epgimport-rytec.bb Whenever Rytec sources are changed, the bitbake file currently needs to be updated otherwise it will not be publised/updated
+openvix: release 6.3.006
+Update rytec.sources.xml
+[EMC] * add missing depends tmdbsimple
+mediainfo - updated 22.09 -> 23.03 libmediainfo - updated 22.09 -> 23.03 libzen - updated 0.4.39 -> 0.4.40
+[EMC] * use new repro for ATV
+openvix: developer 6.3.006.001
+Missing picons: Lists found and missing picons XEAIO: Xtreme Editor
+[openvix] bootlogo priorities Update to match priorities in Directories.py
+chrony - created bbappend to extend available ntp servers pool, added to openatv-feeds
+OpenViX/OpenBH add fmpeg to -core
+openbh: release 5.2.005
+openvix: release 6.3.005
+openvix: developer 6.3.005.001
+openvix: release 6.3.004
+openbh: release 5.2.004
+[new Picon feed]
+[openhdf] remove serviceapp from base installation
+openvix: developer 6.3.004.017
+OpenViX Softcam bump PR
+OpenViX softcam update Oscam files
+openvix: developer 6.3.004.016
+openvix: developer 6.3.004.015
+openvix: developer 6.3.004.014
+openvix: developer 6.3.004.013

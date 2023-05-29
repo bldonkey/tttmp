@@ -1,0 +1,3 @@
+/etc/init.d	040755
+/etc	040755
+/etc/init.d/gigablue-loadmodules	0100755

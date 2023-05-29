@@ -1,0 +1,12 @@
+Package: openatv-version-info
+Version: 7.3-20230526
+Description: OpenATV version info
+ OpenATV version info.
+Section: base
+Priority: required
+Maintainer: OpenATV
+License: GPL-2.0-or-later
+Architecture: gbip4k
+OE: openatv-version-info
+Homepage: https:\\www.opena.tv
+Source: openatv-version-info.bb

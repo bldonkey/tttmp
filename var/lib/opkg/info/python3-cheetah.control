@@ -1,0 +1,13 @@
+Package: python3-cheetah
+Version: 3.2.6.post1-r0
+Description: Python template engine and code generation tool
+ Python template engine and code generation tool.
+Section: devel/python
+Priority: optional
+Maintainer: openATV
+License: MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-cheetah
+Homepage: https://cheetahtemplate.org/
+Depends: libc6 (>= 2.37), python3-core, python3-pickle, python3-pprint
+Source: python3-cheetah_3.2.6.post1.bb

@@ -1,0 +1,6 @@
+/usr/bin/rsync-ssl	0100755
+/usr/bin	040755
+/usr	040755
+/etc	040755
+/usr/bin/rsync	0100755
+/etc/rsyncd.conf	0100644

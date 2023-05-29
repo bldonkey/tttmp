@@ -1,0 +1,16 @@
+Package: libpng16-16
+Version: 1.6.39-r0
+Description: PNG image format decoding library
+ An open source project to develop and maintain the reference library for
+ use in applications that read, create, and manipulate PNG (Portable
+ Network Graphics) raster image files.
+Section: libs
+Priority: optional
+Maintainer: openATV
+License: Libpng
+Architecture: cortexa15hf-neon-vfpv4
+OE: libpng
+Homepage: http://www.libpng.org/
+Depends: libc6 (>= 2.37), libz1 (>= 1.2.13)
+Provides: libpng
+Source: libpng_1.6.39.bb

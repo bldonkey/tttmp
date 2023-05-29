@@ -1,0 +1,13 @@
+Package: enigma2-plugin-drivers-network-usb-rt2500
+Version: 1.0-r0
+Description: WiFi devices for Ralink RT2500USB/RT2571 devices.
+ WiFi devices for Ralink RT2500USB/RT2571 devices..
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later
+Architecture: all
+OE: enigma2-plugin-drivers-network-usb-rt2500
+Homepage: https:\\www.opena.tv
+Recommends: kernel-module-rt2500usb
+Source: enigma2-plugin-drivers-network-usb-rt2500.bb

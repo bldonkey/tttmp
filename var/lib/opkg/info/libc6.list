@@ -1,0 +1,17 @@
+/lib/libnsl.so.1	0100755
+/lib/libresolv.so.2	0100755
+/lib/libanl.so.1	0100755
+/lib/libBrokenLocale.so.1	0100755
+/lib/libm.so.6	0100755
+/etc/ld.so.conf	0100644
+/lib/libutil.so.1	0100755
+/lib/libnss_dns.so.2	0100755
+/lib/librt.so.1	0100755
+/etc	040755
+/lib/libpthread.so.0	0100755
+/lib/libdl.so.2	0100755
+/lib	040755
+/lib/libc.so.6	0100755
+/lib/libnss_compat.so.2	0100755
+/lib/libnss_files.so.2	0100755
+/lib/ld-linux-armhf.so.3	0100755

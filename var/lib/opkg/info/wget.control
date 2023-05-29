@@ -1,0 +1,18 @@
+Package: wget
+Version: 1.21.3-r0
+Description: Console URL download utility supporting HTTP, FTP, etc
+ Wget is a network utility to retrieve files from the web using HTTP(S)
+ and FTP, the two most widely used internet protocols. It works non-
+ interactively, so it will work in the background, after having logged
+ off. The program supports recursive retrieval of web-authoring pages as
+ well as FTP sites
+Section: console/network
+Priority: optional
+Maintainer: openATV
+License: GPL-3.0-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: wget
+Homepage: https://www.gnu.org/software/wget/
+Depends: libc6 (>= 2.37), libcrypto3 (>= 3.1.0), libpcre1 (>= 8.45), libssl3 (>= 3.1.0), libz1 (>= 1.2.13), update-alternatives-opkg
+Recommends: ca-certificates
+Source: wget_1.21.3.bb

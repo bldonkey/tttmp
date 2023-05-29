@@ -1,0 +1,14 @@
+Package: libudfread0
+Version: 1.0.0+git108+b3e6936-r0
+Description: UDF reader
+ UDF reader.
+Section: misc
+Priority: optional
+Maintainer: openATV
+License: LGPL-2.1-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: libudfread
+Homepage: http://videolan.org
+Depends: libc6 (>= 2.37)
+Provides: libudfread
+Source: libudfread_git.bb

@@ -1,0 +1,16 @@
+Package: libtiff6
+Version: 4.5.0-r0
+Description: Provides support for the Tag Image File Format (TIFF)
+ Library provides support for the Tag Image File Format (TIFF), a widely
+ used format for storing image data.  This library provide means to easily
+ access and create TIFF image files.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: BSD-2-Clause
+Architecture: cortexa15hf-neon-vfpv4
+OE: tiff
+Homepage: http://www.libtiff.org/
+Depends: libc6 (>= 2.37), libjpeg62 (>= 2.1.5.1), liblzma5 (>= 5.4.2), libz1 (>= 1.2.13)
+Provides: tiff
+Source: tiff_4.5.0.bb

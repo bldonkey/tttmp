@@ -1,0 +1,14 @@
+Package: kernel-module-cdrom-4.4.35
+Version: 4.4.35-35
+Description: cdrom kernel module
+ cdrom kernel module
+Section: kernel
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-only
+Architecture: gbmv200
+OE: linux-gigablue
+Homepage: https:\\www.opena.tv
+Depends: kernel-4.4.35
+Provides: kernel-module-cdrom
+Source: linux-gigablue_4.4.35.bb

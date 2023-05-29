@@ -1,0 +1,15 @@
+Package: libcrypto3
+Version: 3.1.0-r0.1
+Description: Secure Socket Layer
+ Secure Socket Layer (SSL) binary and related cryptographic tools.
+Section: libs/network
+Priority: optional
+Maintainer: openATV
+License: Apache-2.0
+Architecture: gbmv200
+OE: openssl
+Homepage: http://www.openssl.org/
+Depends: libc6 (>= 2.37)
+Recommends: openssl-conf, openssl-ossl-module-legacy
+Provides: libcrypto
+Source: openssl_3.1.0.bb

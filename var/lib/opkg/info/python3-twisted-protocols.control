@@ -1,0 +1,15 @@
+Package: python3-twisted-protocols
+Version: 22.10.0-r8
+Description: python3-twisted version 22.10.0-r8
+ Twisted is an event-driven networking framework written in Python and
+ licensed under the LGPL. Twisted supports TCP, UDP, SSL/TLS, multicast,
+ Unix sockets, a large number of protocols                   (including
+ HTTP, NNTP, IMAP, SSH, IRC, FTP, and others), and much more.
+Section: devel/python
+Priority: optional
+Maintainer: openATV
+License: MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-twisted
+Homepage: http://www.twistedmatrix.com
+Source: python3-twisted_22.10.0.bb

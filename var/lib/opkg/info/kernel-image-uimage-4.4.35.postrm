@@ -1,0 +1,6 @@
+set -e
+set +e
+if [ -f "tmp/uImage" -o -L "tmp/uImage" ]; then
+    rm -f tmp/uImage  > /dev/null 2>&1
+fi
+set -e

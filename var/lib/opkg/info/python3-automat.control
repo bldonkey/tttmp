@@ -1,0 +1,13 @@
+Package: python3-automat
+Version: 22.10.0-r0
+Description: python3-automat version 22.10.0-r0
+ Self-service finite-state machines for the programmer on the go
+Section: devel/python
+Priority: optional
+Maintainer: openATV
+License: MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-automat
+Homepage: https://github.com/glyph/Automat
+Depends: python3-attrs, python3-core, python3-six
+Source: python3-automat_22.10.0.bb

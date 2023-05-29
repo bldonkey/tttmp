@@ -1,0 +1,14 @@
+Package: llmnrd
+Version: git140+c1e7429-r2
+Description: llmnrd - Link-Local Multicast Resolution (LLMNR) Daemon for Linux
+ llmnrd - Link-Local Multicast Resolution (LLMNR) Daemon for Linux.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: llmnrd
+Homepage: https://github.com/tklauser/llmnrd
+Depends: libc6 (>= 2.37)
+Recommends: update-rc.d
+Source: llmnrd.bb

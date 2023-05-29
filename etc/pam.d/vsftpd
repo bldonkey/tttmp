@@ -1,0 +1,5 @@
+#%PAM-1.0
+auth       required	/lib/security/pam_listfile.so item=user sense=deny file=/etc/vsftpd.ftpusers onerr=succeed
+auth       required	/lib/security/pam_unix.so shadow
+account    required	/lib/security/pam_unix.so
+session    required	/lib/security/pam_unix.so

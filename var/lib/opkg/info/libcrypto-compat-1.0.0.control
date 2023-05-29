@@ -1,0 +1,16 @@
+Package: libcrypto-compat-1.0.0
+Version: 1.2-r0
+Description: Compatibility for packages that link to libcrypto or libssl 1.0.0
+ Compatibility for packages that link to libcrypto or libssl 1.0.0.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: libcrypto-compat-1.0.0
+Homepage: https:\\www.opena.tv
+Depends: libcrypto10, libssl10
+Provides: libcrypto1.0.0, libssl1.0.0
+Replaces: libcrypto1.0.0, libssl1.0.0
+Conflicts: libcrypto1.0.0, libssl1.0.0
+Source: libcrypto-compat-1.0.0.bb

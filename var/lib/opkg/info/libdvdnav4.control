@@ -1,0 +1,14 @@
+Package: libdvdnav4
+Version: 6.1.1-r0
+Description: library for DVD navigation features
+ library for DVD navigation features.
+Section: libs/multimedia
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: libdvdnav
+Homepage: https:\\www.opena.tv
+Depends: libc6 (>= 2.37), libdvdread8 (>= 6.1.3)
+Provides: libdvdnav
+Source: libdvdnav_6.1.1.bb

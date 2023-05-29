@@ -1,0 +1,15 @@
+Package: gptfdisk
+Version: 1.0.9-r0
+Description: Utility for modifying GPT disk partitioning
+ GPT fdisk is a disk partitioning tool loosely modeled on Linux fdisk, but
+ used for modifying GUID Partition Table (GPT) disks. The related FixParts
+ utility fixes some common problems on Master Boot Record (MBR) disks.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: gptfdisk
+Homepage: https://sourceforge.net/projects/gptfdisk/
+Depends: libc6 (>= 2.37), libgcc1 (>= 12.2.0), libncursesw5 (>= 6.4), libpopt0 (>= 1.19), libstdc++6 (>= 12.2.0), libtinfo5 (>= 6.4), libuuid1 (>= 2.38.1)
+Source: gptfdisk_1.0.9.bb

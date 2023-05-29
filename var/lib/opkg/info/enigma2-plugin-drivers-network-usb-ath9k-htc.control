@@ -1,0 +1,13 @@
+Package: enigma2-plugin-drivers-network-usb-ath9k-htc
+Version: 1.0-r0
+Description: WiFi devices for for Atheros AR9001 and AR9002 devices.
+ WiFi devices for for Atheros AR9001 and AR9002 devices..
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later
+Architecture: all
+OE: enigma2-plugin-drivers-network-usb-ath9k-htc
+Homepage: https:\\www.opena.tv
+Recommends: firmware-htc7010, firmware-htc9271, kernel-module-ath9k-htc
+Source: enigma2-plugin-drivers-network-usb-ath9k-htc.bb

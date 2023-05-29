@@ -1,0 +1,14 @@
+Package: oe-alliance-feeds-configs
+Version: 1.0-r2
+Description: Configuration files for online package repositories aka feeds
+ Configuration files for online package repositories aka feeds.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later
+Architecture: gbip4k
+OE: oe-alliance-feeds-configs
+Homepage: https:\\www.opena.tv
+Replaces: distro-feed-configs
+Conflicts: distro-feed-configs
+Source: oe-alliance-feeds-configs.bb

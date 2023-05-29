@@ -1,0 +1,13 @@
+Package: enigma2-plugin-extensions-openwebif-themes
+Version: 2.0.6-git99+bb61885-r0
+Description: extensions-openwebif (Additional themes for OpenWebif)
+ extensions-openwebif (Additional themes for OpenWebif)
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-3.0-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-openwebif
+Homepage: https:\\www.opena.tv
+Depends: enigma2-plugin-extensions-openwebif
+Source: enigma2-plugin-extensions-openwebif.bb

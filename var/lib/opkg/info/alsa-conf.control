@@ -1,0 +1,17 @@
+Package: alsa-conf
+Version: 1.2.8-r0
+Description: ALSA sound library
+ (Occasionally a.k.a. libasound) is a userspace library that provides a
+ level of abstraction over the /dev interfaces provided by the kernel
+ modules.
+Section: libs/multimedia
+Priority: optional
+Maintainer: openATV
+License: LGPL-2.1-only & GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: alsa-lib
+Homepage: http://www.alsa-project.org
+Provides: alsa-conf-base
+Replaces: alsa-conf-base
+Conflicts: alsa-conf-base
+Source: alsa-lib_1.2.8.bb

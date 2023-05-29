@@ -1,0 +1,13 @@
+Package: python3-pyasn1
+Version: 0.4.8-r0
+Description: Python library implementing ASN.1 types.
+ Python library implementing ASN.1 types..
+Section: devel/python
+Priority: optional
+Maintainer: openATV
+License: BSD-2-Clause
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-pyasn1
+Homepage: http://pyasn1.sourceforge.net/
+Depends: python3-codecs, python3-core, python3-logging, python3-math, python3-shell
+Source: python3-pyasn1_0.4.8.bb

@@ -1,0 +1,13 @@
+Package: libauth-samba4
+Version: 4.15.13-r2
+Description: Samba auth-samba4 library
+ Samba auth-samba4 library
+Section: console/network
+Priority: optional
+Maintainer: openATV
+License: GPL-3.0-or-later & LGPL-3.0-or-later & GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: samba
+Homepage: https://www.samba.org/
+Depends: libc6 (>= 2.37), libcliauth-samba4 (>= 4.15.13), libcommon-auth-samba4 (>= 4.15.13), libgenrand-samba4 (>= 4.15.13), libgensec-samba4 (>= 4.15.13), libgse-samba4 (>= 4.15.13), liblibcli-lsa3-samba4 (>= 4.15.13), liblibcli-netlogon3-samba4 (>= 4.15.13), libmessaging-samba4 (>= 4.15.13), libndr-krb5pac0 (>= 4.15.13), libndr2 (>= 4.15.13), libpam (>= 1.5.2), libreplace-samba4 (>= 4.15.13), libsamba-credentials1 (>= 4.15.13), libsamba-debug-samba4 (>= 4.15.13), libsamba-errors1 (>= 4.15.13), libsamba-hostconfig0 (>= 4.15.13), libsamba-modules-samba4 (>= 4.15.13), libsamba-passdb0 (>= 4.15.13), libsamba-security-samba4 (>= 4.15.13), libsamba-sockets-samba4 (>= 4.15.13), libsamba-util0 (>= 4.15.13), libsamba3-util-samba4 (>= 4.15.13), libsamdb0 (>= 4.15.13), libsecrets3-samba4 (>= 4.15.13), libsmbconf0 (>= 4.15.13), libsmbd-shim-samba4 (>= 4.15.13), libtalloc (>= 2.4.0), libtdb1 (>= 4.15.13), libtevent-util0 (>= 4.15.13), libtevent0 (>= 4.15.13), libutil-tdb-samba4 (>= 4.15.13), libwbclient0 (>= 4.15.13), samba-common
+Source: samba.bb

@@ -1,0 +1,17 @@
+Package: liblzma5
+Version: 5.4.2-r0
+Description: Utilities for managing LZMA compressed files
+ XZ Utils is free general-purpose data compression software with a high
+ compression ratio. XZ Utils were written for POSIX-like systems, but also
+ work on some not-so-POSIX systems. XZ Utils are the successor to LZMA
+ Utils.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: PD
+Architecture: cortexa15hf-neon-vfpv4
+OE: xz
+Homepage: https://tukaani.org/xz/
+Depends: libc6 (>= 2.37)
+Provides: liblzma
+Source: xz_5.4.2.bb

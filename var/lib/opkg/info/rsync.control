@@ -1,0 +1,14 @@
+Package: rsync
+Version: 3.2.7-r0
+Description: File synchronization tool
+ rsync is an open source utility that provides fast incremental file
+ transfer.
+Section: console/network
+Priority: optional
+Maintainer: openATV
+License: GPL-3.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: rsync
+Homepage: http://rsync.samba.org/
+Depends: libacl1 (>= 2.3.1), libc6 (>= 2.37), libpopt0 (>= 1.19)
+Source: rsync_3.2.7.bb

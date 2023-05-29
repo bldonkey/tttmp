@@ -1,0 +1,8 @@
+set -e
+    if [ "x$D" == "x" ]; then
+        if [ -f /tmp/uImage ] ; then
+            /tmp/./findkerneldevice.sh
+            dd if=/tmp/uImage of=/dev/kernel
+        fi
+    fi
+    true

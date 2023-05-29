@@ -1,0 +1,17 @@
+Package: cronie
+Version: 1.6.1-r0
+Description: Cron daemon for executing programs at set times
+ Cronie contains the standard UNIX daemon crond that runs specified
+ programs at scheduled times and related tools. It is based on the
+ original cron and has security and configuration enhancements like the
+ ability to use pam and SELinux.
+Section: utils
+Priority: optional
+Maintainer: openATV
+License: ISC & BSD-3-Clause & BSD-2-Clause & GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: cronie
+Homepage: https://github.com/cronie-crond/cronie/
+Depends: base-files, base-passwd, initd-functions, libc6 (>= 2.37), libpam (>= 1.5.2), libpam-runtime, pam-plugin-access, pam-plugin-loginuid, shadow
+Recommends: update-rc.d
+Source: cronie_1.6.1.bb

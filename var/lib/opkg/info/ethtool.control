@@ -1,0 +1,14 @@
+Package: ethtool
+Version: 6.2-r0
+Description: Display or change ethernet card settings
+ A small utility for examining and tuning the settings of your ethernet-
+ based network interfaces.
+Section: console/network
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: ethtool
+Homepage: http://www.kernel.org/pub/software/network/ethtool/
+Depends: libc6 (>= 2.37), libmnl0 (>= 1.0.5)
+Source: ethtool_6.2.bb

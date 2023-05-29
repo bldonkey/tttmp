@@ -1,0 +1,9 @@
+/usr/lib	040755
+/usr/lib/python3.11/site-packages/ptyprocess/util.pyc	0100644
+/usr/lib/python3.11	040755
+/usr/lib/python3.11/site-packages/ptyprocess/ptyprocess.pyc	0100644
+/usr	040755
+/usr/lib/python3.11/site-packages/ptyprocess/__init__.pyc	0100644
+/usr/lib/python3.11/site-packages/ptyprocess	040755
+/usr/lib/python3.11/site-packages	040755
+/usr/lib/python3.11/site-packages/ptyprocess/_fork_pty.pyc	0100644

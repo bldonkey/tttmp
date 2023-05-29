@@ -1,0 +1,16 @@
+Package: libelf1
+Version: 0.188-r0
+Description: Utilities and libraries for handling compiled object files
+ elfutils is a collection of utilities and libraries to read, create and
+ modify ELF binary files, find and handle DWARF debug data, symbols,
+ thread state and stacktraces for processes and core files on GNU/Linux.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-only | LGPL-3.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: elfutils
+Homepage: https://sourceware.org/elfutils
+Depends: libc6 (>= 2.37), libz1 (>= 1.2.13)
+Provides: libelf
+Source: elfutils_0.188.bb

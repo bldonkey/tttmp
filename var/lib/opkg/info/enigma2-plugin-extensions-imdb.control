@@ -1,0 +1,13 @@
+Package: enigma2-plugin-extensions-imdb
+Version: 7.3+gitr7532+f14c178-r8
+Description: extensions-imdb
+ query movie details from the Internet Movie Database
+Section: base
+Priority: optional
+Maintainer: OE-Alliance team
+License: Proprietary
+Architecture: gbmv200
+OE: enigma2-plugins
+Homepage: https:\\www.opena.tv
+Depends: python3-requests, python3-twisted-core
+Source: enigma2-plugins.bb

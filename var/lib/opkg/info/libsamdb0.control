@@ -1,0 +1,14 @@
+Package: libsamdb0
+Version: 4.15.13-r2
+Description: Samba samdb library
+ Samba samdb library
+Section: console/network
+Priority: optional
+Maintainer: openATV
+License: GPL-3.0-or-later & LGPL-3.0-or-later & GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: samba
+Homepage: https://www.samba.org/
+Depends: libauthkrb5-samba4 (>= 4.15.13), libc6 (>= 2.37), libcli-ldap-common-samba4 (>= 4.15.13), libcliauth-samba4 (>= 4.15.13), libgenrand-samba4 (>= 4.15.13), libgssapi-samba4-2 (>= 4.15.13), libkrb5-samba4-26 (>= 4.15.13), libkrb5samba-samba4 (>= 4.15.13), libldb2 (>= 4.15.13), libldbsamba-samba4 (>= 4.15.13), libndr2 (>= 4.15.13), libreplace-samba4 (>= 4.15.13), libsamba-credentials1 (>= 4.15.13), libsamba-debug-samba4 (>= 4.15.13), libsamba-errors1 (>= 4.15.13), libsamba-hostconfig0 (>= 4.15.13), libsamba-security-samba4 (>= 4.15.13), libsamba-util0 (>= 4.15.13), libsamdb-common-samba4 (>= 4.15.13), libtalloc (>= 2.4.0), libz1 (>= 1.2.13), samba-common
+Provides: libsamdb
+Source: samba.bb

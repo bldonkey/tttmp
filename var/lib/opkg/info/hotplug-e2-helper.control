@@ -1,0 +1,13 @@
+Package: hotplug-e2-helper
+Version: 1.0+git14+68eedb2-r0
+Description: hotplug-e2-helper version 1.0+gitAUTOINC+68eedb242e-r0
+ hotplug-e2-helper version 1.0+gitAUTOINC+68eedb242e-r0.
+Section: base
+Priority: optional
+Maintainer: PLi team
+License: GPL-2.0-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: hotplug-e2-helper
+Homepage: https:\\www.opena.tv
+Depends: libc6 (>= 2.37)
+Source: hotplug-e2-helper.bb

@@ -1,0 +1,12 @@
+Package: oe-alliance-remote
+Version: 7.3+git116+a711695-r20230526-gbip4k
+Description: oe-alliance-remote version 7.3+gitAUTOINC+a711695a58-r20230526-gbip4k
+ OE-Alliance remote control and box image files for Enimga2 and OpenWebIF.
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-or-later
+Architecture: gbip4k
+OE: oe-alliance-remote
+Homepage: https:\\www.opena.tv
+Source: oe-alliance-remote.bb

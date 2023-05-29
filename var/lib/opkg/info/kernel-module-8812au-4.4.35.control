@@ -1,0 +1,14 @@
+Package: kernel-module-8812au-4.4.35
+Version: 5.1.5-r0
+Description: 8812au kernel module
+ 8812au kernel module; Realtek Wireless Lan Driver
+Section: kernel/modules
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-only
+Architecture: gbmv200
+OE: rt8812au
+Homepage: http://www.realtek.com.tw
+Depends: kernel-4.4.35
+Provides: kernel-module-8812au
+Source: rt8812au_5.1.5.bb

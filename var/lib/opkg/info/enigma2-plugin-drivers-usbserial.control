@@ -1,0 +1,13 @@
+Package: enigma2-plugin-drivers-usbserial
+Version: 1.0-r0
+Description: USB serial drivers
+ USB serial drivers.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-drivers-usbserial
+Homepage: https:\\www.opena.tv
+Recommends: kernel-module-belkin-sa, kernel-module-ftdi-sio, kernel-module-keyspan, kernel-module-pl2303, kernel-module-usbserial
+Source: enigma2-plugin-drivers-usbserial.bb

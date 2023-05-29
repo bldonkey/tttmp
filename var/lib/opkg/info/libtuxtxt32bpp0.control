@@ -1,0 +1,14 @@
+Package: libtuxtxt32bpp0
+Version: 2.0+git82+1402795-r0
+Description: tuxbox tuxtxt for 32bit framebuffer
+ tuxbox tuxtxt for enigma2
+Section: base
+Priority: optional
+Maintainer: openATV
+License: LGPL-2.1-only
+Architecture: gbmv200
+OE: tuxtxt-enigma2
+Homepage: https:\\www.opena.tv
+Depends: libc6 (>= 2.37), libfreetype6 (>= 2.11.0), libtuxtxt0 (>= 2.0+git82+1402795)
+Provides: tuxtxt-enigma2
+Source: tuxtxt-enigma2.bb

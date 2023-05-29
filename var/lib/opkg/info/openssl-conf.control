@@ -1,0 +1,12 @@
+Package: openssl-conf
+Version: 3.1.0-r0.1
+Description: Secure Socket Layer
+ Secure Socket Layer (SSL) binary and related cryptographic tools.
+Section: libs/network
+Priority: optional
+Maintainer: openATV
+License: Apache-2.0
+Architecture: gbmv200
+OE: openssl
+Homepage: http://www.openssl.org/
+Source: openssl_3.1.0.bb

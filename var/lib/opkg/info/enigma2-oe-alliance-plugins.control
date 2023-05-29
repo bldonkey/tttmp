@@ -1,0 +1,12 @@
+Package: enigma2-oe-alliance-plugins
+Version: 7.3+gitr3366+1cf136c-r1
+Description: Additional plugins for Enigma2
+ Additional plugins for Enigma2.
+Section: base
+Priority: optional
+Maintainer: oe-alliance team
+License: Proprietary
+Architecture: gbmv200
+OE: enigma2-oe-alliance-plugins
+Homepage: https:\\www.opena.tv
+Source: enigma2-oe-alliance-plugins.bb

@@ -1,0 +1,14 @@
+Package: python3-misc
+Version: 3.11.2-r0
+Description: The Python Programming Language
+ Python is a programming language that lets you work more quickly and
+ integrate your systems more effectively.
+Section: devel/python
+Priority: optional
+Maintainer: openATV
+License: PSF-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3
+Homepage: http://www.python.org
+Depends: libc6 (>= 2.37), python3-audio, python3-codecs, python3-core, python3-email, python3-numbers, python3-pickle, python3-pydoc
+Source: python3_3.11.2.bb

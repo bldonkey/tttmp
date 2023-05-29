@@ -1,0 +1,5 @@
+/etc/init.d	040755
+/sbin/stb-hwclock	0100755
+/sbin	040755
+/etc	040755
+/etc/init.d/stb-hwclock	0100755

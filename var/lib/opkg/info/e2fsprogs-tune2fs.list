@@ -1,0 +1,3 @@
+/sbin/tune2fs.e2fsprogs	0100755
+/sbin/e2label	0100755
+/sbin	040755

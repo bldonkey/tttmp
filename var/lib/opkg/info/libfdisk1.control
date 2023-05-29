@@ -1,0 +1,14 @@
+Package: libfdisk1
+Version: 2.38.1-r0
+Description: util-linux libfdisk
+ util-linux libfdisk
+Section: base
+Priority: optional
+Maintainer: openATV
+License: LGPL-2.1-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: util-linux
+Homepage: https://en.wikipedia.org/wiki/Util-linux
+Depends: libblkid1 (>= 2.38.1), libc6 (>= 2.37), libuuid1 (>= 2.38.1)
+Provides: util-linux-libfdisk
+Source: util-linux_2.38.1.bb

@@ -1,0 +1,7 @@
+/sbin/mount.ntfs-3g	0120777
+/usr/bin/ntfs-3g.probe	0100755
+/usr/bin	040755
+/sbin	040755
+/sbin/mount.ntfs	0120777
+/usr	040755
+/usr/bin/ntfs-3g	0100755

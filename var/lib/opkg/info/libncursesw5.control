@@ -1,0 +1,14 @@
+Package: libncursesw5
+Version: 6.4-r0
+Description: ncurses ncursesw library
+ ncurses ncursesw library
+Section: libs
+Priority: optional
+Maintainer: openATV
+License: MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: ncurses
+Homepage: http://www.gnu.org/software/ncurses/ncurses.html
+Depends: libc6 (>= 2.37), libtinfo5 (>= 6.4)
+Provides: ncurses-libncursesw
+Source: ncurses_6.4.bb

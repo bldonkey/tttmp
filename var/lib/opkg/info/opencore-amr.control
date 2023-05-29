@@ -1,0 +1,13 @@
+Package: opencore-amr
+Version: 0.1.5-r0
+Description: OpenCORE AMR decoder library
+ OpenCORE AMR decoder library.
+Section: libs
+Priority: optional
+Maintainer: openATV
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: opencore-amr
+Homepage: https:\\www.opena.tv
+Depends: libc6 (>= 2.37)
+Source: opencore-amr_0.1.5.bb

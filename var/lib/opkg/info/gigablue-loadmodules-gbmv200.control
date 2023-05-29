@@ -1,0 +1,13 @@
+Package: gigablue-loadmodules-gbmv200
+Version: 1.0-r0
+Description: kernel modules load helper
+ kernel modules load helper.
+Section: base
+Priority: optional
+Maintainer: gigablue
+License: GPL-2.0-or-later
+Architecture: gbmv200
+OE: gigablue-loadmodules-gbmv200
+Homepage: https:\\www.opena.tv
+Recommends: update-rc.d
+Source: gigablue-loadmodules-gbmv200.bb

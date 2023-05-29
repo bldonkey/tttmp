@@ -1,0 +1,14 @@
+Package: alsa-ucm-conf
+Version: 1.2.8-r0
+Description: ALSA Use Case Manager configuration
+ This package contains ALSA Use Case Manager configuration of audio
+ input/output names and routing for specific audio hardware. They can be
+ used with the alsaucm tool.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: BSD-3-Clause
+Architecture: all
+OE: alsa-ucm-conf
+Homepage: https://alsa-project.org
+Source: alsa-ucm-conf_1.2.8.bb

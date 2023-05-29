@@ -1,0 +1,13 @@
+Package: libtalloc
+Version: 2.4.0-r0
+Description: Hierarchical, reference counted memory pool system with destructors
+ Hierarchical, reference counted memory pool system with destructors.
+Section: libs
+Priority: optional
+Maintainer: openATV
+License: LGPL-3.0-or-later & GPL-3.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: libtalloc
+Homepage: https://talloc.samba.org
+Depends: libc6 (>= 2.37), libpython3.11-1.0 (>= 3.11.2)
+Source: libtalloc_2.4.0.bb

@@ -1,0 +1,13 @@
+Package: hddtemp
+Version: 0.3-beta15-r0
+Description: Hard disk temperature monitor daemon
+ Hard disk temperature monitor daemon.
+Section: console/network
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: hddtemp
+Homepage: https:\\www.opena.tv
+Depends: libc6 (>= 2.37)
+Source: hddtemp_0.3-beta15.bb

@@ -1,0 +1,12 @@
+Package: firmware-rt2870
+Version: 1.0-r0
+Description: Firmware for Ralink RT2870
+ Firmware for Ralink RT2870.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: Proprietary
+Architecture: all
+OE: firmware-rt2870
+Homepage: https:\\www.opena.tv
+Source: firmware-rt2870.bb

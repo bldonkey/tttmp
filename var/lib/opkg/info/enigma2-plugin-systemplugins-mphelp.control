@@ -1,0 +1,13 @@
+Package: enigma2-plugin-systemplugins-mphelp
+Version: 7.3+gitr7532+f14c178-r8
+Description: systemplugins-mphelp
+ reusable help component
+Section: base
+Priority: optional
+Maintainer: OE-Alliance team
+License: Proprietary
+Architecture: gbmv200
+OE: enigma2-plugins
+Homepage: https:\\www.opena.tv
+Depends: python3-xml
+Source: enigma2-plugins.bb

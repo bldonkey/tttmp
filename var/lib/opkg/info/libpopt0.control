@@ -1,0 +1,18 @@
+Package: libpopt0
+Version: 1.19-r0
+Description: Library for parsing command line options
+ Popt is a C library for parsing command line parameters. Popt was heavily
+ influenced by the getopt() and getopt_long() functions, but it improves
+ on them by allowing more powerful argument expansion. Popt can parse
+ arbitrary argv[] style arrays and automatically set variables based on
+ command line arguments.
+Section: libs
+Priority: optional
+Maintainer: openATV
+License: MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: popt
+Homepage: https://www.rpm.org/
+Depends: libc6 (>= 2.37)
+Provides: popt
+Source: popt_1.19.bb

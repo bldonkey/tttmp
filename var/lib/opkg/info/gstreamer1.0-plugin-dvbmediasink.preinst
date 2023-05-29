@@ -1,0 +1,9 @@
+set -e
+	if [ -d "/.cache/gstreamer-1.0" ]
+	then
+		rm -rf "/.cache/gstreamer-1.0"
+	fi
+	if [ -d "/home/root/.cache/gstreamer-1.0" ]
+	then
+		rm -rf "/home/root/.cache/gstreamer-1.0"
+	fi

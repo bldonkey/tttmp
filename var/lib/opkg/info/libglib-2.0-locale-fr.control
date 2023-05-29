@@ -1,0 +1,17 @@
+Package: libglib-2.0-locale-fr
+Version: 1:2.74.6-r0
+Description: A general-purpose utility library - fr translations
+ GLib is a general-purpose utility library, which provides many useful
+ data types, macros, type conversions, string utilities, file utilities, a
+ main loop abstraction, and so on.  This package contains language
+ translation files for the fr locale.
+Section: libs
+Priority: optional
+Maintainer: openATV
+License: LGPL-2.1-or-later & BSD-3-Clause & PD
+Architecture: cortexa15hf-neon-vfpv4
+OE: glib-2.0
+Homepage: https://developer.gnome.org/glib/
+Recommends: virtual-locale-fr
+Provides: fr-translation, glib-2.0-locale, glib-2.0-locale-fr
+Source: glib-2.0_2.74.6.bb

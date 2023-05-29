@@ -1,0 +1,16 @@
+Package: libpsl5
+Version: 0.21.2-r0
+Description: Public Suffix List library
+ The libpsl package provides a library for accessing and resolving
+ information from the Public Suffix List (PSL). The PSL is a set of domain
+ names beyond the standard suffixes, such as .com.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: libpsl
+Homepage: https://rockdaboot.github.io/libpsl/
+Depends: libc6 (>= 2.37)
+Provides: libpsl
+Source: libpsl_0.21.2.bb

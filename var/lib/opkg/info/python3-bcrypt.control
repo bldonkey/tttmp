@@ -1,0 +1,13 @@
+Package: python3-bcrypt
+Version: 3.2.2-r0
+Description: python3-bcrypt version 3.2.2-r0
+ Modern password hashing for your software and your servers.
+Section: devel/python
+Priority: optional
+Maintainer: openATV
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-bcrypt
+Homepage: https://pypi.org/project/bcrypt/
+Depends: libc6 (>= 2.37), python3-cffi, python3-core, python3-ctypes, python3-shell, python3-six
+Source: python3-bcrypt_3.2.2.bb

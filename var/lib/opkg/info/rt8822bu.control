@@ -1,0 +1,13 @@
+Package: rt8822bu
+Version: 1.0.0.9-r0
+Description: Ralink 88x2BU v1.0.0.9
+ Ralink 88x2BU v1.0.0.9.
+Section: kernel/modules
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-only
+Architecture: gbmv200
+OE: rt8822bu
+Homepage: http://www.realtek.com.tw
+Depends: kernel-module-88x2bu-4.4.35
+Source: rt8822bu_1.0.0.9.bb

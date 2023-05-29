@@ -1,0 +1,15 @@
+Package: parted
+Version: 3.5-r0
+Description: Disk partition editing/resizing utility
+ GNU Parted manipulates partition tables. This is useful for creating
+ space for new operating systems, reorganizing disk usage, copying data on
+ hard disks and disk imaging.
+Section: console/tools
+Priority: optional
+Maintainer: openATV
+License: GPL-3.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: parted
+Homepage: http://www.gnu.org/software/parted/parted.html
+Depends: libblkid1 (>= 2.38.1), libc6 (>= 2.37), libreadline8 (>= 8.2), libtinfo5 (>= 6.4), libuuid1 (>= 2.38.1), update-alternatives-opkg
+Source: parted_3.5.bb

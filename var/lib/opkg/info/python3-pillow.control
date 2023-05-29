@@ -1,0 +1,16 @@
+Package: python3-pillow
+Version: 9.5.0-r0
+Description: Python Imaging Library (Fork). Pillow is the friendly PIL fork by Alex Clark and Contributors. PIL is the Python Imaging Library by Fredrik Lundh and Contributors.
+ Python Imaging Library (Fork). Pillow is the friendly PIL fork by Alex
+ Clark and Contributors. PIL is the Python Imaging Library by Fredrik
+ Lundh and Contributors..
+Section: base
+Priority: optional
+Maintainer: openATV
+License: MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-pillow
+Homepage: https://pillow.readthedocs.io
+Depends: lcms (>= 2.15), libc6 (>= 2.37), libfreetype6 (>= 2.11.0), libjpeg62 (>= 2.1.5.1), libtiff6 (>= 4.5.0), libz1 (>= 1.2.13), openjpeg (>= 2.5.0), python3-core, python3-logging, python3-misc, python3-numbers
+Provides: python3-imaging
+Source: python3-pillow_9.5.0.bb

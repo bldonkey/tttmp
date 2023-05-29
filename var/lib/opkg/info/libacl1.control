@@ -1,0 +1,15 @@
+Package: libacl1
+Version: 2.3.1-r0
+Description: Utilities for managing POSIX Access Control Lists
+ ACL allows you to provide different levels of access to files and folders
+ for different users.
+Section: libs
+Priority: optional
+Maintainer: openATV
+License: LGPL-2.1-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: acl
+Homepage: http://savannah.nongnu.org/projects/acl/
+Depends: libattr1 (>= 2.5.1), libc6 (>= 2.37)
+Provides: libacl
+Source: acl_2.3.1.bb

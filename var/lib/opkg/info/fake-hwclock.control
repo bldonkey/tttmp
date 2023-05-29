@@ -1,0 +1,13 @@
+Package: fake-hwclock
+Version: 1.0-r0
+Description: fake-hwclock - Trivial script to load/save current contents of the kernel clock
+ fake-hwclock - Trivial script to load/save current contents of the kernel
+ clock.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: fake-hwclock
+Recommends: update-rc.d
+Source: fake-hwclock.bb

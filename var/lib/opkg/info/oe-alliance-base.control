@@ -1,0 +1,14 @@
+Package: oe-alliance-base
+Version: 7.3-r3
+Description: Base packages require for image.
+ Base packages require for image..
+Section: base
+Priority: optional
+Maintainer: openATV
+License: MIT
+Architecture: gbip4k
+OE: oe-alliance-base
+Homepage: https:\\www.opena.tv
+Depends: avahi-daemon, bash, cronie, dosfstools, dropbear, e2fsprogs-e2fsck, e2fsprogs-mke2fs, e2fsprogs-resize2fs, e2fsprogs-tune2fs, early-configure, edid-decode, libavahi-client, libcrypto-compat-0.9.7, libcrypto-compat-1.0.0, libxcrypt-compat, llmnrd, minilocale, modutils-loadscript, mtd-utils, mtd-utils-ubifs, mtools, nmap, oe-alliance-botfeed-configs, oe-alliance-enigma2, oe-alliance-feeds-configs, opkg, p7zip, packagegroup-base, packagegroup-core-boot, parted, partitions-by-name, procps, rc-local, sdparm, tzdata, util-linux-blkid, util-linux-flock, util-linux-sfdisk, volatile-media, vsftpd, wget, wireless-tools
+Recommends: kernel-module-exportfs, kernel-module-fat, kernel-module-msdos, kernel-module-nls-cp437, kernel-module-nls-iso8859-1, kernel-module-nls-iso8859-15, kernel-module-vfat, kernel-module-xfs
+Source: oe-alliance-base.bb

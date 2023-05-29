@@ -1,0 +1,16 @@
+Package: tar-locale-de
+Version: 1.34-r0
+Description: GNU file archiving program - de translations
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.  This package contains
+ language translation files for the de locale.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-3.0-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: tar
+Homepage: http://www.gnu.org/software/tar/
+Recommends: virtual-locale-de
+Provides: de-translation, tar-locale
+Source: tar_1.34.bb

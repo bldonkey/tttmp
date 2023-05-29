@@ -1,0 +1,14 @@
+Package: tar
+Version: 1.34-r0
+Description: GNU file archiving program
+ GNU tar saves many files together into a single tape or disk archive, and
+ can restore individual files from the archive.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-3.0-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: tar
+Homepage: http://www.gnu.org/software/tar/
+Depends: libacl1 (>= 2.3.1), libc6 (>= 2.37), update-alternatives-opkg
+Source: tar_1.34.bb

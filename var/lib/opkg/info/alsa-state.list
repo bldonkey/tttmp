@@ -1,0 +1,4 @@
+/etc/init.d	040755
+/etc/init.d/alsa-state	0100755
+/etc/asound.conf	0100644
+/etc	040755

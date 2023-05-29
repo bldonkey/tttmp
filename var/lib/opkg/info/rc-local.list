@@ -1,0 +1,4 @@
+/etc/init.d	040755
+/etc/rc.local	0100755
+/etc	040755
+/etc/init.d/rc.local	0100755

@@ -1,0 +1,13 @@
+Package: enigma2-plugin-skins-metrix-atv-weather-icons
+Version: 7.3+git2556+b8ff783-r1
+Description: Enigma2 Skin Metrix HD
+ Enigma2 Skin Metrix HD.
+Section: base
+Priority: required
+Maintainer: https://opena.tv
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-skins-metrix-atv
+Homepage: https:\\www.opena.tv
+Provides: enigma2-plugin-skins-metrix-atv-weather-icons
+Source: enigma2-plugin-skins-metrix-atv.bb

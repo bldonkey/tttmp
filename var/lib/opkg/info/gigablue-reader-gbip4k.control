@@ -1,0 +1,13 @@
+Package: gigablue-reader-gbip4k
+Version: 20221220-r0
+Description: libreader for Gigablue Model gbip4k
+ libreader for Gigablue Model gbip4k.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: CLOSED
+Architecture: gbip4k
+OE: gigablue-reader-gbip4k
+Homepage: https:\\www.opena.tv
+Depends: libc6 (>= 2.37), libgcc1 (>= 12.2.0), libsdl
+Source: gigablue-reader-gbip4k.bb

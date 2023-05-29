@@ -1,0 +1,3 @@
+#! /bin/sh
+touch /dev/dbox/lcd0
+echo "gbip4k" > /proc/stb/info/gbmodel

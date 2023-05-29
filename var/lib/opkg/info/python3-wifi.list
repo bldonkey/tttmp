@@ -1,0 +1,15 @@
+/usr/lib	040755
+/usr/lib/python3.11/site-packages/wifi/__main__.pyc	0100644
+/usr/lib/python3.11/site-packages/wifi/scan.pyc	0100644
+/usr/bin/pywifi	0100755
+/usr/lib/python3.11/site-packages/wifi/__init__.pyc	0100644
+/usr/lib/python3.11/site-packages/wifi/utils.pyc	0100644
+/usr/lib/python3.11	040755
+/usr/bin	040755
+/usr/lib/python3.11/site-packages/wifi/scheme.pyc	0100644
+/usr	040755
+/usr/lib/python3.11/site-packages/wifi/exceptions.pyc	0100644
+/usr/lib/python3.11/site-packages/wifi	040755
+/usr/lib/python3.11/site-packages	040755
+/usr/lib/python3.11/site-packages/wifi/subprocess_compat.pyc	0100644
+/usr/lib/python3.11/site-packages/wifi/cli.pyc	0100644

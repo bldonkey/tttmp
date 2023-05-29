@@ -1,0 +1,15 @@
+Package: gstreamer1.0
+Version: 1.22.0-r0
+Description: GStreamer 1.0 multimedia framework
+ GStreamer is a multimedia framework for encoding and decoding video and
+ sound. It supports a wide range of formats including mp3, ogg, avi, mpeg
+ and quicktime.
+Section: multimedia
+Priority: optional
+Maintainer: openATV
+License: LGPL-2.1-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: gstreamer1.0
+Homepage: http://gstreamer.freedesktop.org/
+Depends: libc6 (>= 2.37), libglib-2.0-0 (>= 2.74.6)
+Source: gstreamer1.0_1.22.0.bb

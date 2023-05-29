@@ -1,0 +1,13 @@
+Package: python3-incremental
+Version: 22.10.0-r0
+Description: python3-incremental version 22.10.0-r0
+ Incremental is a small library that versions your Python projects
+Section: devel/python
+Priority: optional
+Maintainer: openATV
+License: MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-incremental
+Homepage: https://github.com/twisted/incremental
+Depends: python3-click, python3-core, python3-twisted
+Source: python3-incremental_22.10.0.bb

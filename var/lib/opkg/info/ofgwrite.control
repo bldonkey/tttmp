@@ -1,0 +1,12 @@
+Package: ofgwrite
+Version: 4.x+git194+07e156f-r0
+Description: Betacentauris couch flashing
+ Betacentauris couch flashing.
+Section: base
+Priority: optional
+Maintainer: Betacentauri
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: ofgwrite
+Homepage: https:\\www.opena.tv
+Source: ofgwrite.bb

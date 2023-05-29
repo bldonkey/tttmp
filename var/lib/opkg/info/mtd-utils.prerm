@@ -1,0 +1,3 @@
+#!/bin/sh
+set -e
+	update-alternatives --remove  flash_eraseall /usr/sbin/flash_eraseall.mtd-utils

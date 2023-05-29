@@ -1,0 +1,13 @@
+Package: gigablue-partitions-gbip4k
+Version: 1.0-20201218
+Description: gbip4k partitions files
+ gbip4k partitions files.
+Section: base
+Priority: required
+Maintainer: openATV
+License: Proprietary
+Architecture: gbip4k
+OE: gigablue-partitions-gbip4k
+Homepage: https:\\www.opena.tv
+Recommends: update-rc.d
+Source: gigablue-partitions-gbip4k.bb

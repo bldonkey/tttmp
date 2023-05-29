@@ -1,0 +1,15 @@
+Package: zip
+Version: 3.0-r2
+Description: Compressor/archiver for creating and modifying .zip files
+ Info-ZIP's purpose is to provide free, portable, high-quality versions of
+ the Zip and UnZip compressor-archiver utilities that are compatible with
+ the DOS-based PKZIP by PKWARE, Inc.
+Section: console/utils
+Priority: optional
+Maintainer: openATV
+License: BSD-3-Clause
+Architecture: cortexa15hf-neon-vfpv4
+OE: zip
+Homepage: http://www.info-zip.org
+Depends: libc6 (>= 2.37)
+Source: zip_3.0.bb

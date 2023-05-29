@@ -1,0 +1,13 @@
+Package: python3-constantly
+Version: 15.1.0-r0
+Description: python3-constantly version 15.1.0-r0
+ Symbolic constants in Python
+Section: devel/python
+Priority: optional
+Maintainer: openATV
+License: MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-constantly
+Homepage: https://github.com/twisted/constantly
+Depends: python3-core, python3-json
+Source: python3-constantly_15.1.0.bb

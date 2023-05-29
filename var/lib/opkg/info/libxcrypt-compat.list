@@ -1,0 +1,5 @@
+/usr/lib	040755
+/usr/lib/libcrypt.so.1	0120777
+/usr/lib/libowcrypt.so.1	0120777
+/usr	040755
+/usr/lib/libcrypt.so.1.1.0	0100755

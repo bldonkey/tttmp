@@ -1,0 +1,16 @@
+Package: gigablue-showiframe-gbmv200
+Version: 20180301-r0
+Description: showiframe for Gigablue Model gbmv200
+ showiframe for Gigablue Model gbmv200.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: CLOSED
+Architecture: gbmv200
+OE: gigablue-showiframe-gbmv200
+Homepage: https:\\www.opena.tv
+Depends: libc6 (>= 2.37), libgcc1 (>= 12.2.0)
+Provides: showiframe
+Replaces: showiframe
+Conflicts: showiframe
+Source: gigablue-showiframe-gbmv200.bb

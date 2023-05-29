@@ -1,0 +1,13 @@
+/usr/lib	040755
+/usr/lib/python3.11/site-packages/incremental/tests	040755
+/usr/lib/python3.11/site-packages/incremental/_version.pyc	0100644
+/usr/lib/python3.11	040755
+/usr/lib/python3.11/site-packages/incremental/tests/test_update.pyc	0100644
+/usr	040755
+/usr/lib/python3.11/site-packages/incremental/__init__.pyc	0100644
+/usr/lib/python3.11/site-packages/incremental	040755
+/usr/lib/python3.11/site-packages/incremental/py.typed	0100644
+/usr/lib/python3.11/site-packages	040755
+/usr/lib/python3.11/site-packages/incremental/tests/__init__.pyc	0100644
+/usr/lib/python3.11/site-packages/incremental/update.pyc	0100644
+/usr/lib/python3.11/site-packages/incremental/tests/test_version.pyc	0100644

@@ -1,0 +1,16 @@
+Package: libtinfo5
+Version: 6.4-r0
+Description: ncurses tinfo library
+ ncurses tinfo library
+Section: libs
+Priority: optional
+Maintainer: openATV
+License: MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: ncurses
+Homepage: http://www.gnu.org/software/ncurses/ncurses.html
+Depends: libc6 (>= 2.37)
+Suggests: ncurses-terminfo
+Recommends: ncurses-terminfo-base
+Provides: ncurses-libtinfo
+Source: ncurses_6.4.bb

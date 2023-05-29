@@ -1,0 +1,6 @@
+/sbin/iwpriv	0120777
+/sbin/iwspy	0120777
+/sbin	040755
+/sbin/iwlist	0120777
+/sbin/iwgetid	0120777
+/sbin/iwconfig	0100755

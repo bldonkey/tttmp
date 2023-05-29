@@ -1,0 +1,18 @@
+Package: libsqlite3-0
+Version: 3:3.41.2-r0
+Description: Embeddable SQL database engine
+ A library that implements a small, fast, self-contained, high-
+ reliability, full-featured, SQL database engine. SQLite is the most used
+ database engine in the world. SQLite is built into all mobile phones and
+ most computers and comes bundled inside countless other applications that
+ people use every day
+Section: libs
+Priority: optional
+Maintainer: openATV
+License: PD
+Architecture: cortexa15hf-neon-vfpv4
+OE: sqlite3
+Homepage: http://www.sqlite.org
+Depends: libc6 (>= 2.37)
+Provides: libsqlite3
+Source: sqlite3_3.41.2.bb

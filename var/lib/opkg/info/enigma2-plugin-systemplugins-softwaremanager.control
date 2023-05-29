@@ -1,0 +1,13 @@
+Package: enigma2-plugin-systemplugins-softwaremanager
+Version: 7.3+git32328+674bb77-r0
+Description: systemplugins-softwaremanager
+ systemplugins-softwaremanager
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: gbip4k
+OE: enigma2
+Homepage: https:\\www.opena.tv
+Depends: enigma2, python3-twisted-web
+Source: enigma2.bb

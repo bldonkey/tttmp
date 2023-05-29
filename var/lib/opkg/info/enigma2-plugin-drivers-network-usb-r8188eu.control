@@ -1,0 +1,13 @@
+Package: enigma2-plugin-drivers-network-usb-r8188eu
+Version: 1.0-r0
+Description: Single-Chip IEEE 802.11b/g/n 2T2R WLAN Controller with USB 2.0 Interface
+ Single-Chip IEEE 802.11b/g/n 2T2R WLAN Controller with USB 2.0 Interface.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later
+Architecture: all
+OE: enigma2-plugin-drivers-network-usb-r8188eu
+Homepage: https:\\www.opena.tv
+Recommends: firmware-rtl8188eu, kernel-module-r8188eu
+Source: enigma2-plugin-drivers-network-usb-r8188eu.bb

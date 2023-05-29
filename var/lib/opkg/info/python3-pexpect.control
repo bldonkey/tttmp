@@ -1,0 +1,13 @@
+Package: python3-pexpect
+Version: 4.8.0-r0
+Description: A Pure Python Expect like Module for Python
+ A Pure Python Expect like Module for Python.
+Section: devel/python
+Priority: optional
+Maintainer: openATV
+License: ISC
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-pexpect
+Homepage: http://pexpect.readthedocs.org/
+Depends: python3-core, python3-fcntl, python3-io, python3-ptyprocess, python3-resource, python3-terminal
+Source: python3-pexpect_4.8.0.bb

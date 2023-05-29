@@ -1,0 +1,12 @@
+Package: tuxbox-common
+Version: 1.0+git843+6d1c071-r0
+Description: Tuxbox common files
+ Tuxbox common files.
+Section: base
+Priority: optional
+Maintainer: OE-Alliance team
+License: Proprietary
+Architecture: all
+OE: tuxbox-common
+Homepage: https:\\www.opena.tv
+Source: tuxbox-common_0.1.1.bb

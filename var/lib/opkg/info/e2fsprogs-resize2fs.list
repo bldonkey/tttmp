@@ -1,0 +1,2 @@
+/sbin/resize2fs	0100755
+/sbin	040755

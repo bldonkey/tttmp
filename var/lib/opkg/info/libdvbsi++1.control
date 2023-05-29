@@ -1,0 +1,14 @@
+Package: libdvbsi++1
+Version: 0.3.9+git130+f3c40ea-r0
+Description: C++ parsing library for Service Information (SI) in DVB systems
+ C++ parsing library for Service Information (SI) in DVB systems.
+Section: libs/multimedia
+Priority: optional
+Maintainer: openATV
+License: LGPL-2.1-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: libdvbsi++
+Homepage: https:\\www.opena.tv
+Depends: libc6 (>= 2.37), libgcc1 (>= 12.2.0), libstdc++6 (>= 12.2.0)
+Provides: libdvbsi++
+Source: libdvbsi++_git.bb

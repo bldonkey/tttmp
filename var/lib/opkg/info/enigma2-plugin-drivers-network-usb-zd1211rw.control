@@ -1,0 +1,13 @@
+Package: enigma2-plugin-drivers-network-usb-zd1211rw
+Version: 1.0-r0
+Description: Driver for ZyDAS ZD1211, ZyDAS ZD1211B, Atheros AR5007UG
+ Driver for ZyDAS ZD1211, ZyDAS ZD1211B, Atheros AR5007UG.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later
+Architecture: all
+OE: enigma2-plugin-drivers-network-usb-zd1211rw
+Homepage: https:\\www.opena.tv
+Recommends: firmware-zd1211, kernel-module-zd1211rw
+Source: enigma2-plugin-drivers-network-usb-zd1211rw.bb

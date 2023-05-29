@@ -1,0 +1,14 @@
+Package: kernel-module-rtl8187-4.4.35
+Version: 4.4.35-35
+Description: rtl8187 kernel module
+ rtl8187 kernel module; RTL8187/RTL8187B USB wireless driver
+Section: kernel
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-only
+Architecture: gbmv200
+OE: linux-gigablue
+Homepage: https:\\www.opena.tv
+Depends: kernel-4.4.35, kernel-module-eeprom-93cx6-4.4.35, kernel-module-mac80211-4.4.35
+Provides: kernel-module-rtl8187
+Source: linux-gigablue_4.4.35.bb

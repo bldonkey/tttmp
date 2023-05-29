@@ -1,0 +1,7 @@
+/sbin/mkfs.ext2.e2fsprogs	0100755
+/sbin/mke2fs.e2fsprogs	0100755
+/sbin	040755
+/etc	040755
+/etc/mke2fs.conf	0100644
+/sbin/mkfs.ext3	0100755
+/sbin/mkfs.ext4	0100755

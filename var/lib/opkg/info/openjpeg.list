@@ -1,0 +1,12 @@
+/usr/lib	040755
+/usr/bin/opj_dump	0100755
+/usr/lib/libopenjp2.so.7	0120777
+/usr/bin/opj_compress	0100755
+/usr/lib/libopenjp2.so.2.5.0	0100755
+/usr/lib/openjpeg-2.5/OpenJPEGConfig.cmake	0100644
+/usr/bin	040755
+/usr/bin/opj_decompress	0100755
+/usr	040755
+/usr/lib/openjpeg-2.5/OpenJPEGTargets-noconfig.cmake	0100644
+/usr/lib/openjpeg-2.5	040755
+/usr/lib/openjpeg-2.5/OpenJPEGTargets.cmake	0100644

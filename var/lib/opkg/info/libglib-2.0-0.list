@@ -1,0 +1,17 @@
+/usr/lib/libgthread-2.0.so.0	0120777
+/usr/lib/gio	040755
+/usr/lib	040755
+/usr/libexec	040755
+/usr/lib/libgobject-2.0.so.0.7400.6	0100755
+/usr/lib/libglib-2.0.so.0	0120777
+/usr/libexec/gio-launch-desktop	0100755
+/usr/lib/libgio-2.0.so.0.7400.6	0100755
+/usr/lib/libgobject-2.0.so.0	0120777
+/usr	040755
+/usr/lib/libgio-2.0.so.0	0120777
+/usr/libexec/gio-querymodules	0100755
+/usr/lib/libgmodule-2.0.so.0.7400.6	0100755
+/usr/lib/gio/modules	040755
+/usr/lib/libgmodule-2.0.so.0	0120777
+/usr/lib/libglib-2.0.so.0.7400.6	0100755
+/usr/lib/libgthread-2.0.so.0.7400.6	0100755

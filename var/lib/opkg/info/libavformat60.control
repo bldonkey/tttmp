@@ -1,0 +1,17 @@
+Package: libavformat60
+Version: 6.0-r1
+Description: A complete, cross-platform solution to record, convert and stream audio and video.
+ FFmpeg is the leading multimedia framework, able to decode, encode,
+ transcode,                mux, demux, stream, filter and play pretty much
+ anything that humans and machines                have created. It
+ supports the most obscure ancient formats up to the cutting edge.
+Section: libs
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: ffmpeg
+Homepage: https://www.ffmpeg.org/
+Depends: libavcodec60 (>= 6.0), libavutil58 (>= 6.0), libbluray (>= v1.3.4+git3051+bb5bc10), libbz2-1 (>= 1.0.8), libc6 (>= 2.37), libcrypto3 (>= 3.1.0), libssl3 (>= 3.1.0), libxml2 (>= 2.10.4), libz1 (>= 1.2.13), rtmpdump (>= 2.49)
+Provides: libavformat
+Source: ffmpeg_6.0.bb

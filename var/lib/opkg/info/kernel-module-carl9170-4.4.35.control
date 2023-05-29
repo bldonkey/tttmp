@@ -1,0 +1,14 @@
+Package: kernel-module-carl9170-4.4.35
+Version: 4.4.35-35
+Description: carl9170 kernel module
+ carl9170 kernel module; Atheros AR9170 802.11n USB wireless
+Section: kernel
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-only
+Architecture: gbmv200
+OE: linux-gigablue
+Homepage: https:\\www.opena.tv
+Depends: kernel-4.4.35, kernel-module-ath-4.4.35, kernel-module-mac80211-4.4.35
+Provides: kernel-module-carl9170
+Source: linux-gigablue_4.4.35.bb

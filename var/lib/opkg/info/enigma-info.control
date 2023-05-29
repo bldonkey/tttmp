@@ -1,0 +1,14 @@
+Package: enigma-info
+Version: 7.3-r20230526-gbip4k
+Description: enigma.info used by BoxInfo
+ enigma.info used by BoxInfo.
+Section: base
+Priority: required
+Maintainer: oe-alliance team
+License: GPL-2.0-or-later
+Architecture: gbip4k
+OE: enigma-info
+Homepage: https:\\www.opena.tv
+Replaces: enigma-kernel-module
+Conflicts: enigma-kernel-module
+Source: enigma-info.bb

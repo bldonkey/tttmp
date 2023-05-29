@@ -1,0 +1,14 @@
+Package: file
+Version: 5.44-r0
+Description: File classification tool
+ File attempts to classify files depending on their contents and prints a
+ description if a match is found.
+Section: console/utils
+Priority: optional
+Maintainer: openATV
+License: BSD-2-Clause
+Architecture: cortexa15hf-neon-vfpv4
+OE: file
+Homepage: http://www.darwinsys.com/file/
+Depends: libbz2-1 (>= 1.0.8), libc6 (>= 2.37), liblzma5 (>= 5.4.2), libz1 (>= 1.2.13), update-alternatives-opkg
+Source: file_5.44.bb

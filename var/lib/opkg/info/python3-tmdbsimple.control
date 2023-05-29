@@ -1,0 +1,13 @@
+Package: python3-tmdbsimple
+Version: 2.9.1-r0
+Description: A Python wrapper for The Movie Database API v3
+ A Python wrapper for The Movie Database API v3.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-3.0-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-tmdbsimple
+Homepage: https://github.com/celiao/tmdbsimple
+Depends: python3-core, python3-requests
+Source: python3-tmdbsimple_2.9.1.bb

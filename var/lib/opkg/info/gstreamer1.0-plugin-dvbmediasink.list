@@ -1,0 +1,6 @@
+/usr/lib	040755
+/usr/lib/gstreamer-1.0	040755
+/usr/lib/gstreamer-1.0/libgstdvbaudiosink.so	0100755
+/usr	040755
+/usr/lib/gstreamer-1.0/libgstdvbvideosink.so	0100755
+/usr/lib/gstreamer-1.0/libgstmpeg4p2unpack.so	0100755

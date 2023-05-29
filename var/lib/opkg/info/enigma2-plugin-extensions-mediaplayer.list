@@ -1,0 +1,12 @@
+/usr/lib/enigma2/python/Plugins	040755
+/usr/lib	040755
+/usr/lib/enigma2/python/Plugins/Extensions	040755
+/usr/lib/enigma2/python	040755
+/usr/lib/enigma2/python/Plugins/Extensions/MediaPlayer/MediaPlayer.png	0100644
+/usr/lib/enigma2/python/Plugins/Extensions/MediaPlayer/__init__.pyc	0100644
+/usr/lib/enigma2/python/Plugins/Extensions/MediaPlayer/settings.pyc	0100644
+/usr/lib/enigma2/python/Plugins/Extensions/MediaPlayer	040755
+/usr	040755
+/usr/lib/enigma2/python/Plugins/Extensions/MediaPlayer/setup.xml	0100644
+/usr/lib/enigma2	040755
+/usr/lib/enigma2/python/Plugins/Extensions/MediaPlayer/plugin.pyc	0100644

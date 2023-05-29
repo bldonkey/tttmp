@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+if true && [ -z "$D" -a -x "/etc/init.d/inetd.busybox" ]; then
+	/etc/init.d/inetd.busybox stop || :
+fi

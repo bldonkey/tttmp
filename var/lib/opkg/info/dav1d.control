@@ -1,0 +1,13 @@
+Package: dav1d
+Version: 1.1.0-r0
+Description: dav1d AV1 decoder
+ Targeted to be small, portable and fast.
+Section: multimedia
+Priority: optional
+Maintainer: openATV
+License: BSD-2-Clause
+Architecture: cortexa15hf-neon-vfpv4
+OE: dav1d
+Homepage: https://code.videolan.org/videolan/dav1d
+Depends: libc6 (>= 2.37)
+Source: dav1d_1.1.0.bb

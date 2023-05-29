@@ -1,0 +1,8 @@
+/etc/protocols	0100644
+/etc/network/if-pre-up.d	040755
+/etc/network	040755
+/etc/services	0100644
+/etc	040755
+/etc/ethertypes	0100644
+/etc/network/if-pre-up.d/hwmac	0100755
+/etc/rpc	0100644

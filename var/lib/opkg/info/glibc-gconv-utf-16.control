@@ -1,0 +1,13 @@
+Package: glibc-gconv-utf-16
+Version: 2.37-r1
+Description: gconv module for character set utf-16
+ gconv module for character set utf-16
+Section: libs
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-only & LGPL-2.1-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: glibc-locale
+Homepage: http://www.gnu.org/software/libc/libc.html
+Depends: glibc-gconv, libc6 (>= 2.37)
+Source: glibc-locale_2.37.bb

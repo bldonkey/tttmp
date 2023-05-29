@@ -1,0 +1,12 @@
+/usr/lib	040755
+/usr/lib/python3.11/lib-dynload/_uuid.cpython-311-arm-linux-gnueabihf.so	0100755
+/usr/lib/python3.11/http/server.pyc	0100644
+/usr/lib/python3.11	040755
+/usr	040755
+/usr/lib/python3.11/http	040755
+/usr/lib/python3.11/http/__init__.pyc	0100644
+/usr/lib/python3.11/uuid.pyc	0100644
+/usr/lib/python3.11/http/client.pyc	0100644
+/usr/lib/python3.11/lib-dynload	040755
+/usr/lib/python3.11/http/cookies.pyc	0100644
+/usr/lib/python3.11/http/cookiejar.pyc	0100644

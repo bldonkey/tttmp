@@ -1,0 +1,4 @@
+/bin	040755
+/sbin	040755
+/sbin/killall5	0100755
+/bin/pidof.sysvinit	0120777

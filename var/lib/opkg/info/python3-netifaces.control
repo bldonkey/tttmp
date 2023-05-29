@@ -1,0 +1,13 @@
+Package: python3-netifaces
+Version: 0.11.0-r0
+Description: python3-netifaces version 0.11.0-r0
+ Portable network interface information for Python
+Section: devel/python
+Priority: optional
+Maintainer: openATV
+License: MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-netifaces
+Homepage: https:\\www.opena.tv
+Depends: libc6 (>= 2.37), python3-core
+Source: python3-netifaces_0.11.0.bb

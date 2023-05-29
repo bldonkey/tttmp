@@ -1,0 +1,12 @@
+Package: enigma2-tools-weatherinfo
+Version: 1.0+git65+e748660-r0
+Description: get weather forecasts from MSN-Weather and/or OpenWeatherMap (OWM)
+ get weather forecasts from MSN-Weather and/or OpenWeatherMap (OWM).
+Section: base
+Priority: required
+Maintainer: Mr.Servo and jbleyel
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-tools-weatherinfo
+Homepage: https:\\www.opena.tv
+Source: enigma2-tools-weatherinfo.bb

@@ -1,0 +1,13 @@
+Package: enigma2-plugin-drivers-network-usb-carl9170
+Version: 1.0-r0
+Description: WiFi devices for Atheros AR9170 devices.
+ WiFi devices for Atheros AR9170 devices..
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later
+Architecture: all
+OE: enigma2-plugin-drivers-network-usb-carl9170
+Homepage: https:\\www.opena.tv
+Recommends: firmware-carl9170, kernel-module-carl9170
+Source: enigma2-plugin-drivers-network-usb-carl9170.bb

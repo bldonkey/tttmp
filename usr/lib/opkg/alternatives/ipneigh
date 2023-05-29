@@ -1,0 +1,2 @@
+/sbin/ipneigh
+/bin/busybox.nosuid 50

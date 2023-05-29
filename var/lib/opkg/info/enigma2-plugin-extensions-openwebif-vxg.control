@@ -1,0 +1,13 @@
+Package: enigma2-plugin-extensions-openwebif-vxg
+Version: 2.0.6-git99+bb61885-r0
+Description: extensions-openwebif (WebTV for Google Chrome)
+ extensions-openwebif (WebTV for Google Chrome)
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-3.0-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-openwebif
+Homepage: https:\\www.opena.tv
+Depends: enigma2-plugin-extensions-openwebif
+Source: enigma2-plugin-extensions-openwebif.bb

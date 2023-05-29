@@ -1,0 +1,14 @@
+Package: libarchive
+Version: 3.6.2-r0
+Description: Support for reading various archive formats
+ C library and command-line tools for reading and writing tar, cpio, zip,
+ ISO, and other archive formats
+Section: devel
+Priority: optional
+Maintainer: openATV
+License: BSD-2-Clause
+Architecture: cortexa15hf-neon-vfpv4
+OE: libarchive
+Homepage: http://www.libarchive.org/
+Depends: libacl1 (>= 2.3.1), libbz2-1 (>= 1.0.8), libc6 (>= 2.37), liblzma5 (>= 5.4.2), libz1 (>= 1.2.13), libzstd1 (>= 1.5.4)
+Source: libarchive_3.6.2.bb

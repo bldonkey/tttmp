@@ -1,0 +1,14 @@
+Package: gigablue-opengl-gbmv200
+Version: 1.0-r1-20180301
+Description: libgles for gbmv200
+ libgles for gbmv200.
+Section: base
+Priority: required
+Maintainer: openATV
+License: CLOSED
+Architecture: gbmv200
+OE: gigablue-opengl-gbmv200
+Homepage: https:\\www.opena.tv
+Depends: libc6 (>= 2.37), libgcc1 (>= 12.2.0)
+Provides: libEGL.so, libGLESv2.so, libmali.so, virtual/egl, virtual/libgles1, virtual/libgles2
+Source: gigablue-opengl-gbmv200.bb

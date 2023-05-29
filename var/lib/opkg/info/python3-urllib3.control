@@ -1,0 +1,14 @@
+Package: python3-urllib3
+Version: 1.26.15-r0
+Description: Python HTTP library with thread-safe connection pooling, file post support, sanity friendly, and more
+ Python HTTP library with thread-safe connection pooling, file post
+ support, sanity friendly, and more.
+Section: devel/python
+Priority: optional
+Maintainer: openATV
+License: MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-urllib3
+Homepage: https://github.com/shazow/urllib3
+Depends: python3-certifi, python3-core, python3-cryptography, python3-email, python3-idna, python3-logging, python3-netclient, python3-pyopenssl, python3-threading
+Source: python3-urllib3_1.26.15.bb

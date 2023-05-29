@@ -1,0 +1,14 @@
+Package: python3-zopeinterface
+Version: 6.0-r0
+Description: Interface definitions for Zope products
+ Interface definitions for Zope products.
+Section: devel/python
+Priority: optional
+Maintainer: openATV
+License: ZPL-2.1
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-zopeinterface
+Homepage: https:\\www.opena.tv
+Depends: python3-core, python3-datetime
+Provides: zope-interfaces
+Source: python3-zopeinterface_6.0.bb

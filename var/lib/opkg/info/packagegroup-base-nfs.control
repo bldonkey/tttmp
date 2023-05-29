@@ -1,0 +1,14 @@
+Package: packagegroup-base-nfs
+Version: 1.0-r83
+Description: NFS network filesystem support
+ Merge machine and distro options to create a basic machine task/package.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: MIT
+Architecture: gbmv200
+OE: packagegroup-base
+Homepage: https:\\www.opena.tv
+Depends: nfs-utils, nfs-utils-client, rpcbind
+Recommends: kernel-module-nfs
+Source: packagegroup-base.bb

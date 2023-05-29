@@ -1,0 +1,14 @@
+Package: python3-service-identity
+Version: 18.1.0-r0
+Description: Service identity verification for pyOpenSSL & cryptography.
+ service_identity aspires to give you all the tools you need for verifying
+ whether a certificate is valid for the intended purposes.
+Section: devel/python
+Priority: optional
+Maintainer: openATV
+License: MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-service-identity
+Homepage: https://service-identity.readthedocs.io/en/stable
+Depends: python3-attrs, python3-core, python3-idna, python3-pyasn1, python3-pyasn1-modules, python3-pyopenssl
+Source: python3-service-identity_18.1.0.bb

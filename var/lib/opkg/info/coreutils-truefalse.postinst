@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /bin/true true /bin/true.coreutils 100
+	update-alternatives --install /bin/false false /bin/false.coreutils 100

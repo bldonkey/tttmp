@@ -1,0 +1,13 @@
+Package: gstreamer1.0-plugin-dvbmediasink
+Version: 1.0+git250+6fee1a3-r0
+Description: gstreamer1.0-plugin-dvbmediasink version 1.0+gitAUTOINC+6fee1a36e6-r0
+ gstreamer dvbmediasink plugin
+Section: multimedia
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-only
+Architecture: gbmv200
+OE: gstreamer1.0-plugin-dvbmediasink
+Homepage: https:\\www.opena.tv
+Depends: gstreamer1.0 (>= 1.22.0), libc6 (>= 2.37), libglib-2.0-0 (>= 2.74.6)
+Source: gstreamer1.0-plugin-dvbmediasink.bb

@@ -1,0 +1,13 @@
+Package: wsdd
+Version: 1.08-r0
+Description: WS-Discovery daemon
+ Anounces a device to Windows via WSD
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: wsdd
+Homepage: https:\\www.opena.tv
+Depends: libc6 (>= 2.37), libuuid1 (>= 2.38.1)
+Source: wsdd.bb

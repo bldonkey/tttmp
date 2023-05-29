@@ -1,0 +1,15 @@
+Package: libx264-164
+Version: r2970+git0+b093bbe7d9-r0
+Description: H.264/MPEG-4 AVC video encoder
+ A free software library and application for encoding video streams into
+ the H.264/MPEG-4 AVC format.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: x264
+Homepage: http://www.videolan.org/developers/x264.html
+Depends: libc6 (>= 2.37)
+Provides: x264
+Source: x264_git.bb

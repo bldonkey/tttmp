@@ -1,0 +1,12 @@
+/var	040755
+/var/lib/chrony	040755
+/etc/init.d	040755
+/usr/sbin	040755
+/etc/tmpfiles.d	040755
+/var/lib	040755
+/usr	040755
+/etc	040755
+/etc/init.d/chronyd	0100755
+/usr/sbin/chronyd	0100755
+/etc/chrony.conf	0100644
+/etc/tmpfiles.d/chronyd.conf	0100644

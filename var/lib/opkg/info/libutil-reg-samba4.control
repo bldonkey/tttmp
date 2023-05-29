@@ -1,0 +1,13 @@
+Package: libutil-reg-samba4
+Version: 4.15.13-r2
+Description: Samba util-reg-samba4 library
+ Samba util-reg-samba4 library
+Section: console/network
+Priority: optional
+Maintainer: openATV
+License: GPL-3.0-or-later & LGPL-3.0-or-later & GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: samba
+Homepage: https://www.samba.org/
+Depends: libc6 (>= 2.37), libndr2 (>= 4.15.13), libsamba-util0 (>= 4.15.13), samba-common
+Source: samba.bb

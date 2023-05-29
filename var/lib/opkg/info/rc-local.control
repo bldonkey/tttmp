@@ -1,0 +1,14 @@
+Package: rc-local
+Version: 1.0-r0
+Description: rc-local version 1.0-r0
+ Run local boot script (/etc/rc.local)
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: rc-local
+Homepage: https:\\www.opena.tv
+Depends: initd-functions
+Recommends: update-rc.d
+Source: rc-local.bb

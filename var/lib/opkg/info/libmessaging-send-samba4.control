@@ -1,0 +1,13 @@
+Package: libmessaging-send-samba4
+Version: 4.15.13-r2
+Description: Samba messaging-send-samba4 library
+ Samba messaging-send-samba4 library
+Section: console/network
+Priority: optional
+Maintainer: openATV
+License: GPL-3.0-or-later & LGPL-3.0-or-later & GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: samba
+Homepage: https://www.samba.org/
+Depends: libc6 (>= 2.37), libmessages-dgm-samba4 (>= 4.15.13), libmessages-util-samba4 (>= 4.15.13), libsamba-errors1 (>= 4.15.13), libsamba-util0 (>= 4.15.13), libserver-id-db-samba4 (>= 4.15.13), libtalloc (>= 2.4.0), libutil-setid-samba4 (>= 4.15.13), samba-common
+Source: samba.bb

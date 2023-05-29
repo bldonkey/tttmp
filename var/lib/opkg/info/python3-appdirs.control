@@ -1,0 +1,14 @@
+Package: python3-appdirs
+Version: 1.4.4-r0
+Description: A small Python module for determining appropriate + platform-specific dirs, e.g. a user data dir.
+ A small Python module for determining appropriate + platform-specific
+ dirs, e.g. a user data dir..
+Section: devel/python
+Priority: optional
+Maintainer: openATV
+License: MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-appdirs
+Homepage: https:\\www.opena.tv
+Depends: python3-core
+Source: python3-appdirs_1.4.4.bb

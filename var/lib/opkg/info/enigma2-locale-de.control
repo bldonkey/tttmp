@@ -1,0 +1,17 @@
+Package: enigma2-locale-de
+Version: 7.3+git32328+674bb77-r0
+Description: Enigma2 is an experimental, but useful framebuffer-based frontend for DVB functions - de translations
+ Enigma2 is an experimental, but useful framebuffer-based frontend for DVB
+ functions.  This package contains language translation files for the de
+ locale.
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: gbip4k
+OE: enigma2
+Homepage: https:\\www.opena.tv
+Depends: enigma2
+Recommends: virtual-locale-de
+Provides: de-translation, enigma2-locale
+Source: enigma2.bb

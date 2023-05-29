@@ -1,0 +1,12 @@
+Package: gigablue-ddbootup
+Version: 1.0-r1
+Description: ddbootup for gbip4k
+ ddbootup for gbip4k.
+Section: base
+Priority: required
+Maintainer: openATV
+License: Proprietary
+Architecture: gbip4k
+OE: gigablue-ddbootup
+Homepage: https:\\www.opena.tv
+Source: gigablue-ddbootup.bb

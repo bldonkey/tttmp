@@ -1,0 +1,17 @@
+Package: shellinabox
+Version: 2.21.0+git0+a70d4f7c4b-r0
+Description: publish command line shell through AJAX interface
+ Shell In A Box implements a web server that can export arbitrary command line
+ tools to a web based terminal emulator. This emulator is accessible to any
+ JavaScript and CSS enabled web browser and does not require any additional
+ browser plugins.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: shellinabox
+Homepage: https://github.com/shellinabox/shellinabox
+Depends: libc6 (>= 2.37), libcrypto3 (>= 3.1.0), libpam (>= 1.5.2), libssl3 (>= 3.1.0), libz1 (>= 1.2.13)
+Recommends: update-rc.d
+Source: shellinabox.bb

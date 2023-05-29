@@ -1,0 +1,3 @@
+set -e
+    rm -f $D/autofs
+    true

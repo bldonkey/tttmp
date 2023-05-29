@@ -1,0 +1,13 @@
+/lib/modprobe.d	040755
+/lib/depmod.d/search.conf	0100644
+/lib/depmod.d	040755
+/sbin/modinfo.kmod	0120777
+/etc/depmod.d	040755
+/etc/modprobe.d	040755
+/sbin/insmod.kmod	0120777
+/bin/lsmod.kmod	0120777
+/bin/kmod	0100755
+/sbin/modprobe.kmod	0120777
+/lib/depmod.d/exclude.conf	0100644
+/sbin/depmod.kmod	0120777
+/sbin/rmmod.kmod	0120777

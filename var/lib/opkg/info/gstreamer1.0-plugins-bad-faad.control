@@ -1,0 +1,13 @@
+Package: gstreamer1.0-plugins-bad-faad
+Version: 1.22.0-r0
+Description: GStreamer 1.0 plugin for faad
+ GStreamer 1.0 plugin for faad
+Section: multimedia
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: gstreamer1.0-plugins-bad
+Homepage: https://gstreamer.freedesktop.org/
+Depends: faad2 (>= 2.10.0+git0+df42c6fc01), gstreamer1.0 (>= 1.22.0), libc6 (>= 2.37), libglib-2.0-0 (>= 2.74.6), libgstaudio-1.0-0 (>= 1.22.0)
+Source: gstreamer1.0-plugins-bad_1.22.0.bb

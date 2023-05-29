@@ -1,0 +1,12 @@
+Package: packagegroup-distro-base
+Version: 1.0-r83
+Description: openatv extras
+ Merge machine and distro options to create a basic machine task/package.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: MIT
+Architecture: gbmv200
+OE: packagegroup-base
+Homepage: https:\\www.opena.tv
+Source: packagegroup-base.bb

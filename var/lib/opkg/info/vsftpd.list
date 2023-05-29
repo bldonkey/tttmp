@@ -1,0 +1,16 @@
+/etc/vsftpd.conf	0100600
+/etc/avahi/services/ftp.service	0100644
+/etc/vsftpd.ftpusers	0100600
+/etc/init.d	040755
+/etc/default/volatiles/99_vsftpd	0100644
+/usr/sbin	040755
+/usr	040755
+/etc	040755
+/etc/default/volatiles	040755
+/etc/pam.d/vsftpd	0100644
+/etc/default	040755
+/etc/avahi/services	040755
+/etc/pam.d	040755
+/usr/sbin/vsftpd	0100755
+/etc/init.d/vsftpd	0100755
+/etc/avahi	040755

@@ -1,0 +1,5 @@
+/etc/rcS.d/S75settings-restore	0120777
+/etc/init.d	040755
+/etc/rcS.d	040755
+/etc	040755
+/etc/init.d/settings-restore	0100755

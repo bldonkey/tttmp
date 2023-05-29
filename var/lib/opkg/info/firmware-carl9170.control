@@ -1,0 +1,12 @@
+Package: firmware-carl9170
+Version: 1.9.5-r0
+Description: Firmware for CARL9170
+ Firmware for CARL9170.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: Proprietary
+Architecture: all
+OE: firmware-carl9170
+Homepage: https:\\www.opena.tv
+Source: firmware-carl9170_1.9.5.bb

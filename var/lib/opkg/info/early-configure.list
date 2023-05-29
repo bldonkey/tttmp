@@ -1,0 +1,3 @@
+/etc/rcS.d/S15early-configure.sh	0100755
+/etc/rcS.d	040755
+/etc	040755

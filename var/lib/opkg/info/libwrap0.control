@@ -1,0 +1,15 @@
+Package: libwrap0
+Version: 7.6-r10
+Description: Security tool that is a wrapper for TCP daemons
+ Tools for monitoring and filtering incoming requests for tcp
+ services.
+Section: console/network
+Priority: optional
+Maintainer: openATV
+License: BSD-1-Clause
+Architecture: cortexa15hf-neon-vfpv4
+OE: tcp-wrappers
+Homepage: http://www.softpanorama.org/Net/Network_security/TCP_wrappers/
+Depends: libc6 (>= 2.37)
+Provides: libwrap
+Source: tcp-wrappers_7.6.bb

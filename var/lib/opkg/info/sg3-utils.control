@@ -1,0 +1,14 @@
+Package: sg3-utils
+Version: 1.47-r0
+Description: Utilities for working with generic SCSI devices
+ This package contains low level utilities for devices that use the SCSI
+ command set
+Section: console/admin
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later & BSD-2-Clause
+Architecture: cortexa15hf-neon-vfpv4
+OE: sg3-utils
+Homepage: http://sg.danny.cz/sg/sg3_utils.html
+Depends: bash, libc6 (>= 2.37)
+Source: sg3-utils_1.47.bb

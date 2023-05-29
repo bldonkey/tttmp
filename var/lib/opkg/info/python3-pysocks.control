@@ -1,0 +1,13 @@
+Package: python3-pysocks
+Version: 1.7.1-r0
+Description: A Python SOCKS client module
+ A Python SOCKS client module.
+Section: devel/python
+Priority: optional
+Maintainer: openATV
+License: BSD-3-Clause
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-pysocks
+Homepage: http://python-requests.org
+Depends: python3-core, python3-email, python3-io, python3-logging, python3-netclient, python3-shell
+Source: python3-pysocks_1.7.1.bb

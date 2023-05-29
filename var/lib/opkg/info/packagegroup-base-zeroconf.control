@@ -1,0 +1,13 @@
+Package: packagegroup-base-zeroconf
+Version: 1.0-r83
+Description: Zeroconf support
+ Merge machine and distro options to create a basic machine task/package.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: MIT
+Architecture: gbmv200
+OE: packagegroup-base
+Homepage: https:\\www.opena.tv
+Depends: avahi-daemon, libnss-llmnr, libnss-mdns
+Source: packagegroup-base.bb

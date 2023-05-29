@@ -1,0 +1,15 @@
+Package: libsoup-2.4
+Version: 2.74.3-r0
+Description: An HTTP library implementation in C
+ libsoup is an HTTP client/server library for GNOME. It uses GObjects and
+ the glib main loop, to integrate well with GNOME applications.
+Section: x11/gnome/libs
+Priority: optional
+Maintainer: openATV
+License: LGPL-2.0-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: libsoup-2.4
+Homepage: https://wiki.gnome.org/Projects/libsoup
+Depends: libc6 (>= 2.37), libglib-2.0-0 (>= 2.74.6), libpsl5 (>= 0.21.2), libsqlite3-0 (>= 3.41.2), libxml2 (>= 2.10.4), libz1 (>= 1.2.13)
+Recommends: glib-networking
+Source: libsoup-2.4_2.74.3.bb

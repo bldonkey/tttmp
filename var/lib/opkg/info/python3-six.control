@@ -1,0 +1,13 @@
+Package: python3-six
+Version: 1.16.0-r0
+Description: Python 2 and 3 compatibility library
+ Python 2 and 3 compatibility library.
+Section: devel/python
+Priority: optional
+Maintainer: openATV
+License: MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-six
+Homepage: https://pypi.org/project/six/
+Depends: python3-core, python3-io
+Source: python3-six_1.16.0.bb

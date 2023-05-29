@@ -1,0 +1,13 @@
+Package: enigma2-plugin-drivers-network-usb-rtl8192eu
+Version: 1.0-r0
+Description: WiFi devices for Realtek 8192EU chipsets.
+ WiFi devices for Realtek 8192EU chipsets..
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later
+Architecture: all
+OE: enigma2-plugin-drivers-network-usb-rtl8192eu
+Homepage: https:\\www.opena.tv
+Recommends: firmware-rtl8192eu, rtl8192eu
+Source: enigma2-plugin-drivers-network-usb-rtl8192eu.bb

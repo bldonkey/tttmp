@@ -1,0 +1,14 @@
+Package: kernel-module-ftdi-sio-4.4.35
+Version: 4.4.35-35
+Description: ftdi-sio kernel module
+ ftdi-sio kernel module; USB FTDI Serial Converters Driver
+Section: kernel
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-only
+Architecture: gbmv200
+OE: linux-gigablue
+Homepage: https:\\www.opena.tv
+Depends: kernel-4.4.35, kernel-module-usbserial-4.4.35
+Provides: kernel-module-ftdi-sio
+Source: linux-gigablue_4.4.35.bb

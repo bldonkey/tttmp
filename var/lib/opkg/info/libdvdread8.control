@@ -1,0 +1,14 @@
+Package: libdvdread8
+Version: 6.1.3-r0
+Description: DVD access multimeda library
+ DVD access multimeda library.
+Section: libs/multimedia
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: libdvdread
+Homepage: https:\\www.opena.tv
+Depends: libc6 (>= 2.37)
+Provides: libdvdread
+Source: libdvdread_6.1.3.bb

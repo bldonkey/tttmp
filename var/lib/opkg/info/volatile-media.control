@@ -1,0 +1,12 @@
+Package: volatile-media
+Version: 2.0-r0
+Description: Mounts and populates a tmpfs over /media
+ Mounts and populates a tmpfs over /media.
+Section: base
+Priority: optional
+Maintainer: PLi team
+License: GPL-2.0-or-later
+Architecture: all
+OE: volatile-media
+Homepage: https:\\www.opena.tv
+Source: volatile-media.bb

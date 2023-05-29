@@ -1,0 +1,4 @@
+/etc/init.d	040755
+/etc	040755
+/etc/mdev.conf	0100644
+/etc/init.d/mdev	0100755

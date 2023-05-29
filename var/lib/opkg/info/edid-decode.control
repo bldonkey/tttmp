@@ -1,0 +1,14 @@
+Package: edid-decode
+Version: 1.0+git651+2d44e1b-r3
+Description: EDID decoder and conformance tester
+ edid-decode decodes EDID monitor description data in human-readable
+ format
+Section: base
+Priority: optional
+Maintainer: openATV
+License: MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: edid-decode
+Homepage: https:\\www.opena.tv
+Depends: libc6 (>= 2.37), libgcc1 (>= 12.2.0), libstdc++6 (>= 12.2.0)
+Source: edid-decode.bb

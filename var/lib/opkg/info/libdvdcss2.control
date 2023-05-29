@@ -1,0 +1,15 @@
+Package: libdvdcss2
+Version: 1.4.3+git509+d0b6a29-r0
+Description: libdvdcss version 1.4.3+gitAUTOINC+d0b6a291c2-r0
+ libdvdcss is a simple library designed for accessing DVDs like a block
+ device without having to bother about the decryption.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: libdvdcss
+Homepage: https:\\www.opena.tv
+Depends: libc6 (>= 2.37)
+Provides: libdvdcss
+Source: libdvdcss_git.bb

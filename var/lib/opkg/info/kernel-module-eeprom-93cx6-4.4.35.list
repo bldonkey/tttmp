@@ -1,0 +1,8 @@
+/lib/modules/4.4.35/kernel/drivers/misc/eeprom	040755
+/lib/modules/4.4.35	040755
+/lib/modules/4.4.35/kernel/drivers/misc	040755
+/lib/modules	040755
+/lib	040755
+/lib/modules/4.4.35/kernel	040755
+/lib/modules/4.4.35/kernel/drivers/misc/eeprom/eeprom_93cx6.ko	0100644
+/lib/modules/4.4.35/kernel/drivers	040755

@@ -1,0 +1,16 @@
+Package: opkg
+Version: 1:0.6.1-r6
+Description: Open Package Manager
+ Opkg is a lightweight package management system based on Ipkg.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: opkg
+Homepage: http://code.google.com/p/opkg/
+Depends: libarchive, libc6 (>= 2.37), libopkg1 (>= 0.6.1), opkg-arch-config, update-alternatives-opkg
+Provides: opkg-collateral
+Replaces: opkg-collateral, opkg-nogpg
+Conflicts: opkg-collateral
+Source: opkg_0.6.1.bb

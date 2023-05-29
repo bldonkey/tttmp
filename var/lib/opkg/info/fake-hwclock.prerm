@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+if true && [ -z "$D" -a -x "/etc/init.d/fake-hwclock" ]; then
+	/etc/init.d/fake-hwclock stop || :
+fi

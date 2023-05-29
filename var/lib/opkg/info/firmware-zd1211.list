@@ -1,0 +1,13 @@
+/lib/firmware/zd1211/zd1211_ub	0100644
+/lib/firmware/zd1211/zd1211_ur	0100644
+/lib/firmware/zd1211/zd1211_uph	0100644
+/lib/firmware/zd1211/zd1211b_ub	0100644
+/lib/firmware/zd1211/zd1211b_ur	0100644
+/lib/firmware/zd1211/zd1211b_uph	0100644
+/lib/firmware/zd1211/zd1211_uphm	0100644
+/lib/firmware	040755
+/lib/firmware/zd1211/zd1211_uphr	0100644
+/lib	040755
+/lib/firmware/zd1211	040755
+/lib/firmware/zd1211/zd1211b_uphm	0100644
+/lib/firmware/zd1211/zd1211b_uphr	0100644

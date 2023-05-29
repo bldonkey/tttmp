@@ -1,0 +1,12 @@
+Package: gigablue-tntfs-3798mv200
+Version: 1.0-r0
+Description: Hardware drivers for TNTFS
+ Hardware drivers for TNTFS.
+Section: base
+Priority: required
+Maintainer: openATV
+License: Proprietary
+Architecture: cortexa15hf-neon-vfpv4
+OE: gigablue-tntfs-3798mv200
+Homepage: https:\\www.opena.tv
+Source: gigablue-tntfs-3798mv200.bb

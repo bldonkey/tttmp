@@ -1,0 +1,14 @@
+Package: oe-alliance-picon-feed
+Version: 1.0-r0
+Description: oe-alliance picon feed opkg conf
+ oe-alliance picon feed opkg conf.
+Section: base
+Priority: required
+Maintainer: oe-alliance team
+License: GPL-2.0-or-later
+Architecture: all
+OE: oe-alliance-picon-feed
+Homepage: https:\\www.opena.tv
+Replaces: openvix-picon-feed-opkg-conf
+Conflicts: openvix-picon-feed-opkg-conf
+Source: oe-alliance-picon-feed.bb

@@ -1,0 +1,13 @@
+Package: wireless-tools
+Version: 1:30.pre9-r0
+Description: Tools for the Linux Standard Wireless Extension Subsystem
+ Tools for the Linux Standard Wireless Extension Subsystem.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-only & (LGPL-2.1-only | MPL-1.1 | BSD-3-Clause)
+Architecture: cortexa15hf-neon-vfpv4
+OE: wireless-tools
+Homepage: https://hewlettpackard.github.io/wireless-tools/Tools.html
+Depends: libc6 (>= 2.37)
+Source: wireless-tools_30.pre9.bb

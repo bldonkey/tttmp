@@ -1,0 +1,13 @@
+Package: python3-cryptography
+Version: 39.0.2-r0
+Description: Provides cryptographic recipes and primitives to python developers
+ Provides cryptographic recipes and primitives to python developers.
+Section: devel/python
+Priority: optional
+Maintainer: openATV
+License: ( Apache-2.0 | BSD-3-Clause ) & PSF-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-cryptography
+Homepage: https://cryptography.io/
+Depends: libc6 (>= 2.37), libcrypto3 (>= 3.1.0), libgcc1 (>= 12.2.0), libssl3 (>= 3.1.0), python3-cffi, python3-core, python3-numbers, python3-threading
+Source: python3-cryptography_39.0.2.bb

@@ -1,0 +1,2 @@
+/sbin/tc
+/bin/busybox.nosuid 50

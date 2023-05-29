@@ -1,0 +1,16 @@
+Package: glibc-locale-fr
+Version: 2.37-r1
+Description: Locale data from glibc - fr translations
+ The GNU C Library is used as the system C library in most systems with
+ the Linux kernel.  This package contains language translation files for
+ the fr locale.
+Section: libs
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-only & LGPL-2.1-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: glibc-locale
+Homepage: http://www.gnu.org/software/libc/libc.html
+Recommends: virtual-locale-fr
+Provides: fr-translation, glibc-locale
+Source: glibc-locale_2.37.bb

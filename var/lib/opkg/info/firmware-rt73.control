@@ -1,0 +1,12 @@
+Package: firmware-rt73
+Version: 1.0-r0
+Description: Firmware for RT73
+ Firmware for RT73.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: Proprietary
+Architecture: all
+OE: firmware-rt73
+Homepage: https:\\www.opena.tv
+Source: firmware-rt73.bb

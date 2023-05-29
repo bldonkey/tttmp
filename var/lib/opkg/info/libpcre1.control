@@ -1,0 +1,17 @@
+Package: libpcre1
+Version: 8.45-r0
+Description: Perl Compatible Regular Expressions
+ The PCRE library is a set of functions that implement regular expression
+ pattern matching using the same syntax and semantics as Perl 5. PCRE has
+ its own native API, as well as a set of wrapper functions that correspond
+ to the POSIX regular expression API.
+Section: devel
+Priority: optional
+Maintainer: openATV
+License: BSD-3-Clause
+Architecture: cortexa15hf-neon-vfpv4
+OE: libpcre
+Homepage: http://www.pcre.org
+Depends: libc6 (>= 2.37)
+Provides: libpcre
+Source: libpcre_8.45.bb

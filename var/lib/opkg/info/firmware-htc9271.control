@@ -1,0 +1,12 @@
+Package: firmware-htc9271
+Version: 1.0-r0
+Description: Firmware for HTC9271
+ Firmware for HTC9271.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: Proprietary
+Architecture: all
+OE: firmware-htc9271
+Homepage: https:\\www.opena.tv
+Source: firmware-htc9271.bb

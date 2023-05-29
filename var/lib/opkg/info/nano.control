@@ -1,0 +1,14 @@
+Package: nano
+Version: 7.2-r0
+Description: Small and friendly console text editor
+ GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced
+ clone of the Pico text editor.
+Section: console/utils
+Priority: optional
+Maintainer: openATV
+License: GPL-3.0-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: nano
+Homepage: http://www.nano-editor.org/
+Depends: file (>= 5.44), libc6 (>= 2.37), libncursesw5 (>= 6.4), libtinfo5 (>= 6.4), ncurses-terminfo-base, update-alternatives-opkg
+Source: nano_7.2.bb

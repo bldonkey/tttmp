@@ -1,0 +1,15 @@
+/usr/sbin/ubiformat	0100755
+/usr/sbin/mkfs.ubifs	0100755
+/usr/sbin/ubirmvol	0100755
+/usr/sbin/ubinfo	0100755
+/usr/sbin/ubiblock	0100755
+/usr/sbin	040755
+/usr/sbin/ubimkvol	0100755
+/usr/sbin/ubiattach	0100755
+/usr/sbin/ubicrc32	0100755
+/usr	040755
+/usr/sbin/ubinize	0100755
+/usr/sbin/ubiupdatevol	0100755
+/usr/sbin/ubirsvol	0100755
+/usr/sbin/ubirename	0100755
+/usr/sbin/ubidetach	0100755

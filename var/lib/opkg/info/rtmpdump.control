@@ -1,0 +1,15 @@
+Package: rtmpdump
+Version: 2.49-r0
+Description: RTMP Dump
+ rtmpdump is a toolkit for RTMP streams. All forms of RTMP are supported,
+ including rtmp://, rtmpt://, rtmpe://, rtmpte://, and rtmps://.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: rtmpdump
+Homepage: http://rtmpdump.mplayerhq.hu/
+Depends: libc6 (>= 2.37), libgmp10 (>= 6.2.1), libgnutls30 (>= 3.8.0), libz1 (>= 1.2.13), nettle (>= 3.8.1)
+Provides: librtmp, librtmp1
+Source: rtmpdump_2.49.bb

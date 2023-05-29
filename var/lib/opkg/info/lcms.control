@@ -1,0 +1,13 @@
+Package: lcms
+Version: 2.15-r0
+Description: Little cms is a small-footprint, speed optimized color management engine
+ Little cms is a small-footprint, speed optimized color management engine.
+Section: libs
+Priority: optional
+Maintainer: openATV
+License: MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: lcms
+Homepage: https:\\www.opena.tv
+Depends: libc6 (>= 2.37), libjpeg62 (>= 2.1.5.1), libtiff6 (>= 4.5.0)
+Source: lcms_2.15.bb

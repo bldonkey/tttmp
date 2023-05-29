@@ -1,0 +1,6 @@
+/usr/lib	040755
+/usr/lib/libpytalloc-util.so.2.4.0	0100755
+/usr	040755
+/usr/lib/libtalloc.so.2	0120777
+/usr/lib/libpytalloc-util.so.2	0120777
+/usr/lib/libtalloc.so.2.4.0	0100755

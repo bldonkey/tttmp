@@ -1,0 +1,15 @@
+Package: libgnutls30
+Version: 3.8.0-r0
+Description: GNU Transport Layer Security Library
+ a secure communications library implementing the SSL, TLS and DTLS
+ protocols and technologies around them.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: LGPL-2.1-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: gnutls
+Homepage: https://gnutls.org/
+Depends: libc6 (>= 2.37), libgmp10 (>= 6.2.1), libidn2-0 (>= 2.3.4), libunistring5 (>= 1.1), nettle (>= 3.8.1)
+Provides: gnutls
+Source: gnutls_3.8.0.bb

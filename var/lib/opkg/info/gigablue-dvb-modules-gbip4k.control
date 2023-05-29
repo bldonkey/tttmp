@@ -1,0 +1,12 @@
+Package: gigablue-dvb-modules-gbip4k
+Version: 4.4.35+20230112-r3
+Description: Hardware drivers for gbmv200
+ Hardware drivers for gbmv200.
+Section: base
+Priority: required
+Maintainer: openATV
+License: Proprietary
+Architecture: gbip4k
+OE: gigablue-dvb-modules-gbip4k
+Homepage: https:\\www.opena.tv
+Source: gigablue-dvb-modules-gbip4k.bb

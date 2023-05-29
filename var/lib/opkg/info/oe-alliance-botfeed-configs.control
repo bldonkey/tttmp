@@ -1,0 +1,12 @@
+Package: oe-alliance-botfeed-configs
+Version: 1.0-r0
+Description: Configuration files for oe-Alliance-botfeeds
+ Configuration files for oe-Alliance-botfeeds.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: oe-alliance-botfeed-configs
+Homepage: https:\\www.opena.tv
+Source: oe-alliance-botfeed-configs.bb

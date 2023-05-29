@@ -1,0 +1,4 @@
+/usr/lib/alsa-lib	040755
+/usr/lib	040755
+/usr	040755
+/usr/lib/alsa-lib/libasound_module_ctl_oss.so	0100755

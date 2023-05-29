@@ -1,0 +1,15 @@
+Package: oe-alliance-enigma2
+Version: 7.3-r3
+Description: Merge machine and distro options to create a enigma2 machine task/package
+ Merge machine and distro options to create a enigma2 machine
+ task/package.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: MIT
+Architecture: gbmv200
+OE: oe-alliance-enigma2
+Homepage: https:\\www.opena.tv
+Depends: aio-grab, bzip2, enigma2, enigma2-locale-meta, oe-alliance-branding, oe-alliance-remote, pbzip2, python3-compat2, python3-numbers, python3-puremagic, python3-twisted-protocols, rsync, tuxbox-common, tuxbox-links
+Recommends: enigma2-plugin-extensions-mediascanner, enigma2-plugin-extensions-openwebif, enigma2-plugin-extensions-pictureplayer, enigma2-plugin-systemplugins-autobouquetsmaker, enigma2-plugin-systemplugins-blindscan, enigma2-plugin-systemplugins-hdmicec, enigma2-plugin-systemplugins-hotplug, enigma2-plugin-systemplugins-multitranscodingsetup, enigma2-plugin-systemplugins-networkbrowser, enigma2-plugin-systemplugins-networkwizard, enigma2-plugin-systemplugins-positionersetup, enigma2-plugin-systemplugins-satfinder, enigma2-plugin-systemplugins-wirelesslan, oe-alliance-drivers, oe-alliance-wifi
+Source: oe-alliance-enigma2.bb

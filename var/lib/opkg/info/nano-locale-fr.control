@@ -1,0 +1,16 @@
+Package: nano-locale-fr
+Version: 7.2-r0
+Description: Small and friendly console text editor - fr translations
+ GNU nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced
+ clone of the Pico text editor.  This package contains language
+ translation files for the fr locale.
+Section: console/utils
+Priority: optional
+Maintainer: openATV
+License: GPL-3.0-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: nano
+Homepage: http://www.nano-editor.org/
+Recommends: virtual-locale-fr
+Provides: fr-translation, nano-locale
+Source: nano_7.2.bb

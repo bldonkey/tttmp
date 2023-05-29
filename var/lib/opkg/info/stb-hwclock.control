@@ -1,0 +1,13 @@
+Package: stb-hwclock
+Version: 1.2-r0
+Description: stb-hwclock - Trivial script to load the current fp time into the kernel clock
+ stb-hwclock - Trivial script to load the current fp time into the kernel
+ clock.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: stb-hwclock
+Recommends: update-rc.d
+Source: stb-hwclock.bb

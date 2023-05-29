@@ -1,0 +1,14 @@
+Package: libsamba-passdb0
+Version: 4.15.13-r2
+Description: Samba samba-passdb library
+ Samba samba-passdb library
+Section: console/network
+Priority: optional
+Maintainer: openATV
+License: GPL-3.0-or-later & LGPL-3.0-or-later & GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: samba
+Homepage: https://www.samba.org/
+Depends: libc6 (>= 2.37), libcliauth-samba4 (>= 4.15.13), libdbwrap-samba4 (>= 4.15.13), libndr-samba-samba4 (>= 4.15.13), libndr2 (>= 4.15.13), libreplace-samba4 (>= 4.15.13), libsamba-credentials1 (>= 4.15.13), libsamba-debug-samba4 (>= 4.15.13), libsamba-errors1 (>= 4.15.13), libsamba-hostconfig0 (>= 4.15.13), libsamba-modules-samba4 (>= 4.15.13), libsamba-security-samba4 (>= 4.15.13), libsamba-util0 (>= 4.15.13), libsamba3-util-samba4 (>= 4.15.13), libsecrets3-samba4 (>= 4.15.13), libsmbconf0 (>= 4.15.13), libsmbd-shim-samba4 (>= 4.15.13), libtalloc (>= 2.4.0), libtdb-wrap-samba4 (>= 4.15.13), libtdb1 (>= 4.15.13), libutil-tdb-samba4 (>= 4.15.13), libwbclient0 (>= 4.15.13), samba-common
+Provides: libsamba-passdb
+Source: samba.bb

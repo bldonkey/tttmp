@@ -1,0 +1,7 @@
+/lib/modules/4.4.35	040755
+/lib/modules	040755
+/lib	040755
+/lib/modules/4.4.35/kernel/drivers/scsi	040755
+/lib/modules/4.4.35/kernel	040755
+/lib/modules/4.4.35/kernel/drivers/scsi/sr_mod.ko	0100644
+/lib/modules/4.4.35/kernel/drivers	040755

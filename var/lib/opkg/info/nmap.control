@@ -1,0 +1,14 @@
+Package: nmap
+Version: 7.31-r0
+Description: network auditing tool
+ Nmap ("Network Mapper") is a free and open source (license) utility for network discovery and security auditing.
+ Gui support via appending to IMAGE_FEATURES x11-base in local.conf
+Section: security
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: nmap
+Homepage: https:\\www.opena.tv
+Depends: libc6 (>= 2.37), libgcc1 (>= 12.2.0), libpcap1 (>= 1.10.4), libstdc++6 (>= 12.2.0), python3-core
+Source: nmap_7.31.bb

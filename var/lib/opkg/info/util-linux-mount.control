@@ -1,0 +1,13 @@
+Package: util-linux-mount
+Version: 2.38.1-r0
+Description: util-linux mount
+ util-linux mount
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later & LGPL-2.1-or-later & BSD-3-Clause & BSD-4-Clause
+Architecture: cortexa15hf-neon-vfpv4
+OE: util-linux
+Homepage: https://en.wikipedia.org/wiki/Util-linux
+Depends: libc6 (>= 2.37), libmount1 (>= 2.38.1), update-alternatives-opkg
+Source: util-linux_2.38.1.bb

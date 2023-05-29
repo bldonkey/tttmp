@@ -1,0 +1,6 @@
+/usr/sbin/fixparts	0100755
+/usr/sbin/sgdisk	0100755
+/usr/sbin	040755
+/usr/sbin/gdisk	0100755
+/usr	040755
+/usr/sbin/cgdisk	0100755

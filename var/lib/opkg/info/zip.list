@@ -1,0 +1,6 @@
+/usr/bin/zipsplit	0100755
+/usr/bin/zipnote	0100755
+/usr/bin	040755
+/usr	040755
+/usr/bin/zipcloak	0100755
+/usr/bin/zip	0100755

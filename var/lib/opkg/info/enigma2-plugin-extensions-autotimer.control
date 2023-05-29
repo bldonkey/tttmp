@@ -1,0 +1,13 @@
+Package: enigma2-plugin-extensions-autotimer
+Version: 7.3+gitr7532+f14c178-r8
+Description: extensions-autotimer
+ Automatically add Timers based on simple rules
+Section: base
+Priority: optional
+Maintainer: OE-Alliance team
+License: Proprietary
+Architecture: gbmv200
+OE: enigma2-plugins
+Homepage: https:\\www.opena.tv
+Depends: enigma2-plugin-systemplugins-mphelp, enigma2-plugin-systemplugins-toolkit, python3-codecs, python3-difflib, python3-threading, python3-xml
+Source: enigma2-plugins.bb

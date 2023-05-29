@@ -1,0 +1,14 @@
+Package: python3-wifi
+Version: 0.8.0-r0
+Description: Command line tool and library wrappers around iwlist and /etc/network/interfaces.
+ Command line tool and library wrappers around iwlist and
+ /etc/network/interfaces..
+Section: devel/python
+Priority: optional
+Maintainer: openATV
+License: LGPL-2.0-or-later & GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-wifi
+Homepage: https://pypi.org/project/wifi/
+Depends: python3-core, python3-pbkdf2
+Source: python3-wifi_0.8.0.bb

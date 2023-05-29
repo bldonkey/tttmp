@@ -1,0 +1,5 @@
+/etc/init.d	040755
+/etc/syslog.conf	0100644
+/etc	040755
+/etc/syslog-startup.conf	0100644
+/etc/init.d/syslog	0100755

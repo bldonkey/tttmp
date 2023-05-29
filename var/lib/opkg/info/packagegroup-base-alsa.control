@@ -1,0 +1,14 @@
+Package: packagegroup-base-alsa
+Version: 1.0-r83
+Description: ALSA sound support
+ Merge machine and distro options to create a basic machine task/package.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: MIT
+Architecture: gbmv200
+OE: packagegroup-base
+Homepage: https:\\www.opena.tv
+Depends: alsa-state, alsa-utils-alsactl, alsa-utils-amixer
+Recommends: kernel-module-snd-mixer-oss, kernel-module-snd-pcm-oss
+Source: packagegroup-base.bb

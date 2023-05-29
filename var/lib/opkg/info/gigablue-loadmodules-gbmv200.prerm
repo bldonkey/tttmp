@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+if true && [ -z "$D" -a -x "/etc/init.d/gigablue-loadmodules" ]; then
+	/etc/init.d/gigablue-loadmodules stop || :
+fi

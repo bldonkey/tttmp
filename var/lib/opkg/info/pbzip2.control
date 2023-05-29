@@ -1,0 +1,17 @@
+Package: pbzip2
+Version: 1.1.13-r0
+Description: PBZIP2 is a parallel implementation of bzip2
+ PBZIP2 is a parallel implementation of the bzip2 block-sorting file
+ compressor that uses pthreads and achieves near-linear speedup on SMP
+ machines. The output of this version is fully compatible with bzip2
+ v1.0.2 or newer (ie: anything compressed with pbzip2 can be decompressed
+ with bzip2).
+Section: console/utils
+Priority: optional
+Maintainer: openATV
+License: bzip2-1.0.6
+Architecture: cortexa15hf-neon-vfpv4
+OE: pbzip2
+Homepage: https://launchpad.net/pbzip2/
+Depends: libbz2-1 (>= 1.0.8), libc6 (>= 2.37), libgcc1 (>= 12.2.0), libstdc++6 (>= 12.2.0)
+Source: pbzip2_1.1.13.bb

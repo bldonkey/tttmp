@@ -1,0 +1,13 @@
+Package: python3-ipaddress
+Version: 1.0.23-r0
+Description: Python 3.3+'s ipaddress for Python 2.6, 2.7, 3.2.
+ Python 3.3+'s ipaddress for Python 2.6, 2.7, 3.2..
+Section: devel/python
+Priority: optional
+Maintainer: openATV
+License: Python-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-ipaddress
+Homepage: https://github.com/phihag/ipaddress
+Depends: python3-core
+Source: python3-ipaddress_1.0.23.bb

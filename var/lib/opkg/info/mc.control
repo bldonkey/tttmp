@@ -1,0 +1,17 @@
+Package: mc
+Version: 4.8.29-r0
+Description: Midnight Commander is an ncurses based file manager
+ GNU Midnight Commander is a visual file manager, licensed under GNU
+ General Public License and therefore qualifies as Free Software. It's a
+ feature rich full-screen text mode application that allows you to copy,
+ move and delete files and whole directory trees, search for files and run
+ commands in the subshell. Internal viewer and editor are included.
+Section: console/utils
+Priority: optional
+Maintainer: openATV
+License: GPL-3.0-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: mc
+Homepage: http://www.midnight-commander.org/
+Depends: libc6 (>= 2.37), libglib-2.0-0 (>= 2.74.6), libncursesw5 (>= 6.4), libtinfo5 (>= 6.4), ncurses-terminfo-base
+Source: mc_4.8.29.bb

@@ -1,0 +1,14 @@
+Package: kernel-module-belkin-sa-4.4.35
+Version: 4.4.35-35
+Description: belkin-sa kernel module
+ belkin-sa kernel module; USB Belkin Serial converter driver
+Section: kernel
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-only
+Architecture: gbmv200
+OE: linux-gigablue
+Homepage: https:\\www.opena.tv
+Depends: kernel-4.4.35, kernel-module-usbserial-4.4.35
+Provides: kernel-module-belkin-sa
+Source: linux-gigablue_4.4.35.bb

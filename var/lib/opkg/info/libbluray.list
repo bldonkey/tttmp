@@ -1,0 +1,8 @@
+/usr/bin/bd_list_titles	0100755
+/usr/lib	040755
+/usr/bin/bd_splice	0100755
+/usr/bin	040755
+/usr/lib/libbluray.so.2	0120777
+/usr	040755
+/usr/bin/bd_info	0100755
+/usr/lib/libbluray.so.2.4.3	0100755

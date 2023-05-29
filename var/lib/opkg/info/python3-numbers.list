@@ -1,0 +1,7 @@
+/usr/lib	040755
+/usr/lib/python3.11	040755
+/usr/lib/python3.11/lib-dynload/_contextvars.cpython-311-arm-linux-gnueabihf.so	0100755
+/usr/lib/python3.11/lib-dynload/_decimal.cpython-311-arm-linux-gnueabihf.so	0100755
+/usr	040755
+/usr/lib/python3.11/lib-dynload	040755
+/usr/lib/python3.11/numbers.pyc	0100644

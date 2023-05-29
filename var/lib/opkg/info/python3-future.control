@@ -1,0 +1,13 @@
+Package: python3-future
+Version: 0.18.3-r0
+Description: python3-future version 0.18.3-r0
+ Clean single-source support for Python 3 and 2
+Section: devel/python
+Priority: optional
+Maintainer: openATV
+License: MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-future
+Homepage: https://python-future.org
+Depends: python3-core
+Source: python3-future_0.18.3.bb

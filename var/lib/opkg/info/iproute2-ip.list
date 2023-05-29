@@ -1,0 +1,13 @@
+/etc/iproute2/rt_realms	0100644
+/etc/iproute2/bpf_pinning	0100644
+/etc/iproute2/rt_protos	0100644
+/etc/iproute2/rt_scopes	0100644
+/etc/iproute2/group	0100644
+/sbin	040755
+/etc/iproute2/nl_protos	0100644
+/etc	040755
+/sbin/ip.iproute2	0100755
+/etc/iproute2	040755
+/etc/iproute2/rt_tables	0100644
+/etc/iproute2/ematch_map	0100644
+/etc/iproute2/rt_dsfield	0100644

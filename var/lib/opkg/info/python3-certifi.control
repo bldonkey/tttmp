@@ -1,0 +1,16 @@
+Package: python3-certifi
+Version: 2022.12.7-r0
+Description: Python package for providing Mozilla's CA Bundle.
+ This installable Python package contains a CA Bundle that you can
+ reference in your Python code. This is useful for verifying HTTP
+ requests, for example.  This is the same CA Bundle which ships with the
+ Requests codebase, and is derived from Mozilla Firefox's canonical set.
+Section: devel/python
+Priority: optional
+Maintainer: openATV
+License: ISC
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-certifi
+Homepage:  http://certifi.io/
+Depends: python3-core
+Source: python3-certifi_2022.12.7.bb

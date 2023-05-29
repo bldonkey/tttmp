@@ -1,0 +1,14 @@
+Package: libsigc-2.0-0
+Version: 2.10.7-r0
+Description: A library for loose coupling of C++ method calls
+ A library for loose coupling of C++ method calls.
+Section: libs
+Priority: optional
+Maintainer: openATV
+License: LGPL-2.1-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: libsigc++-2.0
+Homepage: https:\\www.opena.tv
+Depends: libgcc1 (>= 12.2.0), libstdc++6 (>= 12.2.0)
+Provides: libsigc++-2.0
+Source: libsigc++-2.0_2.10.7.bb

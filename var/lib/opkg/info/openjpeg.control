@@ -1,0 +1,13 @@
+Package: openjpeg
+Version: 2.5.0-r0
+Description: openjpeg version 2.5.0-r0
+ OpenJPEG library is an open-source JPEG 2000 codec
+Section: base
+Priority: optional
+Maintainer: openATV
+License: BSD-2-Clause
+Architecture: cortexa15hf-neon-vfpv4
+OE: openjpeg
+Homepage: http://www.openjpeg.org
+Depends: lcms (>= 2.15), libc6 (>= 2.37), libpng16-16 (>= 1.6.39), libtiff6 (>= 4.5.0)
+Source: openjpeg_2.5.0.bb

@@ -1,0 +1,3 @@
+/lib/security	040755
+/lib	040755
+/lib/security/pam_unix.so	0100755

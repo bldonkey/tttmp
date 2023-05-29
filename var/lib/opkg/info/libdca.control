@@ -1,0 +1,13 @@
+Package: libdca
+Version: 0.0.7+git111+95c4bd8-r0
+Description: decoding library for DTS Coherent Acoustics streams
+ decoding library for DTS Coherent Acoustics streams.
+Section: libs/multimedia
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: libdca
+Homepage: https:\\www.opena.tv
+Depends: libc6 (>= 2.37)
+Source: libdca_git.bb

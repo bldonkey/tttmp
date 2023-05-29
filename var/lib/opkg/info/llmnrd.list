@@ -1,0 +1,6 @@
+/etc/init.d	040755
+/usr/bin	040755
+/usr	040755
+/etc	040755
+/etc/init.d/llmnrd	0100755
+/usr/bin/llmnrd	0100755

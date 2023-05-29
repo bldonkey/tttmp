@@ -1,0 +1,13 @@
+Package: enigma2-plugin-systemplugins-multitranscodingsetup
+Version: 7.3+gitr3366+1cf136c-r1
+Description: systemplugins-multitranscodingsetup
+ Setup multitranscoding
+Section: base
+Priority: optional
+Maintainer: oe-alliance team
+License: Proprietary
+Architecture: gbmv200
+OE: enigma2-oe-alliance-plugins
+Homepage: https:\\www.opena.tv
+Depends: enigma2-oe-alliance-plugins
+Source: enigma2-oe-alliance-plugins.bb

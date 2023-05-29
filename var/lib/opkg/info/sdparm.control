@@ -1,0 +1,14 @@
+Package: sdparm
+Version: 1.12-r0
+Description: fetch and change SCSI mode pages
+ The sdparm utility accesses and optionally modifies SCSI devices' mode
+ page and inquiry data.
+Section: console/utils
+Priority: optional
+Maintainer: openATV
+License: BSD-3-Clause
+Architecture: cortexa15hf-neon-vfpv4
+OE: sdparm
+Homepage: http://sg.danny.cz/sg/sdparm.html
+Depends: libc6 (>= 2.37), sg3-utils (>= 1.47)
+Source: sdparm_1.12.bb

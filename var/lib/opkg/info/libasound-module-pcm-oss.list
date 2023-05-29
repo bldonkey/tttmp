@@ -1,0 +1,12 @@
+/usr/share/alsa/alsa.conf.d/50-oss.conf	0100644
+/etc/alsa/conf.d/50-oss.conf	0120777
+/usr/share/alsa/alsa.conf.d	040755
+/usr/lib/alsa-lib	040755
+/usr/lib	040755
+/usr/share/alsa	040755
+/usr/lib/alsa-lib/libasound_module_pcm_oss.so	0100755
+/usr	040755
+/etc	040755
+/etc/alsa/conf.d	040755
+/etc/alsa	040755
+/usr/share	040755

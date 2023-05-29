@@ -1,0 +1,4 @@
+/usr/bin/bdpoll	0100755
+/usr/bin	040755
+/usr	040755
+/usr/bin/hotplug_e2_helper	0100755

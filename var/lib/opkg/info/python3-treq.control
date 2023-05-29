@@ -1,0 +1,14 @@
+Package: python3-treq
+Version: 22.2.0-r0
+Description: High-level Twisted HTTP Client API
+ Provides simple, higher level API for making HTTP requests when using
+ Twisted.
+Section: devel/python
+Priority: optional
+Maintainer: openATV
+License: MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-treq
+Homepage: https://github.com/twisted/treq
+Depends: python3-attrs, python3-core, python3-hyperlink, python3-incremental, python3-requests, python3-twisted
+Source: python3-treq_22.2.0.bb

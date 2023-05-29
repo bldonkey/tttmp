@@ -1,0 +1,12 @@
+Package: oe-alliance-drivers
+Version: 7.3-r0
+Description: preinstall several driver packages
+ preinstall several driver packages.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: MIT
+Architecture: gbmv200
+OE: oe-alliance-drivers
+Homepage: https:\\www.opena.tv
+Source: oe-alliance-drivers.bb

@@ -1,0 +1,11 @@
+/usr/lib	040755
+/usr/lib/python3.11/json/tool.pyc	0100644
+/usr/lib/python3.11/json/scanner.pyc	0100644
+/usr/lib/python3.11/json/__init__.pyc	0100644
+/usr/lib/python3.11/lib-dynload/_json.cpython-311-arm-linux-gnueabihf.so	0100755
+/usr/lib/python3.11	040755
+/usr	040755
+/usr/lib/python3.11/json	040755
+/usr/lib/python3.11/json/encoder.pyc	0100644
+/usr/lib/python3.11/lib-dynload	040755
+/usr/lib/python3.11/json/decoder.pyc	0100644

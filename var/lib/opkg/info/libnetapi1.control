@@ -1,0 +1,14 @@
+Package: libnetapi1
+Version: 4.15.13-r2
+Description: Samba netapi library
+ Samba netapi library
+Section: console/network
+Priority: optional
+Maintainer: openATV
+License: GPL-3.0-or-later & LGPL-3.0-or-later & GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: samba
+Homepage: https://www.samba.org/
+Depends: libads-samba4 (>= 4.15.13), libc6 (>= 2.37), libcharset3-samba4 (>= 4.15.13), libcli-smb-common-samba4 (>= 4.15.13), libcliauth-samba4 (>= 4.15.13), libdcerpc-samba-samba4 (>= 4.15.13), libflag-mapping-samba4 (>= 4.15.13), libgnutls30 (>= 3.8.0), libgse-samba4 (>= 4.15.13), liblibcli-lsa3-samba4 (>= 4.15.13), liblibcli-netlogon3-samba4 (>= 4.15.13), liblibsmb-samba4 (>= 4.15.13), libmsrpc3-samba4 (>= 4.15.13), libndr-samba4 (>= 4.15.13), libndr-standard0 (>= 4.15.13), libndr2 (>= 4.15.13), libreplace-samba4 (>= 4.15.13), libsamba-credentials1 (>= 4.15.13), libsamba-debug-samba4 (>= 4.15.13), libsamba-errors1 (>= 4.15.13), libsamba-hostconfig0 (>= 4.15.13), libsamba-passdb0 (>= 4.15.13), libsamba-security-samba4 (>= 4.15.13), libsamba-util0 (>= 4.15.13), libsamba3-util-samba4 (>= 4.15.13), libsecrets3-samba4 (>= 4.15.13), libsmbconf0 (>= 4.15.13), libtalloc (>= 2.4.0), libtrusts-util-samba4 (>= 4.15.13), samba-common
+Provides: libnetapi
+Source: samba.bb

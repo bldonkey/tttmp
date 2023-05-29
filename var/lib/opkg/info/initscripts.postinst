@@ -1,0 +1,22 @@
+set -e
+	if type systemctl >/dev/null 2>/dev/null; then
+		if [ -n "$D" ]; then
+			OPTS="--root=$D"
+		fi
+		for SERVICE in    banner   bootmisc   checkfs   checkroot   devpts   dmesg   hostname   mountall   mountnfs   populate-volatile   read-only-rootfs-hook   rmnologin   sysfs   urandom; do
+			systemctl $OPTS mask $SERVICE.service
+		done
+	fi
+
+    # Delete any old volatile cache script, as directories may have moved
+    if [ -z "$D" ]; then
+        rm -f "/etc/volatile.cache"
+    fi
+	if [ ! -e "$D/etc/init.d/cardserver" ]
+	then
+		ln -s cardserver.None $D/etc/init.d/cardserver
+	fi
+	if [ ! -e "$D/etc/init.d/softcam" ]
+	then
+		ln -s softcam.None $D/etc/init.d/softcam
+	fi

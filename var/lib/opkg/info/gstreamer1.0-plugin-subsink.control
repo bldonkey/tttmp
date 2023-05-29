@@ -1,0 +1,13 @@
+Package: gstreamer1.0-plugin-subsink
+Version: 1.0+git14+df8f46c-r0
+Description: gstreamer1.0-plugin-subsink version 1.0+gitAUTOINC+df8f46cfa5-r0
+ gstreamer subsink plugin
+Section: multimedia
+Priority: optional
+Maintainer: openATV
+License: LGPL-2.1-only
+Architecture: gbmv200
+OE: gstreamer1.0-plugin-subsink
+Homepage: https:\\www.opena.tv
+Depends: gstreamer1.0 (>= 1.22.0), libc6 (>= 2.37), libglib-2.0-0 (>= 2.74.6)
+Source: gstreamer1.0-plugin-subsink.bb

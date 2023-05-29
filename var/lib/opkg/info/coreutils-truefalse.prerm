@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+	update-alternatives --remove  true /bin/true.coreutils
+	update-alternatives --remove  false /bin/false.coreutils

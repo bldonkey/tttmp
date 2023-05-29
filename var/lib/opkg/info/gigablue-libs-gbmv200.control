@@ -1,0 +1,13 @@
+Package: gigablue-libs-gbmv200
+Version: 20190917-r1
+Description: gigablue-libs-gbmv200 version 20190917-r1
+ shared lib for gbmv200
+Section: base
+Priority: required
+Maintainer: openATV
+License: CLOSED
+Architecture: gbmv200
+OE: gigablue-libs-gbmv200
+Homepage: https:\\www.opena.tv
+Depends: curl, libc6 (>= 2.37), libgcc1 (>= 12.2.0)
+Source: gigablue-libs-gbmv200.bb

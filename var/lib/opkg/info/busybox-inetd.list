@@ -1,0 +1,4 @@
+/etc/init.d	040755
+/etc/init.d/inetd.busybox	0100755
+/etc	040755
+/etc/inetd.conf	0100644

@@ -1,0 +1,13 @@
+Package: libcharset3-samba4
+Version: 4.15.13-r2
+Description: Samba charset3-samba4 library
+ Samba charset3-samba4 library
+Section: console/network
+Priority: optional
+Maintainer: openATV
+License: GPL-3.0-or-later & LGPL-3.0-or-later & GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: samba
+Homepage: https://www.samba.org/
+Depends: libc6 (>= 2.37), libsamba-util0 (>= 4.15.13), libsamba3-util-samba4 (>= 4.15.13), libtalloc (>= 2.4.0), samba-common
+Source: samba.bb

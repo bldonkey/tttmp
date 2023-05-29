@@ -1,0 +1,5 @@
+/etc/wgetrc	0100644
+/usr/bin/wget.wget	0100755
+/usr/bin	040755
+/usr	040755
+/etc	040755

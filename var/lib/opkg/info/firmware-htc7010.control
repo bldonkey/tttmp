@@ -1,0 +1,12 @@
+Package: firmware-htc7010
+Version: 1.0-r0
+Description: Firmware for HTC7010
+ Firmware for HTC7010.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: Proprietary
+Architecture: all
+OE: firmware-htc7010
+Homepage: https:\\www.opena.tv
+Source: firmware-htc7010.bb

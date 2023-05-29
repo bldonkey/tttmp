@@ -1,0 +1,9 @@
+/usr/sbin/rpcbind	0100755
+/etc/rpcbind.conf	0100644
+/etc/init.d	040755
+/usr/sbin	040755
+/usr/bin	040755
+/usr	040755
+/etc	040755
+/etc/init.d/rpcbind	0100755
+/usr/bin/rpcinfo.rpcbind	0100755

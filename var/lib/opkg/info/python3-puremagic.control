@@ -1,0 +1,13 @@
+Package: python3-puremagic
+Version: 1.14-r0
+Description: Pure python implementation of magic file detection
+ Pure python implementation of magic file detection.
+Section: devel/python
+Priority: optional
+Maintainer: openATV
+License: LGPL-3.0-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-puremagic
+Homepage: https://github.com/cdgriffith/puremagic
+Depends: python3-core
+Source: python3-puremagic_1.14.bb

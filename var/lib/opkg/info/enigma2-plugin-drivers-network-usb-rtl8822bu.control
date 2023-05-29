@@ -1,0 +1,13 @@
+Package: enigma2-plugin-drivers-network-usb-rtl8822bu
+Version: 1.0-r0
+Description: WiFi devices for Realtek 88x2BU chipsets.
+ WiFi devices for Realtek 88x2BU chipsets..
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later
+Architecture: all
+OE: enigma2-plugin-drivers-network-usb-rtl8822bu
+Homepage: https:\\www.opena.tv
+Recommends: rt8822bu
+Source: enigma2-plugin-drivers-network-usb-rtl8822bu.bb

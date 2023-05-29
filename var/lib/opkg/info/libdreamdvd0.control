@@ -1,0 +1,14 @@
+Package: libdreamdvd0
+Version: 1.1+git220+375e791-r0
+Description: libdvdnav wrapper for enigma2 based stbs
+ libdvdnav wrapper for enigma2 based stbs.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: libdreamdvd
+Homepage: https:\\www.opena.tv
+Depends: libc6 (>= 2.37), libdvdnav4 (>= 6.1.1)
+Provides: libdreamdvd
+Source: libdreamdvd_git.bb

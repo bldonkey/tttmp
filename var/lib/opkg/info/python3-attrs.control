@@ -1,0 +1,13 @@
+Package: python3-attrs
+Version: 22.2.0-r0
+Description: Classes Without Boilerplate
+ Classes Without Boilerplate.
+Section: devel/python
+Priority: optional
+Maintainer: openATV
+License: MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-attrs
+Homepage: http://www.attrs.org/
+Depends: python3-core, python3-crypt, python3-ctypes
+Source: python3-attrs_22.2.0.bb

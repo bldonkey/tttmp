@@ -1,0 +1,13 @@
+Package: oe-alliance-branding
+Version: 7.3+git1137+97d7095-r20230526-gbip4k
+Description: oe-alliance-branding version 7.3+gitAUTOINC+97d7095c68-r20230526-gbip4k
+ OE-A Branding Lib for OE-A 2.0
+Section: base
+Priority: optional
+Maintainer: oe-alliance team
+License: GPL-2.0-or-later
+Architecture: gbip4k
+OE: oe-alliance-branding
+Homepage: https:\\www.opena.tv
+Depends: libc6 (>= 2.37)
+Source: oe-alliance-branding.bb

@@ -1,0 +1,15 @@
+Package: libne10-10
+Version: 1.2.1gitr+0+18c4c982a5-r0
+Description: ne10 version 1.2.1gitr+AUTOINC+18c4c982a5-r0
+ Library containing NEON-optimized implementations for a common set of
+ functions
+Section: libs
+Priority: optional
+Maintainer: openATV
+License: BSD-3-Clause
+Architecture: cortexa15hf-neon-vfpv4
+OE: ne10
+Homepage: http://projectne10.github.io/Ne10/
+Depends: libc6 (>= 2.37), libgcc1 (>= 12.2.0)
+Provides: ne10
+Source: ne10_1.2.1.bb

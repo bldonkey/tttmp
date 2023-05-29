@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+if true && [ -z "$D" -a -x "/etc/init.d/telnetd.busybox" ]; then
+	/etc/init.d/telnetd.busybox stop || :
+fi

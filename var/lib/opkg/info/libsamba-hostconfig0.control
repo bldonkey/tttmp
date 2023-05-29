@@ -1,0 +1,14 @@
+Package: libsamba-hostconfig0
+Version: 4.15.13-r2
+Description: Samba samba-hostconfig library
+ Samba samba-hostconfig library
+Section: console/network
+Priority: optional
+Maintainer: openATV
+License: GPL-3.0-or-later & LGPL-3.0-or-later & GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: samba
+Homepage: https://www.samba.org/
+Depends: libc6 (>= 2.37), libgnutls30 (>= 3.8.0), libreplace-samba4 (>= 4.15.13), libsamba-debug-samba4 (>= 4.15.13), libsamba-errors1 (>= 4.15.13), libsamba-util0 (>= 4.15.13), libserver-role-samba4 (>= 4.15.13), libtalloc (>= 2.4.0), libtdb1 (>= 4.15.13), samba-common
+Provides: libsamba-hostconfig
+Source: samba.bb

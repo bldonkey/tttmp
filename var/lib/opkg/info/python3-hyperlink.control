@@ -1,0 +1,13 @@
+Package: python3-hyperlink
+Version: 21.0.0-r0
+Description: python3-hyperlink version 21.0.0-r0
+ A featureful, correct URL for Python
+Section: devel/python
+Priority: optional
+Maintainer: openATV
+License: MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-hyperlink
+Homepage: https://github.com/python-hyper/hyperlink
+Depends: python3-core, python3-idna, python3-netclient, python3-stringold
+Source: python3-hyperlink_21.0.0.bb

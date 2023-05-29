@@ -1,0 +1,13 @@
+Package: enigma2-plugin-drivers-network-usb-rtl8192cu-rev2
+Version: 1.0-r0
+Description: rt8192cu Proprietary alternative kernel driver
+ rt8192cu Proprietary alternative kernel driver.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later
+Architecture: all
+OE: enigma2-plugin-drivers-network-usb-rtl8192cu-rev2
+Homepage: https:\\www.opena.tv
+Recommends: firmware-rtl8192cu, firmware-rtl8192cufw, rtl8192cu
+Source: enigma2-plugin-drivers-network-usb-rtl8192cu-rev2.bb

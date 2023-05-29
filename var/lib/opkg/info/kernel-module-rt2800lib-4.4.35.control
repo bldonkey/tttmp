@@ -1,0 +1,14 @@
+Package: kernel-module-rt2800lib-4.4.35
+Version: 4.4.35-35
+Description: rt2800lib kernel module
+ rt2800lib kernel module; Ralink RT2800 library
+Section: kernel
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-only
+Architecture: gbmv200
+OE: linux-gigablue
+Homepage: https:\\www.opena.tv
+Depends: kernel-4.4.35, kernel-module-mac80211-4.4.35, kernel-module-rt2x00lib-4.4.35
+Provides: kernel-module-rt2800lib
+Source: linux-gigablue_4.4.35.bb

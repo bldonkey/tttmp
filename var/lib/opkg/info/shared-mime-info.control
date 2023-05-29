@@ -1,0 +1,13 @@
+Package: shared-mime-info
+Version: 2.2-r0
+Description: Shared MIME type database and specification
+ The shared-mime-info package contains the core database of common types.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: shared-mime-info
+Homepage: http://freedesktop.org/wiki/Software/shared-mime-info
+Depends: libc6 (>= 2.37), libglib-2.0-0 (>= 2.74.6), libxml2 (>= 2.10.4)
+Source: shared-mime-info_git.bb

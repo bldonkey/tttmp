@@ -1,0 +1,13 @@
+Package: openatv-base
+Version: 1.0-r34
+Description: Base packages require for image.
+ Base packages require for image..
+Section: base
+Priority: optional
+Maintainer: openATV
+License: MIT
+Architecture: gbmv200
+OE: openatv-base
+Homepage: https:\\www.opena.tv
+Depends: autofs, ca-certificates, chrony, enigma-info, flip, hddtemp, iproute2, ntfs-3g, oe-alliance-base, oe-alliance-picon-feed, ofgwrite, openatv-bootlogo, openatv-enigma2, openatv-spinner, openatv-version-info, openssh-sftp-server, python3-future, python3-pexpect, python3-pillow, python3-requests, python3-service-identity, python3-six, rtmpdump, tar, unrar, wireless-tools, zip
+Source: openatv-base.bb

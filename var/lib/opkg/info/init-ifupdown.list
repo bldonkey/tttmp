@@ -1,0 +1,15 @@
+/usr/share/enigma2/defaults	040755
+/etc/network/if-up.d	040755
+/etc/network/if-pre-up.d/nfsroot	0100755
+/etc/network/if-down.d	040755
+/etc/init.d	040755
+/etc/init.d/networking	0100755
+/usr/share/enigma2/defaults/interfaces	0100644
+/etc/network/if-pre-up.d	040755
+/etc/network	040755
+/etc/network/interfaces	0100644
+/etc/network/if-post-down.d	040755
+/usr	040755
+/etc	040755
+/usr/share/enigma2	040755
+/usr/share	040755

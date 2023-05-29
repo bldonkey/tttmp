@@ -1,0 +1,14 @@
+Package: python3-pycparser
+Version: 2.21-r0
+Description: Parser of the C language, written in pure Python
+ Parser of the C language, written in pure Python.
+Section: devel/python
+Priority: optional
+Maintainer: openATV
+License: BSD-3-Clause
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-pycparser
+Homepage: https://github.com/eliben/pycparser
+Depends: python3-core, python3-netclient, python3-ply, python3-pprint
+Suggests: cpp, cpp-symlinks
+Source: python3-pycparser_2.21.bb

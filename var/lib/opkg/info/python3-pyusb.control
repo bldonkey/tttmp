@@ -1,0 +1,13 @@
+Package: python3-pyusb
+Version: 1.2.1-r0
+Description: PyUSB provides USB access on the Python language
+ PyUSB provides USB access on the Python language.
+Section: devel/python
+Priority: optional
+Maintainer: openATV
+License: BSD-3-Clause
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-pyusb
+Homepage: http://pyusb.sourceforge.net/
+Depends: libusb1, python3-core, python3-logging
+Source: python3-pyusb_1.2.1.bb

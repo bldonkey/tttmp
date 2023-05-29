@@ -1,0 +1,14 @@
+Package: kernel-module-eeprom-93cx6-4.4.35
+Version: 4.4.35-35
+Description: eeprom-93cx6 kernel module
+ eeprom-93cx6 kernel module; EEPROM 93cx6 chip driver
+Section: kernel
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-only
+Architecture: gbmv200
+OE: linux-gigablue
+Homepage: https:\\www.opena.tv
+Depends: kernel-4.4.35
+Provides: kernel-module-eeprom-93cx6
+Source: linux-gigablue_4.4.35.bb

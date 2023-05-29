@@ -1,0 +1,14 @@
+Package: gstreamer1.0-plugins-good-soup
+Version: 1.22.0-r2
+Description: GStreamer 1.0 plugin for soup
+ GStreamer 1.0 plugin for soup
+Section: multimedia
+Priority: optional
+Maintainer: openATV
+License: LGPL-2.1-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: gstreamer1.0-plugins-good
+Homepage: https://gstreamer.freedesktop.org/
+Depends: gstreamer1.0 (>= 1.22.0), libc6 (>= 2.37), libglib-2.0-0 (>= 2.74.6), libgsttag-1.0-0 (>= 1.22.0), libsoup-2.4
+Provides: gstreamer1.0-plugins-good-souphttpsrc
+Source: gstreamer1.0-plugins-good_1.22.0.bb

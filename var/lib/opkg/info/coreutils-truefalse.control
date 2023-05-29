@@ -1,0 +1,15 @@
+Package: coreutils-truefalse
+Version: 9.1-r0
+Description: The basic file, shell and text manipulation utilities
+ The GNU Core Utilities provide the basic file, shell and text
+ manipulation utilities. These are the core utilities which are expected
+ to exist on every system.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-3.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: coreutils
+Homepage: http://www.gnu.org/software/coreutils/
+Depends: libc6 (>= 2.37), update-alternatives-opkg
+Source: coreutils_9.1.bb

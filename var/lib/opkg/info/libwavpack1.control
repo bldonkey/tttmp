@@ -1,0 +1,15 @@
+Package: libwavpack1
+Version: 5.6.0-r0
+Description: wavpack version 5.6.0-r0
+ WavPack is a completely open audio compression format providing lossless,
+ high-quality lossy, and a unique hybrid compression mode.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: BSD-3-Clause
+Architecture: cortexa15hf-neon-vfpv4
+OE: wavpack
+Homepage: https:\\www.opena.tv
+Depends: libc6 (>= 2.37)
+Provides: wavpack
+Source: wavpack_5.6.0.bb

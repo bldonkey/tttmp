@@ -1,0 +1,14 @@
+/usr/lib/enigma2/python/Plugins	040755
+/usr/lib	040755
+/usr/lib/enigma2/python/Plugins/Extensions	040755
+/usr/lib/enigma2/python	040755
+/usr/lib/enigma2/python/Plugins/Extensions/ProgrammlistenUpdater/history.pyc	0100644
+/usr/lib/enigma2/python/Plugins/Extensions/ProgrammlistenUpdater	040755
+/usr/lib/enigma2/python/Plugins/Extensions/ProgrammlistenUpdater/plugin.pyc	0100644
+/usr/lib/enigma2/python/Plugins/Extensions/ProgrammlistenUpdater/settinglist.pyc	0100644
+/usr/lib/enigma2/python/Plugins/Extensions/ProgrammlistenUpdater/downloader.pyc	0100644
+/usr/lib/enigma2/python/Plugins/Extensions/ProgrammlistenUpdater/__init__.pyc	0100644
+/usr	040755
+/usr/lib/enigma2/python/Plugins/Extensions/ProgrammlistenUpdater/restore.pyc	0100644
+/usr/lib/enigma2	040755
+/usr/lib/enigma2/python/Plugins/Extensions/ProgrammlistenUpdater/plugin.png	0100644

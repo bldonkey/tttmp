@@ -1,0 +1,13 @@
+Package: python3-pyopenssl
+Version: 23.0.0-r0
+Description: Simple Python wrapper around the OpenSSL library
+ Simple Python wrapper around the OpenSSL library.
+Section: devel/python
+Priority: optional
+Maintainer: openATV
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-pyopenssl
+Homepage: https://pyopenssl.org/
+Depends: python3-core, python3-cryptography, python3-six, python3-threading
+Source: python3-pyopenssl_23.0.0.bb

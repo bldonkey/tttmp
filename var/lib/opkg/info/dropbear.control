@@ -1,0 +1,20 @@
+Package: dropbear
+Version: 2022.83-r0
+Description: A lightweight SSH and SCP implementation
+ Dropbear is a relatively small SSH server and client. It runs on a
+ variety of POSIX-based platforms. Dropbear is open source software,
+ distributed under a MIT-style license. Dropbear is particularly useful
+ for "embedded"-type Linux (or other Unix) systems, such as wireless
+ routers.
+Section: console/network
+Priority: optional
+Maintainer: openATV
+License: MIT & BSD-3-Clause & BSD-2-Clause & PD
+Architecture: cortexa15hf-neon-vfpv4
+OE: dropbear
+Homepage: http://matt.ucc.asn.au/dropbear/dropbear.html
+Depends: libc6 (>= 2.37), libpam (>= 1.5.2), libpam-runtime, libz1 (>= 1.2.13), pam-plugin-deny, pam-plugin-permit, pam-plugin-unix, update-alternatives-opkg
+Recommends: update-rc.d
+Provides: ssh, sshd
+Conflicts: openssh, openssh-sshd
+Source: dropbear_2022.83.bb

@@ -1,0 +1,13 @@
+Package: shadow-base
+Version: 4.13-r0
+Description: Tools to change and administer password and group data
+ Tools to change and administer password and group data
+Section: base/utils
+Priority: optional
+Maintainer: openATV
+License: BSD-3-Clause
+Architecture: cortexa15hf-neon-vfpv4
+OE: shadow
+Homepage: http://github.com/shadow-maint/shadow
+Depends: libc6 (>= 2.37), libcrypt2 (>= 4.4.33), libpam (>= 1.5.2), update-alternatives-opkg
+Source: shadow_4.13.bb

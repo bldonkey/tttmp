@@ -1,0 +1,13 @@
+Package: libasound-module-pcm-oss
+Version: 1.2.7.1-r0
+Description: Alsa plugin for pcm-oss
+ Alsa plugin for pcm-oss
+Section: multimedia
+Priority: optional
+Maintainer: openATV
+License: LGPL-2.1-only & GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: alsa-plugins
+Homepage: http://alsa-project.org
+Depends: libasound2 (>= 1.2.8), libc6 (>= 2.37)
+Source: alsa-plugins_1.2.7.1.bb

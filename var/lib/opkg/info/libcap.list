@@ -1,0 +1,9 @@
+/usr/lib	040755
+/usr/lib/libpsx.so.2	0120777
+/lib/security/pam_cap.so	0100755
+/lib/security	040755
+/usr/lib/libpsx.so.2.68	0100755
+/usr	040755
+/lib	040755
+/lib/libcap.so.2.68	0100755
+/lib/libcap.so.2	0120777

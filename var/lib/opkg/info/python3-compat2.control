@@ -1,0 +1,13 @@
+Package: python3-compat2
+Version: 1.0-r0
+Description: Compatibility for packages that link to python
+ Compatibility for packages that link to python.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-compat2
+Homepage: https:\\www.opena.tv
+Depends: python3-core
+Source: python3-compat2.bb

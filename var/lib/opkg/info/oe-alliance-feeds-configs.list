@@ -1,0 +1,10 @@
+/etc/opkg/gbip4k-feed.conf	0100644
+/etc/opkg/static-gbmv200-feed.conf	0100644
+/etc/opkg	040755
+/etc/opkg/gbmv200-feed.conf	0100644
+/etc/opkg/static-cortexa15hf-neon-vfpv4-feed.conf	0100644
+/etc/opkg/gbmv200_3rdparty-feed.conf	0100644
+/etc	040755
+/etc/opkg/cortexa15hf-neon-vfpv4-feed.conf	0100644
+/etc/opkg/3rdparty-feed.conf	0100644
+/etc/opkg/all-feed.conf	0100644

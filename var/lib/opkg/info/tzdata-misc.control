@@ -1,0 +1,13 @@
+Package: tzdata-misc
+Version: 2023c-r1
+Description: Timezone data
+ The Time Zone Database contains code and data that represent the history
+ of local time for many representative locations around the globe.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: PD & BSD-3-Clause
+Architecture: all
+OE: tzdata
+Homepage: http://www.iana.org/time-zones
+Source: tzdata.bb

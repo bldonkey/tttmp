@@ -1,0 +1,6 @@
+/usr/bin/nmap	0100755
+/usr/bin	040755
+/usr	040755
+/usr/share/nmap/nmap.xsl	0100644
+/usr/share/nmap	040755
+/usr/share	040755

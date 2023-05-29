@@ -1,0 +1,6 @@
+/usr/bin/bsdcat	0100755
+/usr/lib	040755
+/usr/lib/libarchive.so.13	0120777
+/usr/lib/libarchive.so.13.6.2	0100755
+/usr/bin	040755
+/usr	040755

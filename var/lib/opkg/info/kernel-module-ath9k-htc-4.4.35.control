@@ -1,0 +1,15 @@
+Package: kernel-module-ath9k-htc-4.4.35
+Version: 4.4.35-35
+Description: ath9k-htc kernel module
+ ath9k-htc kernel module; Atheros driver 802.11n HTC based wireless
+ devices
+Section: kernel
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-only
+Architecture: gbmv200
+OE: linux-gigablue
+Homepage: https:\\www.opena.tv
+Depends: kernel-4.4.35, kernel-module-ath-4.4.35, kernel-module-ath9k-common-4.4.35, kernel-module-ath9k-hw-4.4.35, kernel-module-mac80211-4.4.35
+Provides: kernel-module-ath9k-htc
+Source: linux-gigablue_4.4.35.bb

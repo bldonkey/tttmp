@@ -1,0 +1,13 @@
+Package: python3-pyhamcrest
+Version: 2.0.4-r0
+Description: Hamcrest framework for matcher objects
+ Hamcrest framework for matcher objects.
+Section: devel/python
+Priority: optional
+Maintainer: openATV
+License: BSD-3-Clause
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-pyhamcrest
+Homepage: https://github.com/hamcrest/PyHamcrest
+Depends: python3-core, python3-numbers, python3-six
+Source: python3-pyhamcrest_2.0.4.bb

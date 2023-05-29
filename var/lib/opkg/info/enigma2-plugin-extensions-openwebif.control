@@ -1,0 +1,16 @@
+Package: enigma2-plugin-extensions-openwebif
+Version: 2.0.6-git99+bb61885-r0
+Description: extensions-openwebif
+ extensions-openwebif
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-3.0-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-openwebif
+Homepage: https:\\www.opena.tv
+Depends: aio-grab, enigma2, python3-cheetah, python3-compression, python3-core, python3-ipaddress, python3-json, python3-misc, python3-numbers, python3-pprint, python3-pyopenssl, python3-shell, python3-twisted-web, python3-unixadmin
+Provides: enigma2-plugin-extensions-openwebif-terminal, enigma2-plugin-extensions-openwebif-webtv
+Replaces: enigma2-plugin-extensions-openwebif-terminal, enigma2-plugin-extensions-openwebif-webtv
+Conflicts: enigma2-plugin-extensions-openwebif-terminal, enigma2-plugin-extensions-openwebif-webtv
+Source: enigma2-plugin-extensions-openwebif.bb

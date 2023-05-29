@@ -1,0 +1,14 @@
+Package: kernel-module-8192eu-4.4.35
+Version: 1.0-r0
+Description: 8192eu kernel module
+ 8192eu kernel module; Realtek Wireless Lan Driver
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-only
+Architecture: gbmv200
+OE: rtl8192eu
+Homepage: http://www.realtek.com/
+Depends: kernel-4.4.35
+Provides: kernel-module-8192eu
+Source: rtl8192eu.bb

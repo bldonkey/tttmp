@@ -1,0 +1,13 @@
+Package: enigma2-plugin-drivers-network-usb-r8712u
+Version: 1.0-r0
+Description: Driver for Ralink USB devices R8712U
+ Driver for Ralink USB devices R8712U.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later
+Architecture: all
+OE: enigma2-plugin-drivers-network-usb-r8712u
+Homepage: https:\\www.opena.tv
+Recommends: firmware-rtl8712u, kernel-module-r8712u
+Source: enigma2-plugin-drivers-network-usb-r8712u.bb

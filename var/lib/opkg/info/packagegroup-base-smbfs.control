@@ -1,0 +1,14 @@
+Package: packagegroup-base-smbfs
+Version: 1.0-r83
+Description: SMB network filesystem support
+ Merge machine and distro options to create a basic machine task/package.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: MIT
+Architecture: gbmv200
+OE: packagegroup-base
+Homepage: https:\\www.opena.tv
+Depends: cifs-utils
+Recommends: kernel-module-cifs, kernel-module-smbfs
+Source: packagegroup-base.bb

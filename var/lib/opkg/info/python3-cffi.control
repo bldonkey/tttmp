@@ -1,0 +1,13 @@
+Package: python3-cffi
+Version: 1.15.1-r0
+Description: Foreign Function Interface for Python calling C code
+ Foreign Function Interface for Python calling C code.
+Section: devel/python
+Priority: optional
+Maintainer: openATV
+License: MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-cffi
+Homepage: http://cffi.readthedocs.org/
+Depends: libc6 (>= 2.37), libffi8 (>= 3.4.4), python3-core, python3-ctypes, python3-io, python3-pycparser, python3-shell
+Source: python3-cffi_1.15.1.bb

@@ -1,0 +1,13 @@
+Package: rtl8192eu
+Version: 1.0-r0
+Description: Driver for Realtek USB wireless device 8192eu
+ Driver for Realtek USB wireless device 8192eu.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-only
+Architecture: gbmv200
+OE: rtl8192eu
+Homepage: http://www.realtek.com/
+Depends: kernel-module-8192eu-4.4.35
+Source: rtl8192eu.bb

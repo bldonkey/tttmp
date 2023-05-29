@@ -1,0 +1,13 @@
+Package: base-files
+Version: 3.0.14-r89.6
+Description: Miscellaneous files for the base system
+ The base-files package creates the basic system directory structure and
+ provides a small set of key configuration files for the system.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-only
+Architecture: gbip4k
+OE: base-files
+Homepage: https:\\www.opena.tv
+Source: base-files_3.0.14.bb

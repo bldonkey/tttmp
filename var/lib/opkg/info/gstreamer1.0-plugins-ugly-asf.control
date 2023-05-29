@@ -1,0 +1,13 @@
+Package: gstreamer1.0-plugins-ugly-asf
+Version: 1.22.0-r0
+Description: GStreamer 1.0 plugin for asf
+ GStreamer 1.0 plugin for asf
+Section: multimedia
+Priority: optional
+Maintainer: openATV
+License: LGPL-2.1-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: gstreamer1.0-plugins-ugly
+Homepage: https://gstreamer.freedesktop.org/
+Depends: gstreamer1.0 (>= 1.22.0), libc6 (>= 2.37), libglib-2.0-0 (>= 2.74.6), libgstriff-1.0-0 (>= 1.22.0), libgstrtp-1.0-0 (>= 1.22.0), libgstrtsp-1.0-0 (>= 1.22.0), libgstsdp-1.0-0 (>= 1.22.0), libgsttag-1.0-0 (>= 1.22.0), libgstvideo-1.0-0 (>= 1.22.0)
+Source: gstreamer1.0-plugins-ugly_1.22.0.bb

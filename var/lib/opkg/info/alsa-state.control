@@ -1,0 +1,15 @@
+Package: alsa-state
+Version: 0.2.0-r5.8
+Description: Alsa scenario files to enable alsa state restoration
+ Alsa Scenario Files - an init script and state files to restore sound
+ state at system boot and save it at system shut down.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: MIT & GPL-2.0-or-later
+Architecture: gbmv200
+OE: alsa-state
+Homepage: http://www.alsa-project.org/
+Depends: alsa-utils-alsactl, initd-functions
+Recommends: alsa-states, libasound-module-ctl-oss, libasound-module-pcm-oss, update-rc.d
+Source: alsa-state.bb

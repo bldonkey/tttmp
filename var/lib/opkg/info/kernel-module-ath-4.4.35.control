@@ -1,0 +1,14 @@
+Package: kernel-module-ath-4.4.35
+Version: 4.4.35-35
+Description: ath kernel module
+ ath kernel module; Shared library for Atheros wireless LAN cards.
+Section: kernel
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-only
+Architecture: gbmv200
+OE: linux-gigablue
+Homepage: https:\\www.opena.tv
+Depends: kernel-4.4.35
+Provides: kernel-module-ath
+Source: linux-gigablue_4.4.35.bb

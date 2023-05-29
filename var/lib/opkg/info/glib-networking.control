@@ -1,0 +1,15 @@
+Package: glib-networking
+Version: 2.74.0-r0
+Description: GLib networking extensions
+ glib-networking contains the implementations of certain GLib networking
+ features that cannot be implemented directly in GLib itself because of
+ their dependencies.
+Section: libs
+Priority: optional
+Maintainer: openATV
+License: LGPL-2.1-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: glib-networking
+Homepage: https://gitlab.gnome.org/GNOME/glib-networking/
+Depends: libc6 (>= 2.37), libcrypto3 (>= 3.1.0), libglib-2.0-0 (>= 2.74.6), libssl3 (>= 3.1.0)
+Source: glib-networking_2.74.0.bb

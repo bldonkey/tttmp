@@ -1,0 +1,13 @@
+Package: enigma2-plugin-systemplugins-autobouquetsmaker
+Version: 3.3+git995+f68b8ec-r0
+Description: systemplugins-autobouquetsmaker
+ systemplugins-autobouquetsmaker
+Section: base
+Priority: optional
+Maintainer: oe-alliance team
+License: Proprietary
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-systemplugins-autobouquetsmaker
+Homepage: https:\\www.opena.tv
+Depends: enigma2, libc6 (>= 2.37)
+Source: enigma2-plugin-systemplugins-autobouquetsmaker.bb

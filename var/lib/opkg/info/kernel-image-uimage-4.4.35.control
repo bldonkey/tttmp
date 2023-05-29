@@ -1,0 +1,13 @@
+Package: kernel-image-uimage-4.4.35
+Version: 4.4.35-35
+Description: linux-gigablue version 4.4.35-35
+ Linux kernel for gbmv200
+Section: kernel
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-only
+Architecture: gbmv200
+OE: linux-gigablue
+Homepage: https:\\www.opena.tv
+Provides: kernel-image-uimage
+Source: linux-gigablue_4.4.35.bb

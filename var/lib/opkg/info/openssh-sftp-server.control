@@ -1,0 +1,15 @@
+Package: openssh-sftp-server
+Version: 9.3p1-r0
+Description: A suite of security-related network utilities based on the SSH protocol including the ssh client and sshd server
+ Secure rlogin/rsh/rcp/telnet replacement (OpenSSH) Ssh (Secure Shell) is
+ a program for logging into a remote machine and for executing commands on
+ a remote machine.
+Section: console/network
+Priority: optional
+Maintainer: openATV
+License: BSD-2-Clause & BSD-3-Clause & ISC & MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: openssh
+Homepage: http://www.openssh.com/
+Depends: libc6 (>= 2.37)
+Source: openssh_9.3p1.bb

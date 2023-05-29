@@ -1,0 +1,12 @@
+Package: firmware-zd1211
+Version: 1.0-r0
+Description: Firmware for ZD1211
+ Firmware for ZD1211.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: Proprietary
+Architecture: all
+OE: firmware-zd1211
+Homepage: https:\\www.opena.tv
+Source: firmware-zd1211.bb

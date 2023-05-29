@@ -1,0 +1,12 @@
+/usr/lib/python3.11/lib-dynload/_sha3.cpython-311-arm-linux-gnueabihf.so	0100755
+/usr/lib	040755
+/usr/lib/python3.11/lib-dynload/_md5.cpython-311-arm-linux-gnueabihf.so	0100755
+/usr/lib/python3.11/lib-dynload/_blake2.cpython-311-arm-linux-gnueabihf.so	0100755
+/usr/lib/python3.11	040755
+/usr/lib/python3.11/lib-dynload/_sha512.cpython-311-arm-linux-gnueabihf.so	0100755
+/usr	040755
+/usr/lib/python3.11/lib-dynload	040755
+/usr/lib/python3.11/lib-dynload/_sha1.cpython-311-arm-linux-gnueabihf.so	0100755
+/usr/lib/python3.11/lib-dynload/_sha256.cpython-311-arm-linux-gnueabihf.so	0100755
+/usr/lib/python3.11/lib-dynload/_hashlib.cpython-311-arm-linux-gnueabihf.so	0100755
+/usr/lib/python3.11/lib-dynload/_crypt.cpython-311-arm-linux-gnueabihf.so	0100755

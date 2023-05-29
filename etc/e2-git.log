@@ -1,0 +1,109 @@
+IPTV makefile changed
+makefile changed
+[ChannelSelection] * Show similar events in EventView via channel list.
+[PluginComponent] add sanity check in remove plugin (#3714)
+image backup use rollback to singlecore bz2, looks vu have issue with multicore version
+[ChoiceList.py] Optimise image selection code
+[ChannelSelection] * correct typo from the last commit
+Ellipsis (#2892)
+pot update
+Prepare github actions for the new 7.3 branch
+ChannelSelection fixes and enhancements (#2894)
+[ChoiceList.py] Correct location of bullet icon
+[HarddiskSetup] Change "Initialize" to "Format" A storage device is initialised automatically when you record, go to flash online etc without any user interevention. The context of the menu/ question is that it is asking if we want to format the device, not if we want to initialise it. (initail setup for use). Most E2 users are from a Windows background and "Format" in this context reflects the function in a more user friendly term.
+prepare new Channelselection
+translation update
+[ChannelSelection.py] Clean up code (#2893)
+[Harddisk] * remove sfdisk usage because it's no longer working
+[HarddiskSetup] * small cleanup * fix running in Wizard
+[Components/Network]
+aml lcd display set display brightness to 0 in standby
+[StartEnigma.py] Correct last commit
+Fix ParentalControl import issue (#2888)
+translation update
+[PluginBrowser] * remove callbacks on close
+backup exclude /run/chrony/chronyd.sock
+[Network] (#2885)
+[Debug] Provide ability to create core dump
+[DVD] Fix infobar show / hide and introduce angle label text This fix tries to disable the InfoBar showing in DVD menues which is annoying because it allows actions in the menu only if the InfoBar is hidden. Also a new text is added to show the camera perspective of DVDs that support it. MetrixHD does not have an Icon for it. So thus the textual description. Furthermore there is a fix to a print statement for logging / debugging purpose.
+[ChoiceList.py] Make vertical alignment configurable
+[Components/Console] Fix 'Console' object has no attribute 'appResults' (#2874)
+[config.py] Ad new ConfigSelection methods
+[List.py] Add a new getList() method
+[Components/Network]
+[Screens/FlashManager] (#2871)
+kexec delete slot without recovery option
+FlashManager fix kexec root update
+kexec rename slot r image to root image
+kexec multiboot check if files exist kernel_auto.bin and STARTUP.cpio.gz to show the kexec init menu
+[RecordTimerOverview] * improve Enable/Disable button
+[TimerLog] * improve color buttons visibility
+fix backup vu multiboot slot
+[Converter/MovieInfo] * Add "Name"
+[Console.py] Small code clean up (#2868)
+Update VWatches.py
+[MultiBoot.py] Small code clean up
+Add Microelectronics LNB Digital CSS 24CH LNBF.  AKU0-U05-M103
+Update Digital Platform 42°E (#2865)
+[eLCD] * fix oled display
+codestyle correction E117 -> (over-indented)
+codestyle correction E101 -> (indentation contains mixed spaces and tabs)
+translation update
+[Opkg] * add missing default value
+eLCD Improvements (#2862)
+[MultiBoot] * PEP8 corrections
+update README.md change e2 branch
+update README.md
+[qviart dual] fix multiboot (reading current slot) (#2860)
+[FileList.py] Fix and improve previous commit
+[FileList.py] Improve parent name icon label (#2857)
+re add gdi: sanitychecks on framebuffer fd
+[CFile] (#2856)
+[ServiceInfo] * fix UnboundLocalError: cannot access local variable 'f' where it is not associated with a value
+[Trashcan] - Correct getTrashcan in cleanAll(). - Correct return value in createTrashcan().
+disable dreambox audio
+[eModelInformation] (#2848)
+[AVSwitch] * fix config.av.downmix_ac3 for dream
+[DVD] * fix chapter zap * reorder imports * refactor prints
+Cleanup (#2844)
+Menu and Setup corrections / improvements(#2841)
+[InfoBarGenerics.py] Add missing base for int()
+[InfoBarGenerics.py] Optimize the new amlogic code
+[skin.py] Remove non-US spellings
+partly revert of
+Horizontal and Grid listbox layout (#2829)
+Aml (#2830)
+[Trashcan] (#2831)
+[FlashManager.py] Bring code up to latest standards (#2836)
+revert https://github.com/openatv/enigma2/commit/722a2cc6d0fd5450309bc0bde6435de94e945704
+Move "getChipSetString()" to a BoxInfo variable (#2828)
+[png_load] * fix sonar issue
+update string
+[International] Make initialization logging configurable (#2823)
+translation update
+[Converter/pstrCnvrt] (#2822)
+Support for kexec multiboot Vu+ Support for flashing usb slots. For vuzero4k, vuduo4k and vuduo4kse Vu+ Multiboot Multiboot.py changes (#2795) * MultiBoot - allow OpenATV to recognise USB device STARTUPs in Vu Multiboot environment ---------
+sync translations from 7.2
+Service info (#2821)
+[eDVBLocalTimeHandler] * add new setDVBTimeMode function
+[StartEnigma.py] A couple of extra optimizations
+[StartEnigma.py] More clean up and simplification of the code
+[StartEnigma.py] Optimise and clean up imports
+[Menu.py] Change screen to use new scalable templates
+[NetworkSetup] Add Quad9 DNS service
+eWindowStyleSkinned add flags to drawBorder
+Refresh images after flash
+remove python 3.10 build test
+Remove Six
+remove from __future__ import division
+Cleanup Six (#2804)
+[Renderer/Picon] * reorg and cleanup imports * optimize findPicon
+Quadpip (#2803)
+[huffman] * Deal with huffman decode errors
+[TimerSummary] * add missing name and channel name * show selection after init
+[SoftwareUpdate] * Change progressbar behavior.
+[RecordTimer] * write "Timer created" only once to log
+[InstantRecord] * correction of timer after event display
+[PowerLost] * remove unneeded Screen
+[RecordTimer] * add "Timer created" to the timer log
+[ButtonSetup] * improve performance by using variables instead of strings for the sections

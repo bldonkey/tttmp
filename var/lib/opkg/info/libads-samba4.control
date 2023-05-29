@@ -1,0 +1,13 @@
+Package: libads-samba4
+Version: 4.15.13-r2
+Description: Samba ads-samba4 library
+ Samba ads-samba4 library
+Section: console/network
+Priority: optional
+Maintainer: openATV
+License: GPL-3.0-or-later & LGPL-3.0-or-later & GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: samba
+Homepage: https://www.samba.org/
+Depends: libaddns-samba4 (>= 4.15.13), libc6 (>= 2.37), libcli-cldap-samba4 (>= 4.15.13), libcom-err-samba4-0 (>= 4.15.13), libgenrand-samba4 (>= 4.15.13), libgse-samba4 (>= 4.15.13), libkrb5-samba4-26 (>= 4.15.13), libkrb5samba-samba4 (>= 4.15.13), libndr-nbt0 (>= 4.15.13), libndr-standard0 (>= 4.15.13), libndr2 (>= 4.15.13), libreplace-samba4 (>= 4.15.13), libsamba-debug-samba4 (>= 4.15.13), libsamba-errors1 (>= 4.15.13), libsamba-util0 (>= 4.15.13), libsamba3-util-samba4 (>= 4.15.13), libsecrets3-samba4 (>= 4.15.13), libsmbconf0 (>= 4.15.13), libtalloc (>= 2.4.0), libtrusts-util-samba4 (>= 4.15.13), samba-common
+Source: samba.bb

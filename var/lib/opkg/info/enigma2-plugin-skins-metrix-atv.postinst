@@ -1,0 +1,11 @@
+#!/bin/sh
+set -e
+echo "Checking for obsolete MyMetrixLiteColors"
+if [ -d /usr/lib/enigma2/python/Plugins/Extensions/MyMetrixLiteColors ]; then
+    rm -rf /usr/lib/enigma2/python/Plugins/Extensions/MyMetrixLiteColors 2>/dev/null
+    echo "MyMetrixLiteColors was found and removed"
+else
+    echo "MyMetrixLiteColors was not found"
+fi
+echo "Proceeding..."
+exit 0

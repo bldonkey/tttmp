@@ -1,0 +1,7 @@
+/bin	040755
+/etc/init.d	040755
+/etc/init.d/fake-hwclock	0100755
+/etc/default/fake-hwclock	0100644
+/bin/fake-hwclock	0100755
+/etc	040755
+/etc/default	040755

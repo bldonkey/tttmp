@@ -1,0 +1,13 @@
+Package: rt8812au
+Version: 5.1.5-r0
+Description: Ralink 8812AU/8821AU v5.1.5
+ Ralink 8812AU/8821AU v5.1.5.
+Section: kernel/modules
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-only
+Architecture: gbmv200
+OE: rt8812au
+Homepage: http://www.realtek.com.tw
+Depends: kernel-module-8812au-4.4.35
+Source: rt8812au_5.1.5.bb

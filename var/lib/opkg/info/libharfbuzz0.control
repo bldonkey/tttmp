@@ -1,0 +1,14 @@
+Package: libharfbuzz0
+Version: 7.1.0-r0
+Description: Text shaping library
+ HarfBuzz is an OpenType text shaping engine.
+Section: libs
+Priority: optional
+Maintainer: openATV
+License: MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: harfbuzz
+Homepage: http://www.freedesktop.org/wiki/Software/HarfBuzz
+Depends: libc6 (>= 2.37), libcairo2 (>= 1.16.0), libfreetype6 (>= 2.11.0), libglib-2.0-0 (>= 2.74.6)
+Provides: harfbuzz
+Source: harfbuzz_7.1.0.bb

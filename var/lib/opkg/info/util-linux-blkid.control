@@ -1,0 +1,15 @@
+Package: util-linux-blkid
+Version: 2.38.1-r0
+Description: util-linux blkid
+ util-linux blkid
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later & LGPL-2.1-or-later & BSD-3-Clause & BSD-4-Clause
+Architecture: cortexa15hf-neon-vfpv4
+OE: util-linux
+Homepage: https://en.wikipedia.org/wiki/Util-linux
+Depends: libblkid1 (>= 2.38.1), libc6 (>= 2.37), update-alternatives-opkg
+Replaces: e2fsprogs-blkid
+Conflicts: e2fsprogs-blkid
+Source: util-linux_2.38.1.bb

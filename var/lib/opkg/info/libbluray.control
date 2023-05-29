@@ -1,0 +1,13 @@
+Package: libbluray
+Version: v1.3.4+git3051+bb5bc10-r0
+Description: libbluray version v1.3.4+gitAUTOINC+bb5bc108ec-r0
+ Library to access Blu-Ray disk
+Section: misc
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: libbluray
+Homepage: http://videolan.org
+Depends: libaacs, libc6 (>= 2.37), libdca, libdvdcss, libxml2 (>= 2.10.4)
+Source: libbluray_git.bb

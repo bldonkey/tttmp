@@ -1,0 +1,8 @@
+/etc/opkg/all-feed.conf
+/etc/opkg/cortexa15hf-neon-vfpv4-feed.conf
+/etc/opkg/gbip4k-feed.conf
+/etc/opkg/static-gbmv200-feed.conf
+/etc/opkg/static-cortexa15hf-neon-vfpv4-feed.conf
+/etc/opkg/gbmv200-feed.conf
+/etc/opkg/3rdparty-feed.conf
+/etc/opkg/gbmv200_3rdparty-feed.conf

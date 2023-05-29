@@ -1,0 +1,13 @@
+Package: python3-ply
+Version: 3.11-r0
+Description: Python Lex and Yacc
+ Python ply: PLY is yet another implementation of lex and yacc for Python
+Section: devel/python
+Priority: optional
+Maintainer: openATV
+License: BSD-3-Clause
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-ply
+Homepage: https://pypi.python.org/pypi/ply
+Depends: python3-core, python3-netclient, python3-shell
+Source: python3-ply_3.11.bb

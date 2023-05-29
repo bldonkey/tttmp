@@ -1,0 +1,14 @@
+Package: libnss-llmnr
+Version: git4+3472507-r0
+Description: Name Service Switch module for Link-local Multicast Name Resolution (LLMNR)
+ Name Service Switch module for Link-local Multicast Name Resolution
+ (LLMNR).
+Section: libs
+Priority: optional
+Maintainer: openATV
+License: LGPL-2.1-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: libnss-llmnr
+Homepage: https://github.com/jmaggard10/nss-llmnr
+Depends: libc6 (>= 2.37)
+Source: libnss-llmnr_0.10.bb

@@ -1,0 +1,16 @@
+/usr/sbin/avahi-daemon	0100755
+/etc/init.d	040755
+/usr/share/avahi	040755
+/usr/sbin	040755
+/etc/dbus-1/system.d/avahi-dbus.conf	0100644
+/usr/share/avahi/avahi-service.dtd	0100644
+/etc/init.d/avahi-daemon	0100755
+/etc/avahi/avahi-daemon.conf	0100644
+/usr	040755
+/etc	040755
+/etc/dbus-1/system.d	040755
+/etc/avahi/hosts	0100644
+/etc/avahi/services	040755
+/usr/share	040755
+/etc/dbus-1	040755
+/etc/avahi	040755

@@ -1,0 +1,15 @@
+Package: libflac12
+Version: 1.4.2-r0
+Description: Free Lossless Audio Codec
+ FLAC stands for Free Lossless Audio Codec, a lossless audio compression
+ format.
+Section: libs
+Priority: optional
+Maintainer: openATV
+License: GFDL-1.2 & GPL-2.0-or-later & LGPL-2.1-or-later & BSD-3-Clause
+Architecture: cortexa15hf-neon-vfpv4
+OE: flac
+Homepage: https://xiph.org/flac/
+Depends: libc6 (>= 2.37), libogg0 (>= 1.3.5)
+Provides: libflac
+Source: flac_1.4.2.bb

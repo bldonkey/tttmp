@@ -1,0 +1,13 @@
+Package: python3-idna
+Version: 3.4-r0
+Description: Internationalised Domain Names in Applications
+ Internationalised Domain Names in Applications.
+Section: devel/python
+Priority: optional
+Maintainer: openATV
+License: BSD-3-Clause & Python-2.0 & Unicode-TOU
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-idna
+Homepage: https://github.com/kjd/idna
+Depends: python3-codecs, python3-core
+Source: python3-idna_3.4.bb

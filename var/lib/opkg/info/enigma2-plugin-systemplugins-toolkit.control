@@ -1,0 +1,13 @@
+Package: enigma2-plugin-systemplugins-toolkit
+Version: 7.3+gitr7532+f14c178-r8
+Description: systemplugins-toolkit
+ common reusable tools for enigma2 plugins
+Section: base
+Priority: optional
+Maintainer: OE-Alliance team
+License: Proprietary
+Architecture: gbmv200
+OE: enigma2-plugins
+Homepage: https:\\www.opena.tv
+Depends: python3-html, python3-threading, python3-twisted-core
+Source: enigma2-plugins.bb

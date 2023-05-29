@@ -1,0 +1,14 @@
+Package: packagegroup-core-boot
+Version: 1.0-r17
+Description: Minimal boot requirements
+ The minimal set of packages required to boot the system
+Section: base
+Priority: optional
+Maintainer: openATV
+License: MIT
+Architecture: gbmv200
+OE: packagegroup-core-boot
+Homepage: https:\\www.opena.tv
+Depends: base-files, base-passwd, busybox, busybox-mdev, e2fsprogs-resize2fs, gigablue-buildimage, gigablue-ddbootup, gigablue-dvb-modules-gbip4k, gigablue-hihalt-gbmv200, gigablue-libreader-gbmv200, gigablue-libs-gbmv200, gigablue-loadmodules-gbmv200, gigablue-opengl-gbmv200, gigablue-partitions-gbip4k, gigablue-reader-gbip4k, gigablue-tntfs-3798mv200, gptfdisk, initscripts, modutils-initscripts, netbase, sysvinit, update-alternatives-opkg
+Recommends: busybox-syslog, init-ifupdown, kernel-module-autofs4, kernel-module-cdfs, kernel-module-cifs, kernel-module-ext2, kernel-module-ext3, kernel-module-ext4, kernel-module-zram
+Source: packagegroup-core-boot.bb

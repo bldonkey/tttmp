@@ -1,0 +1,16 @@
+Package: libzstd1
+Version: 1.5.4-r0
+Description: Zstandard - Fast real-time compression algorithm
+ Zstandard is a fast lossless compression algorithm, targeting real-time
+ compression scenarios at zlib-level and better compression ratios. It's
+ backed by a very fast entropy stage, provided by Huff0 and FSE library.
+Section: console/utils
+Priority: optional
+Maintainer: openATV
+License: BSD-3-Clause & GPL-2.0-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: zstd
+Homepage: http://www.zstd.net/
+Depends: libc6 (>= 2.37)
+Provides: libzstd
+Source: zstd_1.5.4.bb

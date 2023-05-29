@@ -1,0 +1,15 @@
+Package: odhcp6c
+Version: git341+bcd2836-r0
+Description: Openwrt DHCPv6 Client
+ Openwrt DHCPv6 Client.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: odhcp6c
+Homepage: https://git.lede-project.org/?p=project/odhcp6c.git;a=summary
+Depends: libc6 (>= 2.37)
+Replaces: ndisc6-rdnssd
+Conflicts: ndisc6-rdnssd
+Source: odhcp6c.bb

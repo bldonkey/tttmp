@@ -1,0 +1,13 @@
+Package: enigma2-plugin-drivers-network-usb-rtl8187
+Version: 1.0-r0
+Description: WiFi devices for Realtek 802.11a/bg chipsets.
+ WiFi devices for Realtek 802.11a/bg chipsets..
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later
+Architecture: all
+OE: enigma2-plugin-drivers-network-usb-rtl8187
+Homepage: https:\\www.opena.tv
+Recommends: kernel-module-rtl8187
+Source: enigma2-plugin-drivers-network-usb-rtl8187.bb

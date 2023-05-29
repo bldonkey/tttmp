@@ -1,0 +1,3 @@
+/sbin/nologin
+/bin/busybox.nosuid 50
+/sbin/nologin.shadow 200

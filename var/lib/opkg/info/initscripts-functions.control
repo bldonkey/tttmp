@@ -1,0 +1,18 @@
+Package: initscripts-functions
+Version: 1.0-r155.7
+Description: SysV init scripts
+ Initscripts provide the basic system startup initialization scripts for
+ the system.  These scripts include actions such as filesystem mounting,
+ fsck, RTC manipulation and other actions routinely performed at system
+ startup.  In addition, the scripts are also used during system shutdown
+ to reverse the actions performed at startup.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: initscripts
+Homepage: https://github.com/fedora-sysv/initscripts
+Provides: initd-functions
+Conflicts: lsbinitscripts
+Source: initscripts_1.0.bb

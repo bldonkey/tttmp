@@ -1,0 +1,2 @@
+/usr/bin/setfattr
+/bin/busybox.nosuid 50

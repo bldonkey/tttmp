@@ -1,0 +1,18 @@
+Package: kmod
+Version: 30-r0
+Description: Tools for managing Linux kernel modules
+ kmod is a set of tools to handle common tasks with Linux kernel modules
+ like                insert, remove, list, check properties, resolve
+ dependencies and aliases.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later & LGPL-2.1-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: kmod
+Homepage: http://kernel.org/pub/linux/utils/kernel/kmod/
+Depends: libc6 (>= 2.37), libcrypto3 (>= 3.1.0), liblzma5 (>= 5.4.2), libz1 (>= 1.2.13), update-alternatives-opkg
+Provides: module-init-tools, module-init-tools-depmod, module-init-tools-insmod-static
+Replaces: module-init-tools, module-init-tools-depmod, module-init-tools-insmod-static
+Conflicts: module-init-tools, module-init-tools-depmod, module-init-tools-insmod-static
+Source: kmod_30.bb

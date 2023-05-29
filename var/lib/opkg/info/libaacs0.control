@@ -1,0 +1,14 @@
+Package: libaacs0
+Version: 0.10.0+git958+37b8a48-r0
+Description: Open implementation of the AACS specification
+ Open implementation of the AACS specification.
+Section: libs/multimedia
+Priority: optional
+Maintainer: openATV
+License: LGPL-2.1-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: libaacs
+Homepage: https:\\www.opena.tv
+Depends: libc6 (>= 2.37), libgcrypt (>= 1.10.1), libgpg-error (>= 1.46)
+Provides: libaacs
+Source: libaacs_git.bb

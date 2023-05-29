@@ -1,0 +1,4 @@
+set -e
+	sed -e '/^hosts:/s/\s*\<llmnr\>//' \
+		-e '/^hosts:/s/\s*llmnr_minimal\s\+\[NOTFOUND=return\]//' \
+		-i $D/etc/nsswitch.conf

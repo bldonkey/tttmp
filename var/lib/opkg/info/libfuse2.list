@@ -1,0 +1,10 @@
+/etc/udev/rules.d/99-fuse.rules	0100644
+/usr/lib	040755
+/etc/init.d	040755
+/usr	040755
+/etc	040755
+/etc/init.d/fuse	0100755
+/etc/udev	040755
+/etc/udev/rules.d	040755
+/usr/lib/libfuse.so.2	0120777
+/usr/lib/libfuse.so.2.9.9	0100755

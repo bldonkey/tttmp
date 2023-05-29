@@ -1,0 +1,13 @@
+Package: modutils-initscripts
+Version: 1.0-r8
+Description: Initscript for auto-loading kernel modules on boot
+ Initscript for auto-loading kernel modules on boot.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: modutils-initscripts
+Homepage: https:\\www.opena.tv
+Recommends: update-rc.d
+Source: modutils-initscripts.bb

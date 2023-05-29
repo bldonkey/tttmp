@@ -1,0 +1,13 @@
+Package: enigma2-plugin-drivers-network-usb-rt2800
+Version: 1.0-r0
+Description: WiFi devices based on Ralink 802.11n USB chipsets.
+ WiFi devices based on Ralink 802.11n USB chipsets..
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later
+Architecture: all
+OE: enigma2-plugin-drivers-network-usb-rt2800
+Homepage: https:\\www.opena.tv
+Recommends: firmware-rt2870, kernel-module-rt2800usb
+Source: enigma2-plugin-drivers-network-usb-rt2800.bb

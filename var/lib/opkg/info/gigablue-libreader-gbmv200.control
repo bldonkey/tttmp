@@ -1,0 +1,13 @@
+Package: gigablue-libreader-gbmv200
+Version: 1.0-r1
+Description: player daemon helper
+ player daemon helper.
+Section: base
+Priority: optional
+Maintainer: gigablue
+License: GPL-2.0-or-later
+Architecture: gbmv200
+OE: gigablue-libreader-gbmv200
+Homepage: https:\\www.opena.tv
+Recommends: update-rc.d
+Source: gigablue-libreader-gbmv200.bb

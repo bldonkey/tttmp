@@ -1,0 +1,4 @@
+/etc/pam.d/samba
+/etc/samba/smb-user.conf
+/etc/samba/private/users.map
+/etc/samba/private/smbpasswd

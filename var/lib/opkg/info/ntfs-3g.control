@@ -1,0 +1,15 @@
+Package: ntfs-3g
+Version: 2022.10.3-r0
+Description: ntfs-3g-ntfsprogs version 2022.10.3-r0
+ The NTFS-3G driver is an open source, freely available NTFS driver for
+ Linux with read and write support.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-only & LGPL-2.0-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: ntfs-3g-ntfsprogs
+Homepage: http://www.ntfs-3g.org/
+Depends: fuse, libc6 (>= 2.37), libntfs-3g89 (>= 2022.10.3)
+Recommends: util-linux-mount
+Source: ntfs-3g-ntfsprogs_2022.10.3.bb

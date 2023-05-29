@@ -1,0 +1,89 @@
+kernel/fs/nls/nls_iso8859-15.ko:
+kernel/fs/xfs/xfs.ko: kernel/lib/libcrc32c.ko
+kernel/drivers/misc/eeprom/eeprom_93cx6.ko:
+kernel/drivers/scsi/sr_mod.ko: kernel/drivers/cdrom/cdrom.ko
+kernel/drivers/net/wireless/realtek/rtl818x/rtl8187/rtl8187.ko: kernel/drivers/misc/eeprom/eeprom_93cx6.ko kernel/net/mac80211/mac80211.ko
+kernel/drivers/net/wireless/zd1211rw/zd1211rw.ko: kernel/net/mac80211/mac80211.ko
+kernel/drivers/net/wireless/rt2x00/rt2x00lib.ko: kernel/net/mac80211/mac80211.ko
+kernel/drivers/net/wireless/rt2x00/rt2x00usb.ko: kernel/drivers/net/wireless/rt2x00/rt2x00lib.ko kernel/net/mac80211/mac80211.ko
+kernel/drivers/net/wireless/rt2x00/rt2800lib.ko: kernel/drivers/net/wireless/rt2x00/rt2x00lib.ko kernel/net/mac80211/mac80211.ko
+kernel/drivers/net/wireless/rt2x00/rt2500usb.ko: kernel/drivers/net/wireless/rt2x00/rt2x00usb.ko kernel/drivers/net/wireless/rt2x00/rt2x00lib.ko kernel/net/mac80211/mac80211.ko
+kernel/drivers/net/wireless/rt2x00/rt73usb.ko: kernel/drivers/net/wireless/rt2x00/rt2x00usb.ko kernel/drivers/net/wireless/rt2x00/rt2x00lib.ko kernel/net/mac80211/mac80211.ko
+kernel/drivers/net/wireless/rt2x00/rt2800usb.ko: kernel/drivers/net/wireless/rt2x00/rt2800lib.ko kernel/drivers/net/wireless/rt2x00/rt2x00usb.ko kernel/drivers/net/wireless/rt2x00/rt2x00lib.ko kernel/net/mac80211/mac80211.ko
+kernel/drivers/net/wireless/ath/ath9k/ath9k_hw.ko: kernel/drivers/net/wireless/ath/ath.ko
+kernel/drivers/net/wireless/ath/ath9k/ath9k_common.ko: kernel/drivers/net/wireless/ath/ath9k/ath9k_hw.ko kernel/drivers/net/wireless/ath/ath.ko
+kernel/drivers/net/wireless/ath/ath9k/ath9k_htc.ko: kernel/drivers/net/wireless/ath/ath9k/ath9k_common.ko kernel/drivers/net/wireless/ath/ath9k/ath9k_hw.ko kernel/drivers/net/wireless/ath/ath.ko kernel/net/mac80211/mac80211.ko
+kernel/drivers/net/wireless/ath/carl9170/carl9170.ko: kernel/drivers/net/wireless/ath/ath.ko kernel/net/mac80211/mac80211.ko
+kernel/drivers/net/wireless/ath/ath.ko:
+kernel/drivers/cdrom/cdrom.ko:
+kernel/drivers/usb/misc/ezusb.ko:
+kernel/drivers/usb/serial/usbserial.ko:
+kernel/drivers/usb/serial/belkin_sa.ko: kernel/drivers/usb/serial/usbserial.ko
+kernel/drivers/usb/serial/ftdi_sio.ko: kernel/drivers/usb/serial/usbserial.ko
+kernel/drivers/usb/serial/keyspan.ko: kernel/drivers/usb/misc/ezusb.ko kernel/drivers/usb/serial/usbserial.ko
+kernel/drivers/usb/serial/pl2303.ko: kernel/drivers/usb/serial/usbserial.ko
+kernel/drivers/staging/rtl8712/r8712u.ko:
+kernel/drivers/staging/rtl8188eu/r8188eu.ko:
+kernel/net/mac80211/mac80211.ko:
+kernel/lib/libcrc32c.ko:
+extra/hi_i2c.ko: extra/hi_gpio_i2c.ko extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/hi_hdmi.ko: extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/hi_fb.ko: extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/xhci-plat-hcd.ko:
+extra/mcu.ko: extra/hi_keyled.ko extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/ohci-platform.ko:
+extra/mali.ko: extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/hi_pq.ko: extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+kernel/drivers/net/wireless/88x2bu.ko:
+extra/hisi_keys.ko: extra/hi_keyled.ko extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/libahci_platform.ko: extra/libahci.ko
+extra/hi_media.ko:
+extra/hisi_sci.ko: extra/hi-dvb.ko extra/mcu.ko extra/hi_i2c.ko extra/hi_gpio_i2c.ko extra/hi_hdmicec.ko extra/hi_hdmi.ko extra/hi_gpio.ko extra/vtunerc.ko extra/hi_demux.ko extra/hi_sci.ko extra/hi_keyled.ko extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/hi_advca.ko: extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/hi_vou.ko: extra/hi_pq.ko extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/hi_jpeg.ko: extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/hi_aiao.ko: extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/hisi_encoder.ko:
+kernel/drivers/net/wireless/8192cu.ko:
+extra/hi_tde.ko: extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/hisi-ir.ko: extra/hi-dvb.ko extra/mcu.ko extra/hi_i2c.ko extra/hi_gpio_i2c.ko extra/hi_hdmicec.ko extra/hi_hdmi.ko extra/hi_gpio.ko extra/vtunerc.ko extra/hi_demux.ko extra/hi_keyled.ko extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/hi_vdec.ko: extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/hi_pdm.ko: extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/hi_mce.ko: extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/hi_png.ko: extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/hi_adsp.ko: extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/tntfs.ko:
+extra/hi_otp.ko: extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/hi_hdmicec.ko: extra/hi_hdmi.ko extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/vtunerc.ko:
+extra/hi_vpss.ko: extra/hi_pq.ko extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/ddr.ko:
+extra/ahci_platform.ko: extra/libahci_platform.ko extra/libahci.ko
+extra/hi_omxvdec.ko: extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/hi-dvb.ko: extra/mcu.ko extra/hi_i2c.ko extra/hi_gpio_i2c.ko extra/hi_hdmicec.ko extra/hi_hdmi.ko extra/hi_gpio.ko extra/vtunerc.ko extra/hi_demux.ko extra/hi_keyled.ko extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+kernel/drivers/net/wireless/8812au.ko:
+extra/hi_dbe.ko:
+extra/hi_sync.ko: extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/fusion.ko:
+extra/hi_sil9293.ko: extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/hi_jpge.ko: extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/hi_adec.ko: extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/hi_gpio.ko: extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/ehci-platform.ko:
+extra/hi_keyled.ko: extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/hi_vi.ko: extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/hi_mmz.ko: extra/hi_media.ko
+extra/hi_cipher.ko: extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+kernel/drivers/net/wireless/8192eu.ko:
+extra/hi_tuner.ko: extra/hi_i2c.ko extra/hi_gpio_i2c.ko extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/hi_aenc.ko: extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/hi_ir.ko: extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/hi_demux.ko: extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/hi_pvr.ko: extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/hi_sci.ko: extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/hi_pmoc.ko: extra/hi_otp.ko extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/hi_vfmw.ko: extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/libahci.ko:
+extra/hi_gpio_i2c.ko: extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/hi_venc.ko: extra/hi_common.ko extra/hi_mmz.ko extra/hi_media.ko
+extra/hi_common.ko: extra/hi_mmz.ko extra/hi_media.ko

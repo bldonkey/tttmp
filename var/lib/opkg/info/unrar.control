@@ -1,0 +1,13 @@
+Package: unrar
+Version: 6.0.7-r0
+Description: RAR archivers
+ RAR archivers.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: unrar
+Homepage: http://www.rarlab.com/
+Depends: libc6 (>= 2.37), libgcc1 (>= 12.2.0), libstdc++6 (>= 12.2.0)
+Source: unrar_6.0.7.bb

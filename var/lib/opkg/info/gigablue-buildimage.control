@@ -1,0 +1,13 @@
+Package: gigablue-buildimage
+Version: 1.1-r0
+Description: Creat the usb ugrade file
+ Creat the usb ugrade file.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: Proprietary
+Architecture: cortexa15hf-neon-vfpv4
+OE: gigablue-buildimage
+Homepage: https:\\www.opena.tv
+Depends: libc6 (>= 2.37)
+Source: gigablue-buildimage_1.1.bb

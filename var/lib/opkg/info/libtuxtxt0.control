@@ -1,0 +1,14 @@
+Package: libtuxtxt0
+Version: 2.0+git82+1402795-r0
+Description: tuxbox libtuxtxt
+ tuxbox libtuxtxt.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: LGPL-2.1-only
+Architecture: gbmv200
+OE: libtuxtxt
+Homepage: https:\\www.opena.tv
+Depends: libc6 (>= 2.37), libfreetype6 (>= 2.11.0), libz1 (>= 1.2.13)
+Provides: libtuxtxt
+Source: libtuxtxt.bb

@@ -1,0 +1,14 @@
+Package: kernel-module-ath9k-hw-4.4.35
+Version: 4.4.35-35
+Description: ath9k-hw kernel module
+ ath9k-hw kernel module; Support for Atheros 802.11n wireless LAN cards.
+Section: kernel
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-only
+Architecture: gbmv200
+OE: linux-gigablue
+Homepage: https:\\www.opena.tv
+Depends: kernel-4.4.35, kernel-module-ath-4.4.35
+Provides: kernel-module-ath9k-hw
+Source: linux-gigablue_4.4.35.bb

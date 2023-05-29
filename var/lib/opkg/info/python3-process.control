@@ -1,0 +1,13 @@
+Package: python3-process
+Version: 1.0-r0
+Description: Python process list module
+ Python process list module.
+Section: devel/python
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-process
+Homepage: https:\\www.opena.tv
+Depends: python3-core
+Source: python3-process.bb

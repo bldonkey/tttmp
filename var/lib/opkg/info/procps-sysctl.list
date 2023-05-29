@@ -1,0 +1,4 @@
+/etc/sysctl.conf	0100644
+/sbin	040755
+/etc	040755
+/sbin/sysctl.procps	0100755

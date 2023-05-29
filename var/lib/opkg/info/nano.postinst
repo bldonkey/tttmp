@@ -1,0 +1,3 @@
+#!/bin/sh
+set -e
+	update-alternatives --install /bin/editor editor /bin/nano 150

@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+grep -v 'pam_smbpass.so' $D/etc/pam.d/common-password > $D/tmp/common-password
+mv $D/tmp/common-password $D/etc/pam.d/common-password

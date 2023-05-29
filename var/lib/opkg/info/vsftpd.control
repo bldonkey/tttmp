@@ -1,0 +1,14 @@
+Package: vsftpd
+Version: 3.0.5-r0
+Description: Very Secure FTP server
+ Very Secure FTP server.
+Section: net
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: vsftpd
+Homepage: https://security.appspot.com/vsftpd.html
+Depends: base-files, base-passwd, libc6 (>= 2.37), libcap (>= 2.68), libcrypto3 (>= 3.1.0), libpam (>= 1.5.2), libssl3 (>= 3.1.0), libwrap0 (>= 7.6), pam-plugin-listfile, shadow
+Recommends: update-rc.d
+Source: vsftpd_3.0.5.bb

@@ -1,0 +1,16 @@
+Package: gigablue-grab-gbmv200
+Version: 20180301-r0
+Description: grab for Gigablue Model gbmv200
+ grab for Gigablue Model gbmv200.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: CLOSED
+Architecture: gbmv200
+OE: gigablue-grab-gbmv200
+Homepage: https:\\www.opena.tv
+Depends: libc6 (>= 2.37), libstdc++6 (>= 12.2.0)
+Provides: aio-grab
+Replaces: aio-grab
+Conflicts: aio-grab
+Source: gigablue-grab-gbmv200.bb

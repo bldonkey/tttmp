@@ -1,0 +1,14 @@
+Package: kernel-module-8192cu-4.4.35
+Version: 4.0.2-9000
+Description: 8192cu kernel module
+ 8192cu kernel module; Realtek Wireless Lan Driver
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-only
+Architecture: gbmv200
+OE: rtl8192cu
+Homepage: http://www.realtek.com/
+Depends: kernel-4.4.35
+Provides: kernel-module-8192cu
+Source: rtl8192cu_4.0.2_9000.bb

@@ -1,0 +1,5 @@
+/etc/init.d	040755
+/etc/init.d/ddbootup	0100755
+/etc/rcS.d	040755
+/etc	040755
+/etc/rcS.d/S39ddbootup	0120777

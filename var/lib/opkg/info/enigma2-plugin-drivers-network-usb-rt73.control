@@ -1,0 +1,13 @@
+Package: enigma2-plugin-drivers-network-usb-rt73
+Version: 1.0-r0
+Description: Driver for Ralink USB devices RT2571W, RT2573 & RT2671
+ Driver for Ralink USB devices RT2571W, RT2573 & RT2671.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-or-later
+Architecture: all
+OE: enigma2-plugin-drivers-network-usb-rt73
+Homepage: https:\\www.opena.tv
+Recommends: firmware-rt73, kernel-module-rt73usb
+Source: enigma2-plugin-drivers-network-usb-rt73.bb

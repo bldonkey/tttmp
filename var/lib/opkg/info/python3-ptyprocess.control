@@ -1,0 +1,13 @@
+Package: python3-ptyprocess
+Version: 0.7.0-r0
+Description: Run a subprocess in a pseudo terminal
+ Run a subprocess in a pseudo terminal.
+Section: devel/python
+Priority: optional
+Maintainer: openATV
+License: ISC
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-ptyprocess
+Homepage: http://ptyprocess.readthedocs.io/en/latest/
+Depends: python3-core, python3-fcntl, python3-resource, python3-terminal
+Source: python3-ptyprocess_0.7.0.bb

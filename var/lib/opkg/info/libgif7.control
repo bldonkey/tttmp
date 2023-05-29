@@ -1,0 +1,14 @@
+Package: libgif7
+Version: 5.2.1-r0
+Description: shared library for GIF images
+ shared library for GIF images.
+Section: libs
+Priority: optional
+Maintainer: openATV
+License: MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: giflib
+Homepage: https:\\www.opena.tv
+Depends: libc6 (>= 2.37)
+Provides: giflib
+Source: giflib_5.2.1.bb

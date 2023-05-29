@@ -1,0 +1,17 @@
+Package: libuuid1
+Version: 2.38.1-r0
+Description: A suite of basic system administration utilities
+ Util-linux includes a suite of basic system administration utilities
+ commonly found on most Linux systems.  Some of the more important
+ utilities include disk partitioning, kernel message management,
+ filesystem creation, and system login.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: BSD-3-Clause
+Architecture: cortexa15hf-neon-vfpv4
+OE: util-linux-libuuid
+Homepage: https://en.wikipedia.org/wiki/Util-linux
+Depends: libc6 (>= 2.37)
+Provides: util-linux-libuuid
+Source: util-linux-libuuid_2.38.1.bb

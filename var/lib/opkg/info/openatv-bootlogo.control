@@ -1,0 +1,14 @@
+Package: openatv-bootlogo
+Version: 7.3-r2.9
+Description: openATV bootlogo
+ openATV bootlogo.
+Section: base
+Priority: required
+Maintainer: openATV Team
+License: GPL-2.0-or-later
+Architecture: gbmv200
+OE: openatv-bootlogo
+Homepage: https:\\www.opena.tv
+Depends: showiframe
+Recommends: update-rc.d
+Source: openatv-bootlogo.bb

@@ -1,0 +1,2 @@
+/usr/sbin/seedrng
+/bin/busybox.nosuid 50

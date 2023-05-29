@@ -1,0 +1,12 @@
+Package: shadow-securetty
+Version: 4.6-r3
+Description: Provider of the machine specific securetty file
+ Provider of the machine specific securetty file.
+Section: base utils
+Priority: optional
+Maintainer: openATV
+License: MIT
+Architecture: gbmv200
+OE: shadow-securetty
+Homepage: https:\\www.opena.tv
+Source: shadow-securetty_4.6.bb

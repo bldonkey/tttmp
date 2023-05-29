@@ -1,0 +1,13 @@
+Package: python3-chardet
+Version: 5.1.0-r0
+Description: Universal encoding detector for Python 2 and 3
+ Universal encoding detector for Python 2 and 3.
+Section: devel/python
+Priority: optional
+Maintainer: openATV
+License: LGPL-2.1-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-chardet
+Homepage: https://pypi.org/project/chardet/
+Depends: python3-core, python3-logging
+Source: python3-chardet_5.1.0.bb

@@ -1,0 +1,13 @@
+Package: python3-mutagen
+Version: 1.44.0-r0
+Description: Module for manipulating ID3 (v1 + v2) tags in Python
+ Module for manipulating ID3 (v1 + v2) tags in Python.
+Section: devel/python
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: python3-mutagen
+Homepage: https:\\www.opena.tv
+Depends: python3-core, python3-shell
+Source: python3-mutagen_1.44.0.bb

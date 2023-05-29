@@ -1,0 +1,12 @@
+Package: firmware-rtl8192cu
+Version: 1.0-r0
+Description: Firmware for RTL8192CU
+ Firmware for RTL8192CU.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: Proprietary
+Architecture: all
+OE: firmware-rtl8192cu
+Homepage: https:\\www.opena.tv
+Source: firmware-rtl8192cu.bb

@@ -1,0 +1,13 @@
+Package: rtl8192cu
+Version: 4.0.2-9000
+Description: Driver for Realtek USB wireless devices
+ Driver for Realtek USB wireless devices.
+Section: base
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-only
+Architecture: gbmv200
+OE: rtl8192cu
+Homepage: http://www.realtek.com/
+Depends: kernel-module-8192cu-4.4.35
+Source: rtl8192cu_4.0.2_9000.bb

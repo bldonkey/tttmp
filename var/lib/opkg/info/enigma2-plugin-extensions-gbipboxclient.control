@@ -1,0 +1,13 @@
+Package: enigma2-plugin-extensions-gbipboxclient
+Version: 1.0+git114+2fbfce1-r1
+Description: extensions-gbipboxclient
+ extensions-gbipboxclient
+Section: base
+Priority: optional
+Maintainer: GigaBlue
+License: GPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-gbipboxclient
+Homepage: https:\\www.opena.tv
+Depends: cifs-utils, enigma2
+Source: enigma2-plugin-extensions-gbipboxclient.bb

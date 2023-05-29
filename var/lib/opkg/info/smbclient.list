@@ -1,0 +1,3 @@
+/usr/bin/smbclient	0100755
+/usr/bin	040755
+/usr	040755

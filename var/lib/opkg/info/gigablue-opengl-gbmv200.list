@@ -1,0 +1,12 @@
+/usr/lib/libEGL.so	0120777
+/usr/lib	040755
+/usr/lib/libMali.so	0100755
+/usr/lib/libEGL.so.1.4	0120777
+/usr/lib/libGLESv2.so.2.0	0120777
+/usr/lib/libGLESv1_CM.so	0120777
+/usr/lib/libGLESv1_CM.so.1	0120777
+/usr	040755
+/usr/lib/libGLESv2.so	0120777
+/usr/lib/libEGL.so.1	0120777
+/usr/lib/libGLESv1_CM.so.1.1	0120777
+/usr/lib/libGLESv2.so.2	0120777

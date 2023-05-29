@@ -1,0 +1,13 @@
+Package: faad2
+Version: 2.10.0+git0+df42c6fc01-r0
+Description: An open source MPEG-4 and MPEG-2 AAC decoding library
+ An open source MPEG-4 and MPEG-2 AAC decoding library.
+Section: libs
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: faad2
+Homepage: http://www.audiocoding.com/faad2.html
+Depends: libc6 (>= 2.37)
+Source: faad2_2.10.0.bb

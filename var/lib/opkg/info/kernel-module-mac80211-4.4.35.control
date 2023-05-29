@@ -1,0 +1,14 @@
+Package: kernel-module-mac80211-4.4.35
+Version: 4.4.35-35
+Description: mac80211 kernel module
+ mac80211 kernel module; IEEE 802.11 subsystem
+Section: kernel
+Priority: optional
+Maintainer: openATV
+License: GPL-2.0-only
+Architecture: gbmv200
+OE: linux-gigablue
+Homepage: https:\\www.opena.tv
+Depends: kernel-4.4.35
+Provides: kernel-module-mac80211
+Source: linux-gigablue_4.4.35.bb

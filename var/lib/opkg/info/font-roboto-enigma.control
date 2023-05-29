@@ -1,0 +1,12 @@
+Package: font-roboto-enigma
+Version: 1.0+git285+616b8ce-r2
+Description: A default skin for Enigma2.
+ Roboto enigma font
+Section: base
+Priority: optional
+Maintainer: OE-Alliance
+License: GPL-2.0-only
+Architecture: all
+OE: enigma2-skindefault-master
+Homepage: https:\\www.opena.tv
+Source: enigma2-skindefault-master.bb

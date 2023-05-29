@@ -1,0 +1,17 @@
+/usr/sbin/nandwrite	0100755
+/usr/sbin/flashcp	0100755
+/usr/sbin/flash_otp_info	0100755
+/usr/sbin/nandtest	0100755
+/usr/sbin/mtd_debug	0100755
+/usr/sbin	040755
+/usr/sbin/flash_otp_dump	0100755
+/usr/sbin/flash_otp_lock	0100755
+/usr/sbin/flash_unlock	0100755
+/usr/sbin/nanddump	0100755
+/usr/sbin/mtdinfo	0100755
+/usr	040755
+/usr/sbin/flash_eraseall.mtd-utils	0100755
+/usr/sbin/flash_otp_write	0100755
+/usr/sbin/mtdpart	0100755
+/usr/sbin/flash_lock	0100755
+/usr/sbin/flash_erase	0100755

@@ -1,0 +1,14 @@
+/var	040755
+/var/keys	0120777
+/etc/tuxbox	040755
+/usr/keys	040755
+/etc/cron	040770
+/var/etc	0120777
+/usr/bin	040755
+/usr	040755
+/etc	040755
+/var/spool	040755
+/var/spool/cron	0120777
+/var/bin	0120777
+/var/scce	0120777
+/etc/tuxbox/scce	040755
